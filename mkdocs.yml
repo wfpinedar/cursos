@@ -1,0 +1,58 @@
+site_name: "Mis cursos"
+site_description: "Colección de cursos en Clojure, Elixir, Luminus y Phoenix."
+repo_url: "https://github.com/wfpinedar/cursos"
+
+nav:
+  - "Introducción": index.md
+  - "Clojure": 
+      - "Introducción": clojure/index.md
+      - "Nivel Junior": clojure/Junior/index.md
+      - "Nivel Middle": clojure/mid/index.md
+      - "Nivel Senior": clojure/senior/index.md
+
+#   - "Elixir": 
+#       - "Introducción": elixir/index.md
+#       - "Nivel Junior": elixir/jr/index.md
+#       - "Nivel Middle": elixir/mid/index.md
+#       - "Nivel Senior": elixir/sr/index.md
+
+#   - "Go": 
+#       - "Introducción": go/index.md
+#       - "Nivel Junior": go/jr/index.md
+#       - "Nivel Middle": go/mid/index.md
+#       - "Nivel Senior": go/sr/index.md
+
+#   - "Haskell": 
+#       - "Introducción": haskell/index.md
+#       - "Nivel Junior": haskell/jr/index.md
+#       - "Nivel Middle": haskell/mid/index.md
+#       - "Nivel Senior": haskell/sr/index.md
+
+#   - "Luminus":
+#       - "Introducción": luminus/index.md
+#       - "Nivel Junior": luminus/jr/index.md
+#       - "Nivel Middle": luminus/mid/index.md
+#       - "Nivel Senior": luminus/sr/index.md
+
+#   - "Phoenix":
+#       - "Introducción": phoenix/index.md
+#       - "Nivel Junior": phoenix/jr/index.md
+#       - "Nivel Middle": phoenix/mid/index.md
+#       - "Nivel Senior": phoenix/sr/index.md
+
+#   - "Phoenix (segunda parte)":
+#       - "Introducción": phoenix_2/index.md
+#       - "Nivel Junior": phoenix_2/jr/index.md
+#       - "Nivel Middle": phoenix_2/mid/index.md
+#       - "Nivel Senior": phoenix_2/sr/index.md
+
+theme:
+  name: dracula
+  highlightjs: true
+
+markdown_extensions:
+  - codehilite:
+      linenums: false
+      guess_lang: true
+  - toc:
+      permalink: true

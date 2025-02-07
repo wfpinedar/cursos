@@ -1,0 +1,37 @@
+{
+  "nivel": "De cero a Junior",
+  "temas": [
+    {
+      "module_title": "Introducción a Clojure",
+      "module_description": "Conocer la historia y características de Clojure, así como su uso en el desarrollo de aplicaciones."
+    },
+    {
+      "module_title": "Sintaxis y estructuras de datos",
+      "module_description": "Aprender la sintaxis básica de Clojure y cómo trabajar con sus estructuras de datos, como listas, vectores y mapas."
+    },
+    {
+      "module_title": "Funciones y recursión",
+      "module_description": "Comprender el concepto de funciones en Clojure y cómo utilizar la recursión para resolver problemas."
+    },
+    {
+      "module_title": "Control de flujo y estructuras de control",
+      "module_description": "Aprender a controlar el flujo de ejecución en un programa Clojure utilizando estructuras de control como if, while y for."
+    },
+    {
+      "module_title": "Programación funcional",
+      "module_description": "Entender los principios de la programación funcional y cómo aplicarlos en Clojure para escribir código más conciso y eficiente."
+    },
+    {
+      "module_title": "Gestión de errores y depuración",
+      "module_description": "Aprender a manejar errores y depurar código en Clojure utilizando herramientas como try/catch y la impresión de trazas."
+    },
+    {
+      "module_title": "Trabajo con archivos y bases de datos",
+      "module_description": "Explorar cómo interactuar con archivos y bases de datos en Clojure para almacenar y recuperar información en una aplicación."
+    },
+    {
+      "module_title": "Creación de aplicaciones web con Clojure",
+      "module_description": "Conocer las herramientas y frameworks disponibles para el desarrollo de aplicaciones web en Clojure, como Ring y Compojure."
+    }
+  ]
+}

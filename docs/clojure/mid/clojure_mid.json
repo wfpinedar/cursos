@@ -1,0 +1,33 @@
+{
+  "nivel": "De Junior a Senior",
+  "temas": [
+    {
+      "module_title": "Estructuras de datos avanzadas",
+      "module_description": "Aprender a trabajar con estructuras de datos más complejas en Clojure, como conjuntos, árboles y secuencias infinitas."
+    },
+    {
+      "module_title": "Funciones de orden superior",
+      "module_description": "Explorar las funciones de orden superior en Clojure y cómo utilizarlas para escribir código más elegante y legible."
+    },
+    {
+      "module_title": "Programación concurrente y paralela",
+      "module_description": "Comprender los conceptos de concurrencia y paralelismo en Clojure y cómo utilizarlos para mejorar el rendimiento de una aplicación."
+    },
+    {
+      "module_title": "Optimización de código",
+      "module_description": "Aprender técnicas de optimización de código en Clojure, como lazy evaluation y memoization, para mejorar la eficiencia de una aplicación."
+    },
+    {
+      "module_title": "Desarrollo guiado por pruebas",
+      "module_description": "Conocer las herramientas disponibles para el desarrollo guiado por pruebas en Clojure, como Clojure.test y Midje."
+    },
+    {
+      "module_title": "Creación de librerías y módulos",
+      "module_description": "Aprender a crear y publicar librerías y módulos en Clojure para reutilizar código en diferentes proyectos."
+    },
+    {
+      "module_title": "Despliegue y gestión de aplicaciones",
+      "module_description": "Explorar técnicas de despliegue y gestión de aplicaciones en Clojure, como la configuración de entornos y la integración con herramientas de automatización."
+    }
+  ]
+}
