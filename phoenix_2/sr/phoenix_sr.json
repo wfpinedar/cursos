@@ -1,0 +1,33 @@
+{
+  "nivel": "De Senior a Experto",
+  "temas": [
+    {
+      "module_title": "Profundizando en Ecto",
+      "module_description": "Exploración avanzada de Ecto y sus capacidades, incluyendo consultas complejas y transacciones."
+    },
+    {
+      "module_title": "Internals de Phoenix",
+      "module_description": "Profundizar en los entresijos de Phoenix, incluyendo su arquitectura interna y cómo funciona el enrutamiento."
+    },
+    {
+      "module_title": "Extensibilidad de Phoenix",
+      "module_description": "Cómo extender y personalizar Phoenix utilizando macros, plug-ins y generadores personalizados."
+    },
+    {
+      "module_title": "Phoenix sin servidor",
+      "module_description": "Explorar opciones para desplegar aplicaciones Phoenix sin la necesidad de un servidor, como el uso de AWS Lambda."
+    },
+    {
+      "module_title": "Debugging y troubleshooting",
+      "module_description": "Herramientas y técnicas avanzadas para identificar y solucionar problemas en una aplicación Phoenix."
+    },
+    {
+      "module_title": "Migración de una aplicación existente a Phoenix",
+      "module_description": "Consejos y mejores prácticas para migrar una aplicación existente a Phoenix y aprovechar al máximo su potencial."
+    },
+    {
+      "module_title": "Contribuyendo a Phoenix",
+      "module_description": "Cómo contribuir al desarrollo de Phoenix y colaborar con la comunidad para mejorar la plataforma."
+    }
+  ]
+}

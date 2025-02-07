@@ -1,0 +1,41 @@
+{
+  "nivel": "De cero a Junior",
+  "temas": [
+    {
+      "module_title": "Introducción a Phoenix Framework",
+      "module_description": "Una breve historia y descripción de Phoenix Framework, sus características y ventajas."
+    },
+    {
+      "module_title": "Instalación y configuración",
+      "module_description": "Cómo descargar, instalar y configurar Phoenix Framework en tu sistema."
+    },
+    {
+      "module_title": "Estructura de una aplicación Phoenix",
+      "module_description": "Exploración de la estructura de una aplicación Phoenix, incluyendo sus directorios y archivos importantes."
+    },
+    {
+      "module_title": "Creación de un proyecto básico",
+      "module_description": "Aprende a crear un proyecto básico en Phoenix y a correrlo en tu servidor local."
+    },
+    {
+      "module_title": "Rutas y controladores",
+      "module_description": "Cómo definir rutas y crear controladores en Phoenix Framework."
+    },
+    {
+      "module_title": "Vistas y templates",
+      "module_description": "Creación de vistas y templates en Phoenix para renderizar HTML y otros formatos."
+    },
+    {
+      "module_title": "Modelos y bases de datos",
+      "module_description": "Uso de Ecto para crear modelos y trabajar con bases de datos en Phoenix."
+    },
+    {
+      "module_title": "Autenticación y autorización",
+      "module_description": "Cómo implementar autenticación y autorización en una aplicación Phoenix utilizando Guardian."
+    },
+    {
+      "module_title": "Despliegue de una aplicación Phoenix",
+      "module_description": "Instrucciones paso a paso para desplegar una aplicación Phoenix en un servidor de producción."
+    }
+  ]
+}

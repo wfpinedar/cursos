@@ -1,0 +1,29 @@
+{
+  "nivel": "De Senior a Experto",
+  "temas": [
+    {
+      "module_title": "Transducers y Reducers",
+      "module_description": "Conocer las estructuras de datos transducers y reducers en Clojure y cómo utilizarlas para trabajar con grandes conjuntos de datos de manera eficiente."
+    },
+    {
+      "module_title": "Macros y metaprogramación",
+      "module_description": "Explorar el uso de macros en Clojure y cómo utilizar la metaprogramación para generar código en tiempo de compilación."
+    },
+    {
+      "module_title": "Arquitecturas y patrones de diseño",
+      "module_description": "Aprender sobre diferentes arquitecturas y patrones de diseño en Clojure, como Datomic y Component, para construir aplicaciones escalables y mantenibles."
+    },
+    {
+      "module_title": "Integración con otros lenguajes y plataformas",
+      "module_description": "Conocer herramientas y técnicas para integrar Clojure con otros lenguajes y plataformas, como Java, JavaScript y la nube."
+    },
+    {
+      "module_title": "Desarrollo en equipo y buenas prácticas",
+      "module_description": "Aprender a trabajar en equipo y aplicar buenas prácticas en el desarrollo de aplicaciones en Clojure, como control de versiones y revisión de código."
+    },
+    {
+      "module_title": "Investigación y experimentación",
+      "module_description": "Explorar técnicas para investigar y experimentar con nuevas funcionalidades y herramientas en Clojure, para estar siempre al día en el mundo del desarrollo de software."
+    }
+  ]
+}

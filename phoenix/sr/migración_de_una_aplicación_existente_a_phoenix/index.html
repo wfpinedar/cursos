@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+        <title>Migración de una aplicación existente a Phoenix - Mis cursos</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="../../../assets/css/darcula-highlight.min.css">
+
+        <link rel="stylesheet" href="../../../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../../assets/css/dracula-ui.min.css">
+        <link rel="stylesheet" href="../../../assets/css/mkdocs.min.css">
+
+        
+            <link  rel="icon" type="image/x-icon" href="../../../assets/img/favicon.ico">
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+                <script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+
+<body class="drac-bg-black-secondary drac-text-grey-ternary drac-text drac-scrollbar-purple">
+
+    <main class="d-flex">
+
+        <!-- block sidebar -->
+            <nav id="sidebar" class="sidebar drac-bg-black">
+    <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="btn btn-primary">
+            <i class="fa fa-bars"></i>
+            <span class="sr-only">Menu</span>
+        </button>
+    </div>
+
+    <div class="p-4">
+        
+
+        <div class="drac-text-center">
+            
+                <span class="drac-text drac-line-height drac-text-white">Mis cursos</span>
+            
+        </div>
+
+        <div class="drac-box flex-column">
+            <ul class="dot-ul">
+                <li><div class="dot-li drac-bg-cyan"></div></li>
+                <li><div class="dot-li drac-bg-green"></div></li>
+                <li><div class="dot-li drac-bg-orange"></div></li>
+                <li><div class="dot-li drac-bg-pink"></div></li>
+                <li><div class="dot-li drac-bg-purple"></div></li>
+                <li><div class="dot-li drac-bg-red"></div></li>
+                <li><div class="dot-li drac-bg-yellow"></div></li>
+            </ul>
+        </div>
+
+        <hr class="drac-divider" />
+
+        <!-- block menu -->
+        <ul class="mb-5 drac-list drac-list-none">
+            
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Introducción
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#clojure-collapse" aria-expanded="false">
+                    Clojure
+                </a>
+                <div class="collapse" id="clojure-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Introducción
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/Junior/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Junior
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/mid/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Middle
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/senior/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Senior
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <!-- endblock -->
+    </div>
+</nav>
+        <!-- endblock -->
+
+        <nav class="divider drac-bg-purple-cyan"></nav>
+
+        <div class="content">
+            <!-- block header -->
+                <header>
+    <nav class="navbar navbar-expand-xl drac-bg-purple">
+        <div class="container-fluid">
+            
+            <button class="navbar-toggler w-100 text-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsMenu"
+                aria-controls="navbarsMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse flex-column ml-auto" id="navbarsMenu">
+                <ul class="navbar-nav text-md-center">
+
+                    <!-- block preview -->
+                    <li class="nav-item">
+                            
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block search -->
+                    <li class="nav-item"><div role="search" class="search-box">
+	<form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+		<input type="text" name="q" class="drac-input drac-input-search drac-input-white drac-text-white drac-bg-black-secondary"
+		placeholder="Search docs" title="Type search term here" />
+	</form>
+</div>
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block source -->
+                    <li class="nav-item">
+                        
+                            
+                        
+                    </li>
+                    <!--  endblock -->
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+            <!-- endblock -->
+
+            <!-- block content -->
+                <section class="p-md-5 section-content">
+    <article>
+        <p><h1 id="migracion-de-una-aplicacion-existente-a-phoenix">Migración de una aplicación existente a Phoenix<a class="headerlink" href="#migracion-de-una-aplicacion-existente-a-phoenix" title="Permanent link">&para;</a></h1>
+<h2 id="introduccion">Introducción<a class="headerlink" href="#introduccion" title="Permanent link">&para;</a></h2>
+<p>Phoenix es un framework web de código abierto escrito en el lenguaje de programación Elixir. Se basa en el patrón de arquitectura Modelo-Vista-Controlador (MVC) y se ejecuta en la máquina virtual de Erlang, lo que le brinda un alto rendimiento y escalabilidad. Phoenix es conocido por su rapidez y su capacidad para manejar grandes cantidades de tráfico en tiempo real.</p>
+<p>Si ya tienes una aplicación web existente y quieres aprovechar las ventajas de Phoenix, es posible que te preguntes cómo migrar tu código existente a este framework. En esta lección, descubrirás los consejos y las mejores prácticas para hacerlo de manera eficiente y efectiva.</p>
+<h2 id="palabras-clave">Palabras clave<a class="headerlink" href="#palabras-clave" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Phoenix: Framework web escrito en Elixir.</li>
+<li>Elixir: Lenguaje de programación funcional que se ejecuta en la máquina virtual de Erlang.</li>
+<li>MVC: Patrón de arquitectura Modelo-Vista-Controlador.</li>
+<li>Erlang: Lenguaje de programación concurrente y tolerante a fallos.</li>
+<li>Rendimiento: Capacidad de un sistema para realizar tareas de manera rápida y eficiente.</li>
+<li>Escalabilidad: Capacidad de un sistema para manejar un aumento en el tráfico y la cantidad de usuarios.</li>
+<li>Migración: Proceso de trasladar una aplicación existente a una nueva plataforma o framework.</li>
+</ol>
+<h2 id="preguntas-de-repaso">Preguntas de repaso<a class="headerlink" href="#preguntas-de-repaso" title="Permanent link">&para;</a></h2>
+<ol>
+<li>¿Qué es Phoenix y en qué lenguaje está escrito?</li>
+<li>¿Qué es Elixir y en qué máquina virtual se ejecuta?</li>
+<li>¿Cuál es el patrón de arquitectura que sigue Phoenix?</li>
+<li>¿Cuáles son las ventajas de usar Phoenix?</li>
+<li>¿Qué significa el término "rendimiento" en el contexto de un sistema?</li>
+<li>¿Qué es la escalabilidad y por qué es importante en una aplicación web?</li>
+<li>¿Qué es la migración y por qué puede ser necesaria para una aplicación existente?</li>
+<li>¿Qué debes tener en cuenta al migrar una aplicación a Phoenix?</li>
+</ol>
+<h2 id="ejemplos-de-codigo-en-phoenix-framework">Ejemplos de código en Phoenix Framework<a class="headerlink" href="#ejemplos-de-codigo-en-phoenix-framework" title="Permanent link">&para;</a></h2>
+<p>A continuación, se presentan algunos ejemplos de código en Phoenix que podrían ser útiles durante el proceso de migración.</p>
+<h3 id="controladores">Controladores<a class="headerlink" href="#controladores" title="Permanent link">&para;</a></h3>
+<p>Los controladores en Phoenix son responsables de manejar las solicitudes HTTP y coordinar con el modelo y la vista correspondientes. A continuación, se muestra un ejemplo de un controlador que maneja una solicitud GET para mostrar una lista de usuarios:</p>
+<div class="codehilite"><pre><span></span><code><span class="kd">defmodule</span><span class="w"> </span><span class="nc">MyApp.UserController</span><span class="w"> </span><span class="k">do</span>
+<span class="w">  </span><span class="kn">use</span><span class="w"> </span><span class="nc">MyApp.Web</span><span class="p">,</span><span class="w"> </span><span class="ss">:controller</span>
+
+<span class="w">  </span><span class="kd">def</span><span class="w"> </span><span class="n">index</span><span class="p">(</span><span class="n">conn</span><span class="p">,</span><span class="w"> </span><span class="n">_params</span><span class="p">)</span><span class="w"> </span><span class="k">do</span>
+<span class="w">    </span><span class="n">users</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nc">MyApp.Repo</span><span class="o">.</span><span class="n">all</span><span class="p">(</span><span class="nc">MyApp.User</span><span class="p">)</span>
+<span class="w">    </span><span class="n">render</span><span class="p">(</span><span class="n">conn</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;index.html&quot;</span><span class="p">,</span><span class="w"> </span><span class="ss">users</span><span class="p">:</span><span class="w"> </span><span class="n">users</span><span class="p">)</span>
+<span class="w">  </span><span class="k">end</span>
+<span class="k">end</span>
+</code></pre></div>
+
+<h3 id="modelos">Modelos<a class="headerlink" href="#modelos" title="Permanent link">&para;</a></h3>
+<p>Los modelos en Phoenix son responsables de interactuar con la base de datos y representar los datos en un formato estructurado. A continuación, se muestra un ejemplo de un modelo que representa a un usuario en la base de datos:</p>
+<div class="codehilite"><pre><span></span><code><span class="kd">defmodule</span><span class="w"> </span><span class="nc">MyApp.User</span><span class="w"> </span><span class="k">do</span>
+<span class="w">  </span><span class="kn">use</span><span class="w"> </span><span class="nc">Ecto.Schema</span>
+<span class="w">  </span><span class="kn">import</span><span class="w"> </span><span class="nc">Ecto.Changeset</span>
+
+<span class="w">  </span><span class="n">schema</span><span class="w"> </span><span class="s2">&quot;users&quot;</span><span class="w"> </span><span class="k">do</span>
+<span class="w">    </span><span class="n">field</span><span class="w"> </span><span class="ss">:name</span><span class="p">,</span><span class="w"> </span><span class="ss">:string</span>
+<span class="w">    </span><span class="n">field</span><span class="w"> </span><span class="ss">:email</span><span class="p">,</span><span class="w"> </span><span class="ss">:string</span>
+<span class="w">    </span><span class="n">field</span><span class="w"> </span><span class="ss">:password</span><span class="p">,</span><span class="w"> </span><span class="ss">:string</span>
+
+<span class="w">    </span><span class="n">timestamps</span><span class="p">()</span>
+<span class="w">  </span><span class="k">end</span>
+
+<span class="w">  </span><span class="kd">def</span><span class="w"> </span><span class="n">changeset</span><span class="p">(</span><span class="n">user</span><span class="p">,</span><span class="w"> </span><span class="n">attrs</span><span class="p">)</span><span class="w"> </span><span class="k">do</span>
+<span class="w">    </span><span class="n">user</span>
+<span class="w">    </span><span class="o">|&gt;</span><span class="w"> </span><span class="n">cast</span><span class="p">(</span><span class="n">attrs</span><span class="p">,</span><span class="w"> </span><span class="p">[</span><span class="ss">:name</span><span class="p">,</span><span class="w"> </span><span class="ss">:email</span><span class="p">,</span><span class="w"> </span><span class="ss">:password</span><span class="p">])</span>
+<span class="w">    </span><span class="o">|&gt;</span><span class="w"> </span><span class="n">validate_required</span><span class="p">([</span><span class="ss">:name</span><span class="p">,</span><span class="w"> </span><span class="ss">:email</span><span class="p">,</span><span class="w"> </span><span class="ss">:password</span><span class="p">])</span>
+<span class="w">    </span><span class="o">|&gt;</span><span class="w"> </span><span class="n">unique_constraint</span><span class="p">(</span><span class="ss">:email</span><span class="p">)</span>
+<span class="w">  </span><span class="k">end</span>
+<span class="k">end</span>
+</code></pre></div>
+
+<h3 id="vistas">Vistas<a class="headerlink" href="#vistas" title="Permanent link">&para;</a></h3>
+<p>Las vistas en Phoenix son responsables de renderizar el contenido que se enviará al cliente. A continuación, se muestra un ejemplo de una vista que muestra la lista de usuarios en formato HTML:</p>
+<div class="codehilite"><pre><span></span><code><span class="kd">defmodule</span><span class="w"> </span><span class="nc">MyApp.UserView</span><span class="w"> </span><span class="k">do</span>
+<span class="w">  </span><span class="kn">use</span><span class="w"> </span><span class="nc">MyApp.Web</span><span class="p">,</span><span class="w"> </span><span class="ss">:view</span>
+
+<span class="w">  </span><span class="kd">def</span><span class="w"> </span><span class="n">render</span><span class="p">(</span><span class="s2">&quot;index.html&quot;</span><span class="p">,</span><span class="w"> </span><span class="p">%{</span><span class="ss">users</span><span class="p">:</span><span class="w"> </span><span class="n">users</span><span class="p">})</span><span class="w"> </span><span class="k">do</span>
+<span class="w">    </span><span class="sx">~H</span><span class="sh">&quot;&quot;&quot;</span>
+<span class="sh">    &lt;h1&gt;Lista de usuarios&lt;/h1&gt;</span>
+<span class="sh">    &lt;ul&gt;</span>
+<span class="sh">      &lt;%= for user &lt;- users do %&gt;</span>
+<span class="sh">        &lt;li&gt;&lt;%= user.name %&gt;&lt;/li&gt;</span>
+<span class="sh">      &lt;% end %&gt;</span>
+<span class="sh">    &lt;/ul&gt;</span>
+<span class="w">    </span><span class="sh">&quot;&quot;&quot;</span>
+<span class="w">  </span><span class="k">end</span>
+<span class="k">end</span>
+</code></pre></div>
+
+<h2 id="ejercicios-practicos">Ejercicios prácticos<a class="headerlink" href="#ejercicios-practicos" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Crea un nuevo proyecto en Phoenix.</li>
+<li>Crea un modelo y una migración para una tabla de usuarios.</li>
+<li>Crea un controlador para mostrar una lista de usuarios.</li>
+<li>Crea una vista para mostrar la lista de usuarios en formato HTML.</li>
+<li>Configura las rutas para acceder al controlador y la vista creados.</li>
+<li>Mueve tu código existente a los archivos correspondientes en el proyecto de Phoenix.</li>
+<li>Ejecuta la aplicación y comprueba que todo funcione correctamente.</li>
+</ol>
+<h2 id="consejos-y-mejores-practicas">Consejos y mejores prácticas<a class="headerlink" href="#consejos-y-mejores-practicas" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Antes de iniciar la migración, asegúrate de tener una copia de seguridad de tu aplicación existente. Esto te ayudará a revertir cualquier cambio si algo sale mal durante el proceso de migración.</li>
+<li>Comienza por migrar una parte de la aplicación a la vez. Por ejemplo, puedes empezar por el modelo y el controlador de una funcionalidad y luego pasar a la vista correspondiente.</li>
+<li>Asegúrate de entender bien la estructura y la lógica de Phoenix antes de empezar a migrar tu código. Esto te ayudará a hacer los cambios necesarios de manera efectiva.</li>
+<li>Utiliza las herramientas de migración de Phoenix, como los generadores de modelos y controladores, para facilitar el proceso.</li>
+<li>Revisa y actualiza las dependencias de tu aplicación para asegurarte de que sean compatibles con Phoenix.</li>
+<li>Realiza pruebas exhaustivas después de la migración para asegurarte de que todo funcione correctamente.</li>
+<li>Si encuentras problemas durante la migración, no dudes en buscar ayuda en la documentación oficial de Phoenix o en la comunidad de Elixir y Phoenix.</li>
+<li>Una vez que hayas migrado tu aplicación a Phoenix, considera utilizar otras características del framework, como los canales para manejar comunicación en tiempo real o el sistema de enrutamiento de Phoenix para mejorar el rendimiento de tu aplicación.</li>
+</ol>
+<h2 id="conclusion">Conclusión<a class="headerlink" href="#conclusion" title="Permanent link">&para;</a></h2>
+<p>Migrar una aplicación existente a Phoenix puede parecer un proceso complicado, pero con los consejos y las mejores prácticas adecuados, puedes hacerlo de manera efectiva y aprovechar al máximo el potencial de este framework. Recuerda siempre hacer copias de seguridad y realizar pruebas exhaustivas para asegurarte de que todo funcione correctamente. Con un poco de esfuerzo, podrás disfrutar de las ventajas de usar Phoenix en tu aplicación web existente.</p></p>
+    </article>
+</section>
+            <!-- endblock -->
+
+            <!-- block footer -->
+                <footer>
+    <div class="d-flex flex-sm-row justify-content-between py-2 border-top drac-text-black drac-bg-cyan-green">
+        <a href="https://github.com/dracula/mkdocs" target="_blank" style="padding-left: 1%;"
+            class="footer-text drac-anchor drac-text-black drac-text-purple--hover">
+            Made with Dracula Theme for MkDocs
+        </a>
+    </div>
+</footer>
+            <!-- endblock -->
+        </div>
+
+    </main>
+
+        <script>var base_url = '../../..';</script>
+        <script src="../../../assets/js/jquery-3.3.1.slim.min.js"></script>
+        <script src="../../../assets/js/bootstrap.bundle.min.js"></script>
+        <script src="../../../assets/js/mkdocs.js"></script>
+			<script src="../../../search/main.js" defer></script>
+
+</body>
+
+</html>

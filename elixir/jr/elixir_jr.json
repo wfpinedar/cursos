@@ -1,0 +1,33 @@
+{
+  "nivel": "De cero a Junior",
+  "temas": [
+    {"module_title": "Introducción a Elixir", 
+      "module_description": "Conocer la historia, características y ventajas de Elixir como lenguaje de programación."},
+    {"module_title": "Sintaxis básica", 
+      "module_description": "Aprender la sintaxis básica de Elixir, incluyendo tipos de datos, operadores y estructuras de control."},
+    {"module_title": "Funciones", 
+      "module_description": "Comprender el concepto de funciones en Elixir y cómo se definen y utilizan."},
+    {"module_title": "Listas y tuplas", 
+      "module_description": "Explorar las listas y tuplas en Elixir, cómo se crean, modifican y utilizan en la programación."},
+    {"module_title": "Módulos", 
+      "module_description": "Aprender a crear y utilizar módulos en Elixir, incluyendo la importación de módulos externos."},
+    {"module_title": "Patrones y coincidencias", 
+      "module_description": "Conocer los patrones y coincidencias en Elixir, y cómo se utilizan en la programación funcional."},
+    {"module_title": "Recursividad", 
+      "module_description": "Entender el concepto de recursividad y cómo se implementa en Elixir."},
+    {"module_title": "Procesos", 
+      "module_description": "Aprender a crear y gestionar procesos en Elixir, y cómo se comunican entre sí."},
+    {"module_title": "Concurrencia", 
+      "module_description": "Explorar la concurrencia en Elixir y cómo se manejan múltiples procesos de forma eficiente."},
+    {"module_title": "Supervisión de procesos", 
+      "module_description": "Comprender el sistema de supervisión de procesos en Elixir y cómo se manejan los errores en un sistema distribuido."},
+    {"module_title": "Módulos de la librería estándar de Elixir", 
+      "module_description": "Conocer y utilizar los módulos de la librería estándar de Elixir, incluyendo la manipulación de cadenas, fechas y archivos."},
+    {"module_title": "Desarrollo de aplicaciones web con Elixir", 
+      "module_description": "Aprender a crear aplicaciones web utilizando el framework Phoenix en Elixir."},
+    {"module_title": "Despliegue de aplicaciones Elixir", 
+      "module_description": "Conocer diferentes opciones para desplegar aplicaciones Elixir en producción, incluyendo el uso de contenedores y servicios de hosting."},
+    {"module_title": "Pruebas y depuración", 
+      "module_description": "Aprender a escribir pruebas unitarias y realizar la depuración de código en Elixir para mejorar la calidad y fiabilidad del código."}
+  ]
+}

@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+        <title>Internals de Phoenix - Mis cursos</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="../../../assets/css/darcula-highlight.min.css">
+
+        <link rel="stylesheet" href="../../../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../../assets/css/dracula-ui.min.css">
+        <link rel="stylesheet" href="../../../assets/css/mkdocs.min.css">
+
+        
+            <link  rel="icon" type="image/x-icon" href="../../../assets/img/favicon.ico">
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+                <script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+
+<body class="drac-bg-black-secondary drac-text-grey-ternary drac-text drac-scrollbar-purple">
+
+    <main class="d-flex">
+
+        <!-- block sidebar -->
+            <nav id="sidebar" class="sidebar drac-bg-black">
+    <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="btn btn-primary">
+            <i class="fa fa-bars"></i>
+            <span class="sr-only">Menu</span>
+        </button>
+    </div>
+
+    <div class="p-4">
+        
+
+        <div class="drac-text-center">
+            
+                <span class="drac-text drac-line-height drac-text-white">Mis cursos</span>
+            
+        </div>
+
+        <div class="drac-box flex-column">
+            <ul class="dot-ul">
+                <li><div class="dot-li drac-bg-cyan"></div></li>
+                <li><div class="dot-li drac-bg-green"></div></li>
+                <li><div class="dot-li drac-bg-orange"></div></li>
+                <li><div class="dot-li drac-bg-pink"></div></li>
+                <li><div class="dot-li drac-bg-purple"></div></li>
+                <li><div class="dot-li drac-bg-red"></div></li>
+                <li><div class="dot-li drac-bg-yellow"></div></li>
+            </ul>
+        </div>
+
+        <hr class="drac-divider" />
+
+        <!-- block menu -->
+        <ul class="mb-5 drac-list drac-list-none">
+            
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Introducción
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#clojure-collapse" aria-expanded="false">
+                    Clojure
+                </a>
+                <div class="collapse" id="clojure-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Introducción
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/Junior/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Junior
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/mid/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Middle
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/senior/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Senior
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <!-- endblock -->
+    </div>
+</nav>
+        <!-- endblock -->
+
+        <nav class="divider drac-bg-purple-cyan"></nav>
+
+        <div class="content">
+            <!-- block header -->
+                <header>
+    <nav class="navbar navbar-expand-xl drac-bg-purple">
+        <div class="container-fluid">
+            
+            <button class="navbar-toggler w-100 text-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsMenu"
+                aria-controls="navbarsMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse flex-column ml-auto" id="navbarsMenu">
+                <ul class="navbar-nav text-md-center">
+
+                    <!-- block preview -->
+                    <li class="nav-item">
+                            
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block search -->
+                    <li class="nav-item"><div role="search" class="search-box">
+	<form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+		<input type="text" name="q" class="drac-input drac-input-search drac-input-white drac-text-white drac-bg-black-secondary"
+		placeholder="Search docs" title="Type search term here" />
+	</form>
+</div>
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block source -->
+                    <li class="nav-item">
+                        
+                            
+                        
+                    </li>
+                    <!--  endblock -->
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+            <!-- endblock -->
+
+            <!-- block content -->
+                <section class="p-md-5 section-content">
+    <article>
+        <p><h1 id="internals-de-phoenix">Internals de Phoenix<a class="headerlink" href="#internals-de-phoenix" title="Permanent link">&para;</a></h1>
+<h2 id="explicacion-teorica">Explicación teórica<a class="headerlink" href="#explicacion-teorica" title="Permanent link">&para;</a></h2>
+<p>Phoenix es un framework de desarrollo web en Elixir que se basa en el patrón MVC (Modelo-Vista-Controlador) para estructurar aplicaciones web. Su arquitectura interna se basa en la filosofía de "convención sobre configuración", lo que significa que sigue una estructura predefinida para facilitar el desarrollo y la organización del código.</p>
+<p>En términos generales, Phoenix consta de cuatro capas principales: el Router, el Controlador, el Modelo y la Vista. El Router es responsable de manejar las solicitudes HTTP y dirigirlas a los controladores adecuados. El Controlador se encarga de procesar las solicitudes y enviar una respuesta al cliente. El Modelo maneja la lógica de negocio y la interacción con la base de datos. Y la Vista se encarga de generar la interfaz de usuario y enviarla al cliente.</p>
+<h2 id="palabras-clave-y-su-definicion">Palabras clave y su definición<a class="headerlink" href="#palabras-clave-y-su-definicion" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Phoenix: Framework de desarrollo web en Elixir.</li>
+<li>MVC: Patrón de diseño que divide una aplicación en tres capas: Modelo, Vista y Controlador.</li>
+<li>Convención sobre configuración: Filosofía de desarrollo que se basa en seguir una estructura predefinida en lugar de configurar cada parte de la aplicación.</li>
+<li>Router: Capa encargada de dirigir las solicitudes HTTP a los controladores adecuados.</li>
+<li>Controlador: Capa encargada de procesar las solicitudes y enviar una respuesta al cliente.</li>
+<li>Modelo: Capa encargada de manejar la lógica de negocio y la interacción con la base de datos.</li>
+<li>Vista: Capa encargada de generar la interfaz de usuario y enviarla al cliente.</li>
+</ol>
+<h2 id="preguntas-de-repaso">Preguntas de repaso<a class="headerlink" href="#preguntas-de-repaso" title="Permanent link">&para;</a></h2>
+<ol>
+<li>¿Cuál es la filosofía de desarrollo en la que se basa Phoenix?</li>
+<li>¿Cuáles son las cuatro capas principales de Phoenix y qué funciones tienen cada una?</li>
+<li>¿Qué es el patrón MVC y cómo se aplica en Phoenix?</li>
+<li>¿Cuál es el papel del Router en una aplicación Phoenix?</li>
+<li>¿Qué es la convención sobre configuración y por qué es importante en el desarrollo con Phoenix?</li>
+</ol>
+<h2 id="ejemplos-de-codigo-en-phoenix-framework">Ejemplos de código en Phoenix Framework<a class="headerlink" href="#ejemplos-de-codigo-en-phoenix-framework" title="Permanent link">&para;</a></h2>
+<div class="codehilite"><pre><span></span><code>#<span class="w"> </span>Router
+scope<span class="w"> </span>&quot;/&quot;,<span class="w"> </span>HelloPhoenixWeb<span class="w"> </span>do
+<span class="w">  </span>pipe_through<span class="w"> </span>:browser
+
+<span class="w">  </span>get<span class="w"> </span>&quot;/&quot;,<span class="w"> </span>PageController,<span class="w"> </span>:index
+end
+
+#<span class="w"> </span>Controlador
+defmodule<span class="w"> </span>HelloPhoenixWeb.PageController<span class="w"> </span>do
+<span class="w">  </span>use<span class="w"> </span>HelloPhoenixWeb,<span class="w"> </span>:controller
+
+<span class="w">  </span>def<span class="w"> </span>index(conn,<span class="w"> </span>_params)<span class="w"> </span>do
+<span class="w">    </span>render(conn,<span class="w"> </span>&quot;index.html&quot;)
+<span class="w">  </span>end
+end
+
+#<span class="w"> </span>Modelo
+defmodule<span class="w"> </span>HelloPhoenixWeb.User<span class="w"> </span>do
+<span class="w">  </span>use<span class="w"> </span>Ecto.Schema
+
+<span class="w">  </span>schema<span class="w"> </span>&quot;users&quot;<span class="w"> </span>do
+<span class="w">    </span>field<span class="w"> </span>:name,<span class="w"> </span>:string
+<span class="w">    </span>field<span class="w"> </span>:email,<span class="w"> </span>:string
+<span class="w">    </span>field<span class="w"> </span>:age,<span class="w"> </span>:integer
+<span class="w">  </span>end
+end
+
+#<span class="w"> </span>Vista
+defmodule<span class="w"> </span>HelloPhoenixWeb.PageView<span class="w"> </span>do
+<span class="w">  </span>use<span class="w"> </span>HelloPhoenixWeb,<span class="w"> </span>:view
+
+<span class="w">  </span>def<span class="w"> </span>render(&quot;index.html&quot;,<span class="w"> </span>%{users:<span class="w"> </span>users})<span class="w"> </span>do
+<span class="w">    </span><span class="nt">&lt;ul&gt;</span>
+<span class="w">      </span><span class="cp">&lt;%=</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="n">user</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">users</span><span class="w"> </span><span class="k">do</span><span class="w"> </span><span class="cp">%&gt;</span>
+<span class="w">        </span><span class="nt">&lt;li&gt;</span><span class="cp">&lt;%=</span><span class="w"> </span><span class="n">user</span><span class="o">.</span><span class="n">name</span><span class="w"> </span><span class="cp">%&gt;</span><span class="nt">&lt;/li&gt;</span>
+<span class="w">      </span><span class="cp">&lt;%</span><span class="w"> </span><span class="k">end</span><span class="w"> </span><span class="cp">%&gt;</span>
+<span class="w">    </span><span class="nt">&lt;/ul&gt;</span>
+<span class="w">  </span>end
+end
+</code></pre></div>
+
+<h2 id="ejercicios-practicos-con-instrucciones-claras">Ejercicios prácticos con instrucciones claras<a class="headerlink" href="#ejercicios-practicos-con-instrucciones-claras" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Crear una nueva ruta en el Router que dirija a un nuevo controlador llamado UserController.</li>
+<li>En el controlador UserController, crear una acción llamada "new" que renderice una vista con un formulario para crear un nuevo usuario.</li>
+<li>Crear un modelo User con los campos "name", "email" y "age".</li>
+<li>En el controlador, crear una acción "create" que reciba los datos del formulario y cree un nuevo usuario en la base de datos.</li>
+<li>En la vista, mostrar una lista de todos los usuarios creados hasta el momento.</li>
+<li>Agregar validaciones al modelo User para asegurarse de que los campos no estén vacíos y que la edad sea mayor de 18 años.</li>
+<li>Agregar una nueva acción en el controlador para editar los datos de un usuario existente.</li>
+<li>En la vista, agregar un enlace para editar cada usuario que muestre el formulario de edición correspondiente.</li>
+<li>Agregar una acción para eliminar usuarios en el controlador y un botón en la vista para borrarlos.</li>
+<li>Investigar cómo agregar estilo CSS a la vista y aplicarlo para mejorar la apariencia de la aplicación.</li>
+</ol>
+<h2 id="consejos-o-mejores-practicas">Consejos o mejores prácticas<a class="headerlink" href="#consejos-o-mejores-practicas" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Sigue la convención sobre configuración para mantener una estructura organizada en tu aplicación.</li>
+<li>Utiliza buenas prácticas de programación como separar la lógica de la vista y evitar la duplicación de código.</li>
+<li>Aprovecha las herramientas y módulos disponibles en la comunidad de Elixir y Phoenix para facilitar tu trabajo.</li>
+<li>Familiarízate con Ecto, el ORM (Mapeo Objeto-Relacional) utilizado en Phoenix, para manejar las operaciones con la base de datos de manera eficiente.</li>
+<li>Asegúrate de entender los conceptos básicos de Elixir, como las funciones, las listas y las tuplas, ya que son fundamentales en el desarrollo con Phoenix.</li>
+<li>Practica y experimenta con los diferentes módulos y funcionalidades de Phoenix para mejorar tus habilidades y conocimientos.</li>
+</ol></p>
+    </article>
+</section>
+            <!-- endblock -->
+
+            <!-- block footer -->
+                <footer>
+    <div class="d-flex flex-sm-row justify-content-between py-2 border-top drac-text-black drac-bg-cyan-green">
+        <a href="https://github.com/dracula/mkdocs" target="_blank" style="padding-left: 1%;"
+            class="footer-text drac-anchor drac-text-black drac-text-purple--hover">
+            Made with Dracula Theme for MkDocs
+        </a>
+    </div>
+</footer>
+            <!-- endblock -->
+        </div>
+
+    </main>
+
+        <script>var base_url = '../../..';</script>
+        <script src="../../../assets/js/jquery-3.3.1.slim.min.js"></script>
+        <script src="../../../assets/js/bootstrap.bundle.min.js"></script>
+        <script src="../../../assets/js/mkdocs.js"></script>
+			<script src="../../../search/main.js" defer></script>
+
+</body>
+
+</html>

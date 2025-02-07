@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+        <title>Listas y tuplas en Elixir - Mis cursos</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="../../../assets/css/darcula-highlight.min.css">
+
+        <link rel="stylesheet" href="../../../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../../assets/css/dracula-ui.min.css">
+        <link rel="stylesheet" href="../../../assets/css/mkdocs.min.css">
+
+        
+            <link  rel="icon" type="image/x-icon" href="../../../assets/img/favicon.ico">
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+                <script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+
+<body class="drac-bg-black-secondary drac-text-grey-ternary drac-text drac-scrollbar-purple">
+
+    <main class="d-flex">
+
+        <!-- block sidebar -->
+            <nav id="sidebar" class="sidebar drac-bg-black">
+    <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="btn btn-primary">
+            <i class="fa fa-bars"></i>
+            <span class="sr-only">Menu</span>
+        </button>
+    </div>
+
+    <div class="p-4">
+        
+
+        <div class="drac-text-center">
+            
+                <span class="drac-text drac-line-height drac-text-white">Mis cursos</span>
+            
+        </div>
+
+        <div class="drac-box flex-column">
+            <ul class="dot-ul">
+                <li><div class="dot-li drac-bg-cyan"></div></li>
+                <li><div class="dot-li drac-bg-green"></div></li>
+                <li><div class="dot-li drac-bg-orange"></div></li>
+                <li><div class="dot-li drac-bg-pink"></div></li>
+                <li><div class="dot-li drac-bg-purple"></div></li>
+                <li><div class="dot-li drac-bg-red"></div></li>
+                <li><div class="dot-li drac-bg-yellow"></div></li>
+            </ul>
+        </div>
+
+        <hr class="drac-divider" />
+
+        <!-- block menu -->
+        <ul class="mb-5 drac-list drac-list-none">
+            
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Introducción
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#clojure-collapse" aria-expanded="false">
+                    Clojure
+                </a>
+                <div class="collapse" id="clojure-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Introducción
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/Junior/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Junior
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/mid/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Middle
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/senior/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Senior
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <!-- endblock -->
+    </div>
+</nav>
+        <!-- endblock -->
+
+        <nav class="divider drac-bg-purple-cyan"></nav>
+
+        <div class="content">
+            <!-- block header -->
+                <header>
+    <nav class="navbar navbar-expand-xl drac-bg-purple">
+        <div class="container-fluid">
+            
+            <button class="navbar-toggler w-100 text-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsMenu"
+                aria-controls="navbarsMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse flex-column ml-auto" id="navbarsMenu">
+                <ul class="navbar-nav text-md-center">
+
+                    <!-- block preview -->
+                    <li class="nav-item">
+                            
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block search -->
+                    <li class="nav-item"><div role="search" class="search-box">
+	<form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+		<input type="text" name="q" class="drac-input drac-input-search drac-input-white drac-text-white drac-bg-black-secondary"
+		placeholder="Search docs" title="Type search term here" />
+	</form>
+</div>
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block source -->
+                    <li class="nav-item">
+                        
+                            
+                        
+                    </li>
+                    <!--  endblock -->
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+            <!-- endblock -->
+
+            <!-- block content -->
+                <section class="p-md-5 section-content">
+    <article>
+        <p><h1 id="listas-y-tuplas-en-elixir">Listas y tuplas en Elixir<a class="headerlink" href="#listas-y-tuplas-en-elixir" title="Permanent link">&para;</a></h1>
+<h2 id="introduccion">Introducción<a class="headerlink" href="#introduccion" title="Permanent link">&para;</a></h2>
+<p>En Elixir, las listas y tuplas son dos de las estructuras de datos más utilizadas. Aunque pueden parecer similares, tienen diferentes características y se utilizan para diferentes propósitos. En esta lección, exploraremos en profundidad las listas y tuplas en Elixir, cómo se crean, modifican y utilizan en la programación.</p>
+<h2 id="listas">Listas<a class="headerlink" href="#listas" title="Permanent link">&para;</a></h2>
+<p>Las listas en Elixir son una colección ordenada de elementos del mismo tipo o de diferentes tipos. Se crean utilizando corchetes y separando los elementos con comas.</p>
+<div class="codehilite"><pre><span></span><code><span class="n">list</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">4</span><span class="p">]</span>
+</code></pre></div>
+
+<p>Las listas son estructuras de datos dinámicas, lo que significa que se pueden modificar agregando o eliminando elementos. Para agregar un elemento al final de la lista, se utiliza el operador <code>++</code>:</p>
+<div class="codehilite"><pre><span></span><code><span class="n">list</span><span class="w"> </span><span class="o">++</span><span class="w"> </span><span class="p">[</span><span class="mi">5</span><span class="p">]</span>
+</code></pre></div>
+
+<p>Esto devolverá una nueva lista con el elemento agregado al final. Para eliminar un elemento de la lista, se utiliza el operador <code>--</code>:</p>
+<div class="codehilite"><pre><span></span><code><span class="n">list</span><span class="w"> </span><span class="o">--</span><span class="w"> </span><span class="p">[</span><span class="mi">3</span><span class="p">]</span>
+</code></pre></div>
+
+<p>Esto devolverá una nueva lista sin el elemento especificado. También se pueden agregar o eliminar múltiples elementos a la vez utilizando el mismo operador.</p>
+<p>Otra característica importante de las listas en Elixir es que se pueden acceder a sus elementos mediante su índice, comenzando desde 0. Esto se hace utilizando el operador de acceso <code>[]</code> seguido del índice del elemento deseado:</p>
+<div class="codehilite"><pre><span></span><code><span class="n">list</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;a&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;b&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;c&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;d&quot;</span><span class="p">]</span>
+<span class="n">list</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="w"> </span><span class="c1"># Devuelve &quot;c&quot;</span>
+</code></pre></div>
+
+<h2 id="tuplas">Tuplas<a class="headerlink" href="#tuplas" title="Permanent link">&para;</a></h2>
+<p>Las tuplas en Elixir son una colección ordenada de elementos del mismo tipo o de diferentes tipos, al igual que las listas. Sin embargo, a diferencia de las listas, las tuplas son estructuras de datos inmutables, lo que significa que no se pueden modificar una vez creadas. Se crean utilizando llaves y separando los elementos con comas.</p>
+<div class="codehilite"><pre><span></span><code><span class="n">tuple</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="ss">:ok</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Hola&quot;</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">}</span>
+</code></pre></div>
+
+<p>Aunque las tuplas no se pueden modificar, se pueden acceder a sus elementos de la misma manera que en las listas, utilizando el operador de acceso <code>[]</code> seguido del índice del elemento deseado:</p>
+<div class="codehilite"><pre><span></span><code><span class="n">tuple</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="ss">:ok</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Hola&quot;</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">}</span>
+<span class="n">tuple</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="w"> </span><span class="c1"># Devuelve &quot;Hola&quot;</span>
+</code></pre></div>
+
+<h2 id="palabras-clave">Palabras clave<a class="headerlink" href="#palabras-clave" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Listas: colecciones ordenadas de elementos en Elixir que se pueden modificar.</li>
+<li>Tuplas: colecciones ordenadas de elementos en Elixir que no se pueden modificar.</li>
+<li>Dinámico: en el contexto de las estructuras de datos, se refiere a la capacidad de ser modificadas.</li>
+<li>Inmutable: en el contexto de las estructuras de datos, se refiere a la incapacidad de ser modificadas.</li>
+</ul>
+<h2 id="preguntas-de-repaso">Preguntas de repaso<a class="headerlink" href="#preguntas-de-repaso" title="Permanent link">&para;</a></h2>
+<ol>
+<li>¿Cuál es la diferencia principal entre las listas y tuplas en Elixir?</li>
+<li>¿Cómo se crean las listas y tuplas en Elixir?</li>
+<li>¿Cómo se pueden modificar las listas en Elixir?</li>
+<li>¿Cómo se accede a los elementos de una tupla en Elixir?</li>
+<li>¿Cuál es la principal ventaja de utilizar una tupla en lugar de una lista?</li>
+</ol>
+<h2 id="ejemplos-de-codigo">Ejemplos de código<a class="headerlink" href="#ejemplos-de-codigo" title="Permanent link">&para;</a></h2>
+<h3 id="creacion-de-listas-y-tuplas">Creación de listas y tuplas<a class="headerlink" href="#creacion-de-listas-y-tuplas" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><code><span class="n">list</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">4</span><span class="p">]</span>
+<span class="n">tuple</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="ss">:ok</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Hola&quot;</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">}</span>
+</code></pre></div>
+
+<h3 id="modificacion-de-listas">Modificación de listas<a class="headerlink" href="#modificacion-de-listas" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><code><span class="n">list</span><span class="w"> </span><span class="o">++</span><span class="w"> </span><span class="p">[</span><span class="mi">5</span><span class="p">]</span><span class="w"> </span><span class="c1"># Devuelve [1, 2, 3, 4, 5]</span>
+<span class="n">list</span><span class="w"> </span><span class="o">--</span><span class="w"> </span><span class="p">[</span><span class="mi">3</span><span class="p">]</span><span class="w"> </span><span class="c1"># Devuelve [1, 2, 4]</span>
+</code></pre></div>
+
+<h3 id="acceso-a-elementos-de-una-tupla">Acceso a elementos de una tupla<a class="headerlink" href="#acceso-a-elementos-de-una-tupla" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><code><span class="n">tuple</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="ss">:ok</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Hola&quot;</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">}</span>
+<span class="n">tuple</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="w"> </span><span class="c1"># Devuelve &quot;Hola&quot;</span>
+</code></pre></div>
+
+<h2 id="ejercicios-practicos">Ejercicios prácticos<a class="headerlink" href="#ejercicios-practicos" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Crea una lista con los números del 1 al 10 y agrega el número 11 al final.</li>
+<li>Crea una tupla con tres elementos y modifica el segundo elemento para que sea "adiós" en lugar de "Hola".</li>
+<li>Dado el siguiente código, ¿cuál es el resultado de <code>tuple[3]</code>?</li>
+</ol>
+<div class="codehilite"><pre><span></span><code><span class="n">tuple</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="ss">:ok</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Hola&quot;</span><span class="p">,</span><span class="w"> </span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">],</span><span class="w"> </span><span class="no">true</span><span class="p">}</span>
+</code></pre></div>
+
+<h2 id="consejos-y-mejores-practicas">Consejos y mejores prácticas<a class="headerlink" href="#consejos-y-mejores-practicas" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Utiliza listas cuando necesites una estructura de datos que pueda ser modificada.</li>
+<li>Utiliza tuplas cuando necesites una estructura de datos inmutable para almacenar valores que no cambiarán.</li>
+<li>Si necesitas una estructura de datos que pueda ser modificada pero también necesitas acceder a sus elementos por índice, considera utilizar una lista y convertirla a una tupla cuando sea necesario acceder a sus elementos por índice.</li>
+</ul></p>
+    </article>
+</section>
+            <!-- endblock -->
+
+            <!-- block footer -->
+                <footer>
+    <div class="d-flex flex-sm-row justify-content-between py-2 border-top drac-text-black drac-bg-cyan-green">
+        <a href="https://github.com/dracula/mkdocs" target="_blank" style="padding-left: 1%;"
+            class="footer-text drac-anchor drac-text-black drac-text-purple--hover">
+            Made with Dracula Theme for MkDocs
+        </a>
+    </div>
+</footer>
+            <!-- endblock -->
+        </div>
+
+    </main>
+
+        <script>var base_url = '../../..';</script>
+        <script src="../../../assets/js/jquery-3.3.1.slim.min.js"></script>
+        <script src="../../../assets/js/bootstrap.bundle.min.js"></script>
+        <script src="../../../assets/js/mkdocs.js"></script>
+			<script src="../../../search/main.js" defer></script>
+
+</body>
+
+</html>

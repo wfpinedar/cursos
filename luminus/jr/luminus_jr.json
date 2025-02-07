@@ -1,0 +1,25 @@
+{
+  "nivel": "De cero a Junior",
+  "temas": [
+    {"module_title": "Introducción a Luminus Framework", 
+    "module_description": "En este módulo se enseñará qué es Luminus Framework y cómo funciona. Se abordarán los conceptos básicos de la arquitectura de Luminus y se crearán las primeras aplicaciones utilizando el framework."},
+    {"module_title": "Configuración de Luminus", 
+    "module_description": "En este módulo se explicará cómo configurar Luminus correctamente para empezar a trabajar con él. Se aprenderá a crear un proyecto, a configurar dependencias y a manejar la estructura de directorios."},
+    {"module_title": "Manejo de rutas y solicitudes", 
+    "module_description": "En este módulo se enseñará cómo manejar las rutas y las solicitudes en Luminus. Se verá cómo crear rutas, cómo responder a diferentes tipos de solicitudes y cómo manejar los parámetros de las mismas."},
+    {"module_title": "Desarrollo de vistas", 
+    "module_description": "En este módulo se explicará cómo crear vistas en Luminus utilizando diferentes plantillas. Se verá cómo integrar HTML, CSS y JavaScript en las vistas y cómo utilizar variables y lógica en ellas."},
+    {"module_title": "Creación de controladores", 
+    "module_description": "En este módulo se enseñará cómo crear controladores en Luminus y cómo gestionar las solicitudes de los usuarios en el lado del servidor. Se verá cómo utilizar diferentes métodos y cómo interactuar con la base de datos."},
+    {"module_title": "Administración de base de datos", 
+    "module_description": "En este módulo se explicará cómo trabajar con la base de datos en Luminus. Se verá cómo configurar y conectarse a una base de datos, cómo crear modelos y cómo realizar consultas utilizando SQL o un ORM."},
+    {"module_title": "Implementación de seguridad", 
+    "module_description": "En este módulo se enseñará cómo implementar medidas de seguridad en una aplicación desarrollada con Luminus. Se verá cómo proteger las rutas, cómo manejar los usuarios y cómo utilizar herramientas de autenticación y autorización."},
+    {"module_title": "Optimización y depuración", 
+    "module_description": "En este módulo se explicará cómo optimizar y depurar una aplicación en Luminus. Se verá cómo utilizar herramientas de rendimiento, cómo manejar errores y cómo realizar pruebas y depuración."},
+    {"module_title": "Despliegue de la aplicación", 
+    "module_description": "En este módulo se enseñará cómo desplegar una aplicación desarrollada con Luminus en un servidor. Se verá cómo configurar el entorno de producción, cómo realizar actualizaciones y cómo manejar problemas de compatibilidad."},
+    {"module_title": "Proyecto final", 
+    "module_description": "En este módulo se realizará un proyecto final en el que se aplicarán todos los conocimientos adquiridos durante el curso. Se deberá desarrollar una aplicación completa utilizando Luminus y se presentará al final del curso."}
+  ]
+}

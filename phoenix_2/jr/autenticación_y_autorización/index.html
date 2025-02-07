@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+        <title>Autenticación y Autorización en Phoenix Framework - Mis cursos</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="../../../assets/css/darcula-highlight.min.css">
+
+        <link rel="stylesheet" href="../../../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../../assets/css/dracula-ui.min.css">
+        <link rel="stylesheet" href="../../../assets/css/mkdocs.min.css">
+
+        
+            <link  rel="icon" type="image/x-icon" href="../../../assets/img/favicon.ico">
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+                <script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+
+<body class="drac-bg-black-secondary drac-text-grey-ternary drac-text drac-scrollbar-purple">
+
+    <main class="d-flex">
+
+        <!-- block sidebar -->
+            <nav id="sidebar" class="sidebar drac-bg-black">
+    <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="btn btn-primary">
+            <i class="fa fa-bars"></i>
+            <span class="sr-only">Menu</span>
+        </button>
+    </div>
+
+    <div class="p-4">
+        
+
+        <div class="drac-text-center">
+            
+                <span class="drac-text drac-line-height drac-text-white">Mis cursos</span>
+            
+        </div>
+
+        <div class="drac-box flex-column">
+            <ul class="dot-ul">
+                <li><div class="dot-li drac-bg-cyan"></div></li>
+                <li><div class="dot-li drac-bg-green"></div></li>
+                <li><div class="dot-li drac-bg-orange"></div></li>
+                <li><div class="dot-li drac-bg-pink"></div></li>
+                <li><div class="dot-li drac-bg-purple"></div></li>
+                <li><div class="dot-li drac-bg-red"></div></li>
+                <li><div class="dot-li drac-bg-yellow"></div></li>
+            </ul>
+        </div>
+
+        <hr class="drac-divider" />
+
+        <!-- block menu -->
+        <ul class="mb-5 drac-list drac-list-none">
+            
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Introducción
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#clojure-collapse" aria-expanded="false">
+                    Clojure
+                </a>
+                <div class="collapse" id="clojure-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Introducción
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/Junior/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Junior
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/mid/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Middle
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/senior/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Senior
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <!-- endblock -->
+    </div>
+</nav>
+        <!-- endblock -->
+
+        <nav class="divider drac-bg-purple-cyan"></nav>
+
+        <div class="content">
+            <!-- block header -->
+                <header>
+    <nav class="navbar navbar-expand-xl drac-bg-purple">
+        <div class="container-fluid">
+            
+            <button class="navbar-toggler w-100 text-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsMenu"
+                aria-controls="navbarsMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse flex-column ml-auto" id="navbarsMenu">
+                <ul class="navbar-nav text-md-center">
+
+                    <!-- block preview -->
+                    <li class="nav-item">
+                            
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block search -->
+                    <li class="nav-item"><div role="search" class="search-box">
+	<form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+		<input type="text" name="q" class="drac-input drac-input-search drac-input-white drac-text-white drac-bg-black-secondary"
+		placeholder="Search docs" title="Type search term here" />
+	</form>
+</div>
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block source -->
+                    <li class="nav-item">
+                        
+                            
+                        
+                    </li>
+                    <!--  endblock -->
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+            <!-- endblock -->
+
+            <!-- block content -->
+                <section class="p-md-5 section-content">
+    <article>
+        <p><h1 id="autenticacion-y-autorizacion-en-phoenix-framework">Autenticación y Autorización en Phoenix Framework<a class="headerlink" href="#autenticacion-y-autorizacion-en-phoenix-framework" title="Permanent link">&para;</a></h1>
+<p>En el desarrollo de aplicaciones web, es esencial implementar mecanismos de autenticación y autorización para garantizar la seguridad y privacidad de los usuarios. En Phoenix Framework, esto se puede lograr a través de la integración con Guardian, una librería de autenticación y autorización.</p>
+<h2 id="explicacion-teorica">Explicación teórica<a class="headerlink" href="#explicacion-teorica" title="Permanent link">&para;</a></h2>
+<p>La autenticación se refiere al proceso de verificar la identidad de un usuario, mientras que la autorización se refiere al proceso de otorgar o denegar el acceso a recursos o funcionalidades dentro de una aplicación. En Phoenix, Guardian se encarga de manejar ambos procesos y proporciona una capa de seguridad robusta para nuestras aplicaciones.</p>
+<h2 id="palabras-clave-y-definiciones">Palabras clave y definiciones<a class="headerlink" href="#palabras-clave-y-definiciones" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Autenticación: Proceso de verificar la identidad de un usuario.</li>
+<li>Autorización: Proceso de otorgar o denegar acceso a recursos o funcionalidades a un usuario.</li>
+<li>Guardian: Librería de autenticación y autorización para Phoenix Framework.</li>
+</ul>
+<h2 id="preguntas-de-repaso">Preguntas de repaso<a class="headerlink" href="#preguntas-de-repaso" title="Permanent link">&para;</a></h2>
+<ol>
+<li>¿Qué es la autenticación en el contexto de una aplicación web?</li>
+<li>¿Qué es la autorización en el contexto de una aplicación web?</li>
+<li>¿Qué librería se utiliza en Phoenix Framework para implementar autenticación y autorización?</li>
+</ol>
+<h2 id="ejemplos-de-codigo-en-phoenix-framework">Ejemplos de código en Phoenix Framework<a class="headerlink" href="#ejemplos-de-codigo-en-phoenix-framework" title="Permanent link">&para;</a></h2>
+<p>A continuación, se muestra un ejemplo de cómo implementar autenticación y autorización en una aplicación Phoenix utilizando Guardian:</p>
+<ol>
+<li>En el archivo <code>config/config.exs</code>, agregamos la configuración de Guardian:</li>
+</ol>
+<div class="codehilite"><pre><span></span><code><span class="n">config</span><span class="w"> </span><span class="ss">:my_app</span><span class="p">,</span><span class="w"> </span><span class="nc">MyApp.Guardian</span><span class="p">,</span>
+<span class="w">  </span><span class="ss">issuer</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;my_app&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="ss">secret_key</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;my_secret_key&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="ss">ttl</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="mi">30</span><span class="p">,</span><span class="w"> </span><span class="ss">:days</span><span class="p">},</span>
+<span class="w">  </span><span class="ss">allowed_algos</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;HS256&quot;</span><span class="p">],</span>
+<span class="w">  </span><span class="ss">verify_issuer</span><span class="p">:</span><span class="w"> </span><span class="no">true</span><span class="p">,</span>
+<span class="w">  </span><span class="ss">serializer</span><span class="p">:</span><span class="w"> </span><span class="nc">MyApp.Guardian.Serializer</span>
+</code></pre></div>
+
+<ol>
+<li>Creamos un módulo <code>MyApp.Guardian</code> que será responsable de generar y verificar los tokens de autenticación:</li>
+</ol>
+<div class="codehilite"><pre><span></span><code><span class="kd">defmodule</span><span class="w"> </span><span class="nc">MyApp.Guardian</span><span class="w"> </span><span class="k">do</span>
+<span class="w">  </span><span class="kn">use</span><span class="w"> </span><span class="nc">Guardian</span><span class="p">,</span><span class="w"> </span><span class="ss">otp_app</span><span class="p">:</span><span class="w"> </span><span class="ss">:my_app</span>
+<span class="k">end</span>
+</code></pre></div>
+
+<ol>
+<li>Creamos un módulo <code>MyApp.Guardian.Serializer</code> que se encargará de serializar y deserializar los datos del usuario en el token de autenticación:</li>
+</ol>
+<div class="codehilite"><pre><span></span><code><span class="kd">defmodule</span><span class="w"> </span><span class="nc">MyApp.Guardian.Serializer</span><span class="w"> </span><span class="k">do</span>
+<span class="w">  </span><span class="kd">def</span><span class="w"> </span><span class="n">for_token</span><span class="p">(</span><span class="n">user</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">%</span><span class="nc">User</span><span class="p">{}),</span><span class="w"> </span><span class="ss">do</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="ss">:ok</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;User:</span><span class="si">#{</span><span class="n">user</span><span class="o">.</span><span class="n">id</span><span class="si">}</span><span class="s2">&quot;</span><span class="w"> </span><span class="p">}</span>
+<span class="w">  </span><span class="kd">def</span><span class="w"> </span><span class="n">for_token</span><span class="p">(</span><span class="bp">_</span><span class="p">),</span><span class="w"> </span><span class="ss">do</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="ss">:error</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Unknown resource type&quot;</span><span class="w"> </span><span class="p">}</span>
+
+<span class="w">  </span><span class="kd">def</span><span class="w"> </span><span class="n">from_token</span><span class="p">(</span><span class="s2">&quot;User:&quot;</span><span class="w"> </span><span class="o">&lt;&gt;</span><span class="w"> </span><span class="n">id</span><span class="p">),</span><span class="w"> </span><span class="ss">do</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="ss">:ok</span><span class="p">,</span><span class="w"> </span><span class="nc">UserRepo</span><span class="o">.</span><span class="n">get!</span><span class="p">(</span><span class="n">id</span><span class="p">)</span><span class="w"> </span><span class="p">}</span>
+<span class="w">  </span><span class="kd">def</span><span class="w"> </span><span class="n">from_token</span><span class="p">(</span><span class="bp">_</span><span class="p">),</span><span class="w"> </span><span class="ss">do</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="ss">:error</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Invalid token&quot;</span><span class="w"> </span><span class="p">}</span>
+<span class="k">end</span>
+</code></pre></div>
+
+<ol>
+<li>En el módulo <code>MyAppWeb.Router</code>, agregamos las rutas para manejar la autenticación y autorización:</li>
+</ol>
+<div class="codehilite"><pre><span></span><code><span class="kd">defmodule</span><span class="w"> </span><span class="nc">MyAppWeb.Router</span><span class="w"> </span><span class="k">do</span>
+<span class="w">  </span><span class="kn">use</span><span class="w"> </span><span class="nc">MyAppWeb</span><span class="p">,</span><span class="w"> </span><span class="ss">:router</span>
+
+<span class="w">  </span><span class="n">pipeline</span><span class="w"> </span><span class="ss">:auth</span><span class="w"> </span><span class="k">do</span>
+<span class="w">    </span><span class="n">plug</span><span class="w"> </span><span class="nc">Guardian.Plug.VerifyHeader</span><span class="p">,</span><span class="w"> </span><span class="ss">realm</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Bearer&quot;</span>
+<span class="w">    </span><span class="n">plug</span><span class="w"> </span><span class="nc">Guardian.Plug.VerifySession</span>
+<span class="w">    </span><span class="n">plug</span><span class="w"> </span><span class="nc">Guardian.Plug.LoadResource</span><span class="p">,</span><span class="w"> </span><span class="ss">ensure</span><span class="p">:</span><span class="w"> </span><span class="no">true</span>
+<span class="w">  </span><span class="k">end</span>
+
+<span class="w">  </span><span class="n">scope</span><span class="w"> </span><span class="s2">&quot;/auth&quot;</span><span class="p">,</span><span class="w"> </span><span class="nc">MyAppWeb</span><span class="w"> </span><span class="k">do</span>
+<span class="w">    </span><span class="n">pipe_through</span><span class="w"> </span><span class="ss">:api</span>
+
+<span class="w">    </span><span class="n">post</span><span class="w"> </span><span class="s2">&quot;/login&quot;</span><span class="p">,</span><span class="w"> </span><span class="nc">AuthController</span><span class="p">,</span><span class="w"> </span><span class="ss">:login</span>
+<span class="w">    </span><span class="n">post</span><span class="w"> </span><span class="s2">&quot;/register&quot;</span><span class="p">,</span><span class="w"> </span><span class="nc">UserController</span><span class="p">,</span><span class="w"> </span><span class="ss">:create</span>
+<span class="w">    </span><span class="n">get</span><span class="w"> </span><span class="s2">&quot;/me&quot;</span><span class="p">,</span><span class="w"> </span><span class="nc">UserController</span><span class="p">,</span><span class="w"> </span><span class="ss">:show</span>
+<span class="w">  </span><span class="k">end</span>
+<span class="k">end</span>
+</code></pre></div>
+
+<ol>
+<li>En el controlador <code>AuthController</code>, manejamos la lógica de autenticación y generamos el token:</li>
+</ol>
+<div class="codehilite"><pre><span></span><code><span class="kd">defmodule</span><span class="w"> </span><span class="nc">MyAppWeb.AuthController</span><span class="w"> </span><span class="k">do</span>
+<span class="w">  </span><span class="kn">use</span><span class="w"> </span><span class="nc">MyAppWeb</span><span class="p">,</span><span class="w"> </span><span class="ss">:controller</span>
+
+<span class="w">  </span><span class="kd">def</span><span class="w"> </span><span class="n">login</span><span class="p">(</span><span class="n">conn</span><span class="p">,</span><span class="w"> </span><span class="p">%{</span><span class="s2">&quot;email&quot;</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">email</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;password&quot;</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">password</span><span class="p">})</span><span class="w"> </span><span class="k">do</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="nc">MyApp.Auth</span><span class="o">.</span><span class="n">login</span><span class="p">(</span><span class="n">email</span><span class="p">,</span><span class="w"> </span><span class="n">password</span><span class="p">)</span><span class="w"> </span><span class="k">do</span>
+<span class="w">      </span><span class="p">{</span><span class="ss">:ok</span><span class="p">,</span><span class="w"> </span><span class="n">user</span><span class="p">}</span><span class="w"> </span><span class="o">-&gt;</span>
+<span class="w">        </span><span class="n">token</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nc">Guardian</span><span class="o">.</span><span class="n">encode_and_sign</span><span class="p">(</span><span class="n">user</span><span class="p">,</span><span class="w"> </span><span class="ss">:token</span><span class="p">)</span>
+<span class="w">        </span><span class="n">conn</span>
+<span class="w">        </span><span class="o">|&gt;</span><span class="w"> </span><span class="n">put_status</span><span class="p">(</span><span class="ss">:ok</span><span class="p">)</span>
+<span class="w">        </span><span class="o">|&gt;</span><span class="w"> </span><span class="n">json</span><span class="p">(%{</span><span class="ss">token</span><span class="p">:</span><span class="w"> </span><span class="n">token</span><span class="p">,</span><span class="w"> </span><span class="ss">user</span><span class="p">:</span><span class="w"> </span><span class="n">user</span><span class="p">})</span>
+
+<span class="w">      </span><span class="p">{</span><span class="ss">:error</span><span class="p">,</span><span class="w"> </span><span class="n">reason</span><span class="p">}</span><span class="w"> </span><span class="o">-&gt;</span>
+<span class="w">        </span><span class="n">conn</span>
+<span class="w">        </span><span class="o">|&gt;</span><span class="w"> </span><span class="n">put_status</span><span class="p">(</span><span class="ss">:unauthorized</span><span class="p">)</span>
+<span class="w">        </span><span class="o">|&gt;</span><span class="w"> </span><span class="n">json</span><span class="p">(%{</span><span class="ss">error</span><span class="p">:</span><span class="w"> </span><span class="n">reason</span><span class="p">})</span>
+<span class="w">    </span><span class="k">end</span>
+<span class="w">  </span><span class="k">end</span>
+<span class="k">end</span>
+</code></pre></div>
+
+<ol>
+<li>En el controlador <code>UserController</code>, manejamos la lógica para crear un nuevo usuario y también para mostrar la información del usuario autenticado:</li>
+</ol>
+<div class="codehilite"><pre><span></span><code><span class="kd">defmodule</span><span class="w"> </span><span class="nc">MyAppWeb.UserController</span><span class="w"> </span><span class="k">do</span>
+<span class="w">  </span><span class="kn">use</span><span class="w"> </span><span class="nc">MyAppWeb</span><span class="p">,</span><span class="w"> </span><span class="ss">:controller</span>
+<span class="w">  </span><span class="kn">import</span><span class="w"> </span><span class="nc">Ecto.Query</span>
+
+<span class="w">  </span><span class="kd">def</span><span class="w"> </span><span class="n">create</span><span class="p">(</span><span class="n">conn</span><span class="p">,</span><span class="w"> </span><span class="p">%{</span><span class="s2">&quot;name&quot;</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">name</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;email&quot;</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">email</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;password&quot;</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">password</span><span class="p">})</span><span class="w"> </span><span class="k">do</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="nc">MyApp.Auth</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="n">name</span><span class="p">,</span><span class="w"> </span><span class="n">email</span><span class="p">,</span><span class="w"> </span><span class="n">password</span><span class="p">)</span><span class="w"> </span><span class="k">do</span>
+<span class="w">      </span><span class="p">{</span><span class="ss">:ok</span><span class="p">,</span><span class="w"> </span><span class="n">user</span><span class="p">}</span><span class="w"> </span><span class="o">-&gt;</span>
+<span class="w">        </span><span class="n">token</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nc">Guardian</span><span class="o">.</span><span class="n">encode_and_sign</span><span class="p">(</span><span class="n">user</span><span class="p">,</span><span class="w"> </span><span class="ss">:token</span><span class="p">)</span>
+<span class="w">        </span><span class="n">conn</span>
+<span class="w">        </span><span class="o">|&gt;</span><span class="w"> </span><span class="n">put_status</span><span class="p">(</span><span class="ss">:created</span><span class="p">)</span>
+<span class="w">        </span><span class="o">|&gt;</span><span class="w"> </span><span class="n">json</span><span class="p">(%{</span><span class="ss">token</span><span class="p">:</span><span class="w"> </span><span class="n">token</span><span class="p">,</span><span class="w"> </span><span class="ss">user</span><span class="p">:</span><span class="w"> </span><span class="n">user</span><span class="p">})</span>
+
+<span class="w">      </span><span class="p">{</span><span class="ss">:error</span><span class="p">,</span><span class="w"> </span><span class="n">reason</span><span class="p">}</span><span class="w"> </span><span class="o">-&gt;</span>
+<span class="w">        </span><span class="n">conn</span>
+<span class="w">        </span><span class="o">|&gt;</span><span class="w"> </span><span class="n">put_status</span><span class="p">(</span><span class="ss">:unprocessable_entity</span><span class="p">)</span>
+<span class="w">        </span><span class="o">|&gt;</span><span class="w"> </span><span class="n">json</span><span class="p">(%{</span><span class="ss">error</span><span class="p">:</span><span class="w"> </span><span class="n">reason</span><span class="p">})</span>
+<span class="w">    </span><span class="k">end</span>
+<span class="w">  </span><span class="k">end</span>
+
+<span class="w">  </span><span class="kd">def</span><span class="w"> </span><span class="n">show</span><span class="p">(</span><span class="n">conn</span><span class="p">,</span><span class="w"> </span><span class="bp">_</span><span class="p">)</span><span class="w"> </span><span class="k">do</span>
+<span class="w">    </span><span class="n">current_user</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nc">Guardian.Plug</span><span class="o">.</span><span class="n">current_resource</span><span class="p">(</span><span class="n">conn</span><span class="p">)</span>
+<span class="w">    </span><span class="n">user</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nc">MyRepo</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="nc">User</span><span class="p">,</span><span class="w"> </span><span class="n">current_user</span><span class="o">.</span><span class="n">id</span><span class="p">)</span>
+<span class="w">    </span><span class="n">conn</span>
+<span class="w">    </span><span class="o">|&gt;</span><span class="w"> </span><span class="n">put_status</span><span class="p">(</span><span class="ss">:ok</span><span class="p">)</span>
+<span class="w">    </span><span class="o">|&gt;</span><span class="w"> </span><span class="n">json</span><span class="p">(</span><span class="n">user</span><span class="p">)</span>
+<span class="w">  </span><span class="k">end</span>
+<span class="k">end</span>
+</code></pre></div>
+
+<h2 id="ejercicios-practicos">Ejercicios prácticos<a class="headerlink" href="#ejercicios-practicos" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Crea un proyecto en Phoenix y configura Guardian para manejar la autenticación y autorización.</li>
+<li>Crea un modelo <code>User</code> y su respectivo repositorio.</li>
+<li>Agrega las rutas y controladores necesarios para manejar el registro y la autenticación de un usuario.</li>
+<li>Agrega un endpoint que muestre la información del usuario autenticado.</li>
+<li>Agrega un middleware que verifique el token de autenticación en cada petición.</li>
+<li>Crea un endpoint que solo pueda ser accedido por usuarios autenticados.</li>
+<li>Agrega un endpoint que solo pueda ser accedido por usuarios con un cierto rol específico.</li>
+</ol>
+<h2 id="consejos-y-mejores-practicas">Consejos y mejores prácticas<a class="headerlink" href="#consejos-y-mejores-practicas" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Utiliza un token JWT (JSON Web Token) para la autenticación, ya que es más seguro que almacenar la información de autenticación en cookies o en la sesión del usuario.</li>
+<li>Siempre valida el token de autenticación en cada petición para garantizar la seguridad de tu aplicación.</li>
+<li>Planifica cuidadosamente los roles y permisos de cada usuario para garantizar un sistema de autorización robusto y seguro.</li>
+<li>Utiliza Guardian Hooks para agregar lógica adicional antes y después de la autenticación y autorización.</li>
+<li>Mantén tu código limpio y modular, separando la lógica de autenticación y autorización en módulos específicos.</li>
+</ul></p>
+    </article>
+</section>
+            <!-- endblock -->
+
+            <!-- block footer -->
+                <footer>
+    <div class="d-flex flex-sm-row justify-content-between py-2 border-top drac-text-black drac-bg-cyan-green">
+        <a href="https://github.com/dracula/mkdocs" target="_blank" style="padding-left: 1%;"
+            class="footer-text drac-anchor drac-text-black drac-text-purple--hover">
+            Made with Dracula Theme for MkDocs
+        </a>
+    </div>
+</footer>
+            <!-- endblock -->
+        </div>
+
+    </main>
+
+        <script>var base_url = '../../..';</script>
+        <script src="../../../assets/js/jquery-3.3.1.slim.min.js"></script>
+        <script src="../../../assets/js/bootstrap.bundle.min.js"></script>
+        <script src="../../../assets/js/mkdocs.js"></script>
+			<script src="../../../search/main.js" defer></script>
+
+</body>
+
+</html>

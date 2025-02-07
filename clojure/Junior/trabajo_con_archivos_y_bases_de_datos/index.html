@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+        <title>Trabajo con archivos y bases de datos en Clojure - Mis cursos</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="../../../assets/css/darcula-highlight.min.css">
+
+        <link rel="stylesheet" href="../../../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../../assets/css/dracula-ui.min.css">
+        <link rel="stylesheet" href="../../../assets/css/mkdocs.min.css">
+
+        
+            <link  rel="icon" type="image/x-icon" href="../../../assets/img/favicon.ico">
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+                <script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+
+<body class="drac-bg-black-secondary drac-text-grey-ternary drac-text drac-scrollbar-purple">
+
+    <main class="d-flex">
+
+        <!-- block sidebar -->
+            <nav id="sidebar" class="sidebar drac-bg-black">
+    <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="btn btn-primary">
+            <i class="fa fa-bars"></i>
+            <span class="sr-only">Menu</span>
+        </button>
+    </div>
+
+    <div class="p-4">
+        
+
+        <div class="drac-text-center">
+            
+                <span class="drac-text drac-line-height drac-text-white">Mis cursos</span>
+            
+        </div>
+
+        <div class="drac-box flex-column">
+            <ul class="dot-ul">
+                <li><div class="dot-li drac-bg-cyan"></div></li>
+                <li><div class="dot-li drac-bg-green"></div></li>
+                <li><div class="dot-li drac-bg-orange"></div></li>
+                <li><div class="dot-li drac-bg-pink"></div></li>
+                <li><div class="dot-li drac-bg-purple"></div></li>
+                <li><div class="dot-li drac-bg-red"></div></li>
+                <li><div class="dot-li drac-bg-yellow"></div></li>
+            </ul>
+        </div>
+
+        <hr class="drac-divider" />
+
+        <!-- block menu -->
+        <ul class="mb-5 drac-list drac-list-none">
+            
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Introducción
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#clojure-collapse" aria-expanded="false">
+                    Clojure
+                </a>
+                <div class="collapse" id="clojure-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Introducción
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Junior
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../mid/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Middle
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../senior/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Senior
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <!-- endblock -->
+    </div>
+</nav>
+        <!-- endblock -->
+
+        <nav class="divider drac-bg-purple-cyan"></nav>
+
+        <div class="content">
+            <!-- block header -->
+                <header>
+    <nav class="navbar navbar-expand-xl drac-bg-purple">
+        <div class="container-fluid">
+            
+            <button class="navbar-toggler w-100 text-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsMenu"
+                aria-controls="navbarsMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse flex-column ml-auto" id="navbarsMenu">
+                <ul class="navbar-nav text-md-center">
+
+                    <!-- block preview -->
+                    <li class="nav-item">
+                            
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block search -->
+                    <li class="nav-item"><div role="search" class="search-box">
+	<form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+		<input type="text" name="q" class="drac-input drac-input-search drac-input-white drac-text-white drac-bg-black-secondary"
+		placeholder="Search docs" title="Type search term here" />
+	</form>
+</div>
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block source -->
+                    <li class="nav-item">
+                        
+                            
+                        
+                    </li>
+                    <!--  endblock -->
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+            <!-- endblock -->
+
+            <!-- block content -->
+                <section class="p-md-5 section-content">
+    <article>
+        <p><h1 id="trabajo-con-archivos-y-bases-de-datos-en-clojure">Trabajo con archivos y bases de datos en Clojure<a class="headerlink" href="#trabajo-con-archivos-y-bases-de-datos-en-clojure" title="Permanent link">&para;</a></h1>
+<h2 id="explicacion-teorica">Explicación teórica<a class="headerlink" href="#explicacion-teorica" title="Permanent link">&para;</a></h2>
+<p>Clojure ofrece varias herramientas para trabajar con archivos y bases de datos en una aplicación. Estas herramientas son esenciales para almacenar y recuperar información de manera eficiente. Algunas de las características más importantes de Clojure para el manejo de archivos y bases de datos son:</p>
+<ul>
+<li>
+<p>Inmutabilidad: en Clojure, los datos son inmutables por defecto, lo que significa que no se pueden modificar después de ser creados. Esto es útil para garantizar la integridad de los datos almacenados en archivos y bases de datos.</p>
+</li>
+<li>
+<p>Funciones de alto orden: Clojure permite el uso de funciones de alto orden, lo que significa que las funciones pueden ser tratadas como datos y pasadas como argumentos a otras funciones. Esto facilita la manipulación y transformación de datos almacenados en archivos y bases de datos.</p>
+</li>
+<li>
+<p>Estructuras de datos persistentes: Clojure ofrece estructuras de datos persistentes, que son versiones inmutables de estructuras de datos tradicionales. Estas estructuras son eficientes para la manipulación y almacenamiento de grandes cantidades de datos, lo que las hace ideales para trabajar con archivos y bases de datos.</p>
+</li>
+</ul>
+<h2 id="palabras-clave-y-su-definicion">Palabras clave y su definición<a class="headerlink" href="#palabras-clave-y-su-definicion" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p><code>with-open</code>: es una macro que permite abrir y cerrar automáticamente un archivo o una conexión de base de datos. Esto garantiza que los recursos sean liberados correctamente después de su uso.</p>
+</li>
+<li>
+<p><code>slurp</code>: es una función que lee todo el contenido de un archivo y lo devuelve como una cadena de texto.</p>
+</li>
+<li>
+<p><code>spit</code>: es una función que escribe una cadena de texto en un archivo.</p>
+</li>
+<li>
+<p><code>jdbc</code>: es una biblioteca de Clojure que permite la conexión y ejecución de consultas en bases de datos relacionales.</p>
+</li>
+<li>
+<p><code>defdb</code>: es una macro que define una conexión de base de datos y la registra bajo un nombre en un ámbito específico.</p>
+</li>
+</ul>
+<h2 id="preguntas-de-repaso">Preguntas de repaso<a class="headerlink" href="#preguntas-de-repaso" title="Permanent link">&para;</a></h2>
+<ol>
+<li>¿Qué significa que los datos sean inmutables en Clojure?</li>
+<li>¿Qué es una función de alto orden y cómo se utiliza en Clojure?</li>
+<li>¿Cuáles son las ventajas de usar estructuras de datos persistentes en Clojure?</li>
+<li>¿Qué es la macro <code>with-open</code> y cómo se utiliza?</li>
+<li>¿Qué función se utiliza para leer el contenido de un archivo en Clojure?</li>
+<li>¿Qué biblioteca de Clojure se utiliza para trabajar con bases de datos relacionales?</li>
+<li>¿Cómo se define una conexión de base de datos en Clojure?</li>
+<li>¿Cuál es la función utilizada para escribir en un archivo en Clojure?</li>
+</ol>
+<h2 id="ejemplos-de-codigo-en-clojure">Ejemplos de código en Clojure<a class="headerlink" href="#ejemplos-de-codigo-en-clojure" title="Permanent link">&para;</a></h2>
+<h3 id="leer-el-contenido-de-un-archivo-y-mostrarlo-en-la-consola">Leer el contenido de un archivo y mostrarlo en la consola<a class="headerlink" href="#leer-el-contenido-de-un-archivo-y-mostrarlo-en-la-consola" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><code><span class="p">(</span><span class="nb">with-open </span><span class="p">[</span><span class="nv">file</span><span class="w"> </span><span class="p">(</span><span class="nf">clojure.java.io/reader</span><span class="w"> </span><span class="s">&quot;archivo.txt&quot;</span><span class="p">)]</span>
+<span class="w">  </span><span class="p">(</span><span class="nb">println </span><span class="p">(</span><span class="nb">slurp </span><span class="nv">file</span><span class="p">)))</span>
+</code></pre></div>
+
+<h3 id="escribir-en-un-archivo">Escribir en un archivo<a class="headerlink" href="#escribir-en-un-archivo" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><code><span class="p">(</span><span class="nf">spit</span><span class="w"> </span><span class="s">&quot;archivo.txt&quot;</span><span class="w"> </span><span class="s">&quot;Este es un ejemplo de texto que se escribirá en el archivo.&quot;</span><span class="p">)</span>
+</code></pre></div>
+
+<h3 id="conexion-y-consulta-a-una-base-de-datos-utilizando-la-biblioteca-jdbc">Conexión y consulta a una base de datos utilizando la biblioteca <code>jdbc</code><a class="headerlink" href="#conexion-y-consulta-a-una-base-de-datos-utilizando-la-biblioteca-jdbc" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><code><span class="p">(</span><span class="nf">require</span><span class="w"> </span><span class="o">&#39;</span><span class="p">[</span><span class="nv">jdbc.core</span><span class="w"> </span><span class="ss">:as</span><span class="w"> </span><span class="nv">jdbc</span><span class="p">])</span>
+
+<span class="p">(</span><span class="nf">defdb</span><span class="w"> </span><span class="nv">db</span><span class="w"> </span><span class="p">(</span><span class="nf">jdbc/db-spec</span><span class="w"> </span><span class="s">&quot;jdbc:postgresql://localhost:5432/mi_base_de_datos&quot;</span>
+<span class="w">                        </span><span class="s">&quot;usuario&quot;</span><span class="w"> </span><span class="s">&quot;contraseña&quot;</span><span class="p">))</span>
+
+<span class="p">(</span><span class="nf">jdbc/execute!</span><span class="w"> </span><span class="nv">db</span><span class="w"> </span><span class="p">[</span><span class="s">&quot;INSERT INTO usuarios (nombre, edad) VALUES (?, ?)&quot;</span><span class="w"> </span><span class="s">&quot;Juan&quot;</span><span class="w"> </span><span class="mi">30</span><span class="p">])</span>
+
+<span class="p">(</span><span class="k">def </span><span class="nv">usuarios</span><span class="w"> </span><span class="p">(</span><span class="nf">jdbc/query</span><span class="w"> </span><span class="nv">db</span><span class="w"> </span><span class="p">[</span><span class="s">&quot;SELECT * FROM usuarios&quot;</span><span class="p">]))</span>
+
+<span class="p">(</span><span class="nb">println </span><span class="nv">usuarios</span><span class="p">)</span>
+</code></pre></div>
+
+<h2 id="ejercicios-practicos">Ejercicios prácticos<a class="headerlink" href="#ejercicios-practicos" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Crea un programa que lea el contenido de un archivo y lo muestre en la consola.</li>
+<li>Escribe una función que tome una lista de nombres y los escriba en un archivo, cada nombre en una línea diferente.</li>
+<li>Modifica el código del ejemplo de conexión y consulta a una base de datos para que muestre únicamente los usuarios mayores de 18 años.</li>
+</ol>
+<h2 id="consejos-o-mejores-practicas">Consejos o mejores prácticas<a class="headerlink" href="#consejos-o-mejores-practicas" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Utiliza la macro <code>with-open</code> para asegurarte de que los recursos sean liberados correctamente después de su uso.</li>
+<li>Utiliza estructuras de datos persistentes para un mejor rendimiento al trabajar con grandes cantidades de datos.</li>
+<li>Utiliza funciones de alto orden para manipular y transformar datos almacenados en archivos y bases de datos de manera eficiente.</li>
+<li>Utiliza nombres descriptivos para las conexiones de base de datos y registra estas conexiones en un ámbito específico para facilitar su uso en diferentes partes de la aplicación.</li>
+</ul>
+<h3 id="navegacion-de-lecciones">Navegación de lecciones<a class="headerlink" href="#navegacion-de-lecciones" title="Permanent link">&para;</a></h3>
+<p><strong>&lt;- Lección anterior</strong>: <a href="../modulos_y_namespaces/">Módulos y namespaces</a></p>
+<p><strong>Siguiente lección -&gt;</strong>: <a href="../creacion_de_aplicaciones_web_con_clojure/">Creación de aplicaciones web con Clojure</a></p></p>
+    </article>
+</section>
+            <!-- endblock -->
+
+            <!-- block footer -->
+                <footer>
+    <div class="d-flex flex-sm-row justify-content-between py-2 border-top drac-text-black drac-bg-cyan-green">
+        <a href="https://github.com/dracula/mkdocs" target="_blank" style="padding-left: 1%;"
+            class="footer-text drac-anchor drac-text-black drac-text-purple--hover">
+            Made with Dracula Theme for MkDocs
+        </a>
+    </div>
+</footer>
+            <!-- endblock -->
+        </div>
+
+    </main>
+
+        <script>var base_url = '../../..';</script>
+        <script src="../../../assets/js/jquery-3.3.1.slim.min.js"></script>
+        <script src="../../../assets/js/bootstrap.bundle.min.js"></script>
+        <script src="../../../assets/js/mkdocs.js"></script>
+			<script src="../../../search/main.js" defer></script>
+
+</body>
+
+</html>

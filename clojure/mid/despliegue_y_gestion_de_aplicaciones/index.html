@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+        <title>Despliegue y gestión de aplicaciones en Clojure - Mis cursos</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="../../../assets/css/darcula-highlight.min.css">
+
+        <link rel="stylesheet" href="../../../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../../assets/css/dracula-ui.min.css">
+        <link rel="stylesheet" href="../../../assets/css/mkdocs.min.css">
+
+        
+            <link  rel="icon" type="image/x-icon" href="../../../assets/img/favicon.ico">
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+                <script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+
+<body class="drac-bg-black-secondary drac-text-grey-ternary drac-text drac-scrollbar-purple">
+
+    <main class="d-flex">
+
+        <!-- block sidebar -->
+            <nav id="sidebar" class="sidebar drac-bg-black">
+    <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="btn btn-primary">
+            <i class="fa fa-bars"></i>
+            <span class="sr-only">Menu</span>
+        </button>
+    </div>
+
+    <div class="p-4">
+        
+
+        <div class="drac-text-center">
+            
+                <span class="drac-text drac-line-height drac-text-white">Mis cursos</span>
+            
+        </div>
+
+        <div class="drac-box flex-column">
+            <ul class="dot-ul">
+                <li><div class="dot-li drac-bg-cyan"></div></li>
+                <li><div class="dot-li drac-bg-green"></div></li>
+                <li><div class="dot-li drac-bg-orange"></div></li>
+                <li><div class="dot-li drac-bg-pink"></div></li>
+                <li><div class="dot-li drac-bg-purple"></div></li>
+                <li><div class="dot-li drac-bg-red"></div></li>
+                <li><div class="dot-li drac-bg-yellow"></div></li>
+            </ul>
+        </div>
+
+        <hr class="drac-divider" />
+
+        <!-- block menu -->
+        <ul class="mb-5 drac-list drac-list-none">
+            
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Introducción
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#clojure-collapse" aria-expanded="false">
+                    Clojure
+                </a>
+                <div class="collapse" id="clojure-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Introducción
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../Junior/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Junior
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Middle
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../senior/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Senior
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <!-- endblock -->
+    </div>
+</nav>
+        <!-- endblock -->
+
+        <nav class="divider drac-bg-purple-cyan"></nav>
+
+        <div class="content">
+            <!-- block header -->
+                <header>
+    <nav class="navbar navbar-expand-xl drac-bg-purple">
+        <div class="container-fluid">
+            
+            <button class="navbar-toggler w-100 text-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsMenu"
+                aria-controls="navbarsMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse flex-column ml-auto" id="navbarsMenu">
+                <ul class="navbar-nav text-md-center">
+
+                    <!-- block preview -->
+                    <li class="nav-item">
+                            
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block search -->
+                    <li class="nav-item"><div role="search" class="search-box">
+	<form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+		<input type="text" name="q" class="drac-input drac-input-search drac-input-white drac-text-white drac-bg-black-secondary"
+		placeholder="Search docs" title="Type search term here" />
+	</form>
+</div>
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block source -->
+                    <li class="nav-item">
+                        
+                            
+                        
+                    </li>
+                    <!--  endblock -->
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+            <!-- endblock -->
+
+            <!-- block content -->
+                <section class="p-md-5 section-content">
+    <article>
+        <p><h1 id="despliegue-y-gestion-de-aplicaciones-en-clojure">Despliegue y gestión de aplicaciones en Clojure<a class="headerlink" href="#despliegue-y-gestion-de-aplicaciones-en-clojure" title="Permanent link">&para;</a></h1>
+<p>En el desarrollo de aplicaciones, no es suficiente con escribir un buen código. También es importante saber cómo desplegar y gestionar la aplicación en un entorno real. En este módulo, exploraremos las técnicas y herramientas utilizadas para desplegar y gestionar aplicaciones en Clojure.</p>
+<h2 id="explicacion-teorica">Explicación teórica<a class="headerlink" href="#explicacion-teorica" title="Permanent link">&para;</a></h2>
+<p>El despliegue de una aplicación se refiere al proceso de trasladar el código de una aplicación desde el entorno de desarrollo al entorno de producción, donde los usuarios pueden interactuar con ella. La gestión de aplicaciones se refiere a todas las tareas necesarias para mantener la aplicación en funcionamiento, como la configuración de entornos, la integración con herramientas de automatización y la monitorización y resolución de problemas.</p>
+<p>En Clojure, el despliegue y la gestión de aplicaciones se pueden realizar de varias maneras, dependiendo del tamaño y complejidad del proyecto. Algunas opciones comunes incluyen:</p>
+<ul>
+<li>Despliegue manual: Este método implica copiar manualmente el código de la aplicación en el servidor de producción y configurar los entornos necesarios. Puede ser adecuado para proyectos pequeños, pero puede ser propenso a errores y llevar mucho tiempo.</li>
+<li>Despliegue automatizado: Utilizando herramientas de automatización como Ansible, Chef o Puppet, podemos escribir scripts que automatizan el proceso de despliegue y gestión de aplicaciones. Estas herramientas pueden ser especialmente útiles para proyectos más grandes y complejos.</li>
+<li>Despliegue en la nube: Con la creciente popularidad de la nube, muchas aplicaciones se despliegan y gestionan en plataformas en la nube como AWS, Google Cloud o Microsoft Azure. Estas plataformas ofrecen herramientas y servicios para facilitar el despliegue y la gestión de aplicaciones en la nube.</li>
+</ul>
+<h2 id="palabras-clave-y-su-definicion">Palabras clave y su definición<a class="headerlink" href="#palabras-clave-y-su-definicion" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Despliegue: Proceso de trasladar el código de una aplicación desde el entorno de desarrollo al entorno de producción.</li>
+<li>Gestión de aplicaciones: Tareas necesarias para mantener una aplicación en funcionamiento en un entorno de producción.</li>
+<li>Entorno de producción: Entorno real donde los usuarios pueden interactuar con la aplicación.</li>
+<li>Configuración de entornos: Proceso de establecer las variables y configuraciones necesarias para que la aplicación funcione correctamente en un entorno específico.</li>
+<li>Automatización: Uso de herramientas y scripts para realizar tareas de forma automática.</li>
+<li>Ansible, Chef, Puppet: Herramientas de automatización populares utilizadas en el despliegue y gestión de aplicaciones.</li>
+<li>Plataforma en la nube: Servicio en línea que proporciona recursos y herramientas para desplegar y gestionar aplicaciones en la nube.</li>
+</ul>
+<h2 id="preguntas-de-repaso">Preguntas de repaso<a class="headerlink" href="#preguntas-de-repaso" title="Permanent link">&para;</a></h2>
+<ol>
+<li>¿Qué es el despliegue de una aplicación?</li>
+<li>¿Por qué es importante la gestión de aplicaciones?</li>
+<li>¿Cuáles son algunas opciones comunes para desplegar y gestionar aplicaciones en Clojure?</li>
+<li>¿Qué es la configuración de entornos?</li>
+<li>Nombra al menos tres herramientas de automatización utilizadas en el despliegue y gestión de aplicaciones.</li>
+</ol>
+<h2 id="ejemplos-de-codigo-en-clojure">Ejemplos de código en Clojure<a class="headerlink" href="#ejemplos-de-codigo-en-clojure" title="Permanent link">&para;</a></h2>
+<h3 id="despliegue-manual">Despliegue manual<a class="headerlink" href="#despliegue-manual" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><code><span class="p">;</span><span class="w"> </span><span class="n">Copia</span><span class="w"> </span><span class="n">del</span><span class="w"> </span><span class="n">código</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">la</span><span class="w"> </span><span class="n">aplicación</span><span class="w"> </span><span class="n">en</span><span class="w"> </span><span class="n">el</span><span class="w"> </span><span class="n">servidor</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">producción</span>
+<span class="n">cp</span><span class="w"> </span><span class="o">/</span><span class="n">ruta</span><span class="o">/</span><span class="n">del</span><span class="o">/</span><span class="n">codigo</span><span class="w"> </span><span class="o">/</span><span class="k">var</span><span class="o">/</span><span class="n">www</span><span class="o">/</span><span class="n">aplicacion</span>
+
+<span class="p">;</span><span class="w"> </span><span class="n">Configuración</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">variables</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">entorno</span>
+<span class="k">export</span><span class="w"> </span><span class="n">HOST</span><span class="o">=</span><span class="n">mihost</span><span class="o">.</span><span class="n">com</span>
+<span class="k">export</span><span class="w"> </span><span class="n">PORT</span><span class="o">=</span><span class="mi">8080</span>
+</code></pre></div>
+
+<h3 id="despliegue-automatizado-con-ansible">Despliegue automatizado con Ansible<a class="headerlink" href="#despliegue-automatizado-con-ansible" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><code><span class="p">;</span><span class="w"> </span><span class="n">Instalación</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">Ansible</span>
+<span class="n">apt</span><span class="o">-</span><span class="n">get</span><span class="w"> </span><span class="n">install</span><span class="w"> </span><span class="n">ansible</span>
+
+<span class="p">;</span><span class="w"> </span><span class="n">Creación</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">un</span><span class="w"> </span><span class="n">playbook</span><span class="w"> </span><span class="n">para</span><span class="w"> </span><span class="n">el</span><span class="w"> </span><span class="n">despliegue</span>
+<span class="o">-</span><span class="w"> </span><span class="n">name</span><span class="p">:</span><span class="w"> </span><span class="n">Desplegar</span><span class="w"> </span><span class="n">aplicación</span>
+<span class="w">  </span><span class="n">hosts</span><span class="p">:</span><span class="w"> </span><span class="n">produccion</span>
+<span class="w">  </span><span class="n">tasks</span><span class="p">:</span>
+<span class="w">    </span><span class="o">-</span><span class="w"> </span><span class="n">name</span><span class="p">:</span><span class="w"> </span><span class="n">Copiar</span><span class="w"> </span><span class="n">código</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">la</span><span class="w"> </span><span class="n">aplicación</span>
+<span class="w">      </span><span class="n">copy</span><span class="p">:</span>
+<span class="w">        </span><span class="n">src</span><span class="p">:</span><span class="w"> </span><span class="o">/</span><span class="n">ruta</span><span class="o">/</span><span class="n">del</span><span class="o">/</span><span class="n">codigo</span>
+<span class="w">        </span><span class="n">dest</span><span class="p">:</span><span class="w"> </span><span class="o">/</span><span class="k">var</span><span class="o">/</span><span class="n">www</span><span class="o">/</span><span class="n">aplicacion</span>
+<span class="w">    </span><span class="o">-</span><span class="w"> </span><span class="n">name</span><span class="p">:</span><span class="w"> </span><span class="n">Configurar</span><span class="w"> </span><span class="n">variables</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">entorno</span>
+<span class="w">      </span><span class="n">shell</span><span class="p">:</span><span class="w"> </span><span class="k">export</span><span class="w"> </span><span class="n">HOST</span><span class="o">=</span><span class="n">mihost</span><span class="o">.</span><span class="n">com</span><span class="p">;</span><span class="w"> </span><span class="k">export</span><span class="w"> </span><span class="n">PORT</span><span class="o">=</span><span class="mi">8080</span>
+</code></pre></div>
+
+<h3 id="despliegue-en-la-nube-con-aws">Despliegue en la nube con AWS<a class="headerlink" href="#despliegue-en-la-nube-con-aws" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><code><span class="p">;</span><span class="w"> </span><span class="n">Creación</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">una</span><span class="w"> </span><span class="n">instancia</span><span class="w"> </span><span class="n">en</span><span class="w"> </span><span class="n">AWS</span>
+<span class="n">aws</span><span class="w"> </span><span class="n">ec2</span><span class="w"> </span><span class="n">create</span><span class="o">-</span><span class="n">instance</span><span class="w"> </span><span class="o">--</span><span class="n">image</span><span class="o">-</span><span class="n">id</span><span class="w"> </span><span class="n">ami</span><span class="o">-</span><span class="mi">123456</span><span class="w"> </span><span class="o">--</span><span class="n">instance</span><span class="o">-</span><span class="n">type</span><span class="w"> </span><span class="n">t2</span><span class="o">.</span><span class="n">micro</span><span class="w"> </span><span class="o">--</span><span class="n">key</span><span class="o">-</span><span class="n">name</span><span class="w"> </span><span class="n">mi</span><span class="o">-</span><span class="n">clave</span>
+
+<span class="p">;</span><span class="w"> </span><span class="n">Despliegue</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">la</span><span class="w"> </span><span class="n">aplicación</span><span class="w"> </span><span class="n">en</span><span class="w"> </span><span class="n">la</span><span class="w"> </span><span class="n">instancia</span>
+<span class="n">scp</span><span class="w"> </span><span class="o">/</span><span class="n">ruta</span><span class="o">/</span><span class="n">del</span><span class="o">/</span><span class="n">codigo</span><span class="w"> </span><span class="n">usuario</span><span class="err">@</span><span class="n">ip</span><span class="o">-</span><span class="n">de</span><span class="o">-</span><span class="n">la</span><span class="o">-</span><span class="n">instancia</span><span class="p">:</span><span class="o">/</span><span class="k">var</span><span class="o">/</span><span class="n">www</span><span class="o">/</span><span class="n">aplicacion</span>
+
+<span class="p">;</span><span class="w"> </span><span class="n">Configuración</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">variables</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">entorno</span><span class="w"> </span><span class="n">en</span><span class="w"> </span><span class="n">la</span><span class="w"> </span><span class="n">instancia</span>
+<span class="n">ssh</span><span class="w"> </span><span class="n">usuario</span><span class="err">@</span><span class="n">ip</span><span class="o">-</span><span class="n">de</span><span class="o">-</span><span class="n">la</span><span class="o">-</span><span class="n">instancia</span><span class="w"> </span><span class="s2">&quot;export HOST=mihost.com; export PORT=8080&quot;</span>
+</code></pre></div>
+
+<h2 id="ejercicios-practicos">Ejercicios prácticos<a class="headerlink" href="#ejercicios-practicos" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Crea un script de Ansible para desplegar una aplicación de Clojure en un servidor de producción.</li>
+<li>Utilizando AWS, crea una instancia y despliega una aplicación de Clojure en ella.</li>
+<li>Configura las variables de entorno necesarias para que la aplicación funcione correctamente en la instancia de AWS.</li>
+</ol>
+<h2 id="consejos-o-mejores-practicas">Consejos o mejores prácticas<a class="headerlink" href="#consejos-o-mejores-practicas" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Utiliza herramientas de automatización para facilitar el proceso de despliegue y gestión de aplicaciones.</li>
+<li>Realiza pruebas de despliegue en entornos de prueba antes de hacerlo en producción.</li>
+<li>Utiliza plataformas en la nube para desplegar y gestionar aplicaciones en la nube.</li>
+<li>Documenta el proceso de despliegue y gestión de aplicaciones para futuras referencias.</li>
+</ul>
+<p><strong>&lt;- Lección anterior</strong>: <a href="../optimizacion_de_rendimiento/">Optimización de rendimiento</a></p>
+<p><strong>Siguiente lección -&gt;</strong>: <a href="../creacion_de_librerias_y_modulos/">Creación de librerías y módulos</a></p></p>
+    </article>
+</section>
+            <!-- endblock -->
+
+            <!-- block footer -->
+                <footer>
+    <div class="d-flex flex-sm-row justify-content-between py-2 border-top drac-text-black drac-bg-cyan-green">
+        <a href="https://github.com/dracula/mkdocs" target="_blank" style="padding-left: 1%;"
+            class="footer-text drac-anchor drac-text-black drac-text-purple--hover">
+            Made with Dracula Theme for MkDocs
+        </a>
+    </div>
+</footer>
+            <!-- endblock -->
+        </div>
+
+    </main>
+
+        <script>var base_url = '../../..';</script>
+        <script src="../../../assets/js/jquery-3.3.1.slim.min.js"></script>
+        <script src="../../../assets/js/bootstrap.bundle.min.js"></script>
+        <script src="../../../assets/js/mkdocs.js"></script>
+			<script src="../../../search/main.js" defer></script>
+
+</body>
+
+</html>

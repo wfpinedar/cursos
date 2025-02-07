@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+        <title>Mejores prácticas y patrones de diseño en Luminus Framework - Mis cursos</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="../../../assets/css/darcula-highlight.min.css">
+
+        <link rel="stylesheet" href="../../../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../../assets/css/dracula-ui.min.css">
+        <link rel="stylesheet" href="../../../assets/css/mkdocs.min.css">
+
+        
+            <link  rel="icon" type="image/x-icon" href="../../../assets/img/favicon.ico">
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+                <script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+
+<body class="drac-bg-black-secondary drac-text-grey-ternary drac-text drac-scrollbar-purple">
+
+    <main class="d-flex">
+
+        <!-- block sidebar -->
+            <nav id="sidebar" class="sidebar drac-bg-black">
+    <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="btn btn-primary">
+            <i class="fa fa-bars"></i>
+            <span class="sr-only">Menu</span>
+        </button>
+    </div>
+
+    <div class="p-4">
+        
+
+        <div class="drac-text-center">
+            
+                <span class="drac-text drac-line-height drac-text-white">Mis cursos</span>
+            
+        </div>
+
+        <div class="drac-box flex-column">
+            <ul class="dot-ul">
+                <li><div class="dot-li drac-bg-cyan"></div></li>
+                <li><div class="dot-li drac-bg-green"></div></li>
+                <li><div class="dot-li drac-bg-orange"></div></li>
+                <li><div class="dot-li drac-bg-pink"></div></li>
+                <li><div class="dot-li drac-bg-purple"></div></li>
+                <li><div class="dot-li drac-bg-red"></div></li>
+                <li><div class="dot-li drac-bg-yellow"></div></li>
+            </ul>
+        </div>
+
+        <hr class="drac-divider" />
+
+        <!-- block menu -->
+        <ul class="mb-5 drac-list drac-list-none">
+            
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Introducción
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#clojure-collapse" aria-expanded="false">
+                    Clojure
+                </a>
+                <div class="collapse" id="clojure-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Introducción
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/Junior/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Junior
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/mid/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Middle
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/senior/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Senior
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <!-- endblock -->
+    </div>
+</nav>
+        <!-- endblock -->
+
+        <nav class="divider drac-bg-purple-cyan"></nav>
+
+        <div class="content">
+            <!-- block header -->
+                <header>
+    <nav class="navbar navbar-expand-xl drac-bg-purple">
+        <div class="container-fluid">
+            
+            <button class="navbar-toggler w-100 text-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsMenu"
+                aria-controls="navbarsMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse flex-column ml-auto" id="navbarsMenu">
+                <ul class="navbar-nav text-md-center">
+
+                    <!-- block preview -->
+                    <li class="nav-item">
+                            
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block search -->
+                    <li class="nav-item"><div role="search" class="search-box">
+	<form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+		<input type="text" name="q" class="drac-input drac-input-search drac-input-white drac-text-white drac-bg-black-secondary"
+		placeholder="Search docs" title="Type search term here" />
+	</form>
+</div>
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block source -->
+                    <li class="nav-item">
+                        
+                            
+                        
+                    </li>
+                    <!--  endblock -->
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+            <!-- endblock -->
+
+            <!-- block content -->
+                <section class="p-md-5 section-content">
+    <article>
+        <p><h1 id="mejores-practicas-y-patrones-de-diseno-en-luminus-framework">Mejores prácticas y patrones de diseño en Luminus Framework<a class="headerlink" href="#mejores-practicas-y-patrones-de-diseno-en-luminus-framework" title="Permanent link">&para;</a></h1>
+<h2 id="descripcion-del-modulo">Descripción del módulo<a class="headerlink" href="#descripcion-del-modulo" title="Permanent link">&para;</a></h2>
+<p>En este módulo se abordarán las mejores prácticas y patrones de diseño para aplicaciones en Luminus Framework. Se explicará cómo optimizar el código, manejar errores y cómo implementar arquitecturas escalables y mantenibles. Estos conocimientos son esenciales para desarrollar aplicaciones robustas y eficientes en Luminus.</p>
+<h2 id="1-explicacion-teorica">1. Explicación teórica<a class="headerlink" href="#1-explicacion-teorica" title="Permanent link">&para;</a></h2>
+<p>Luminus Framework es un framework de desarrollo web en Clojure que se basa en las mejores prácticas y patrones de diseño de la comunidad de Clojure. Estas prácticas y patrones se enfocan en la simplicidad, el rendimiento y la escalabilidad de las aplicaciones.</p>
+<h3 id="mejores-practicas">Mejores prácticas<a class="headerlink" href="#mejores-practicas" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Utilizar funciones puras: En Luminus, se recomienda utilizar funciones puras siempre que sea posible. Estas funciones no tienen efectos secundarios y son más fáciles de probar y depurar.</li>
+<li>Separar lógica de presentación: Es importante separar la lógica de negocio de la presentación en vistas. De esta manera, se puede reutilizar la lógica en diferentes vistas y se mantiene un código más limpio y organizado.</li>
+<li>Utilizar estructuras de datos inmutables: En lugar de modificar directamente una estructura de datos, se deben crear nuevas versiones inmutables. Esto ayuda a evitar errores y hacer que el código sea más predecible.</li>
+<li>Utilizar macros con moderación: Aunque las macros pueden ser muy útiles en ciertos casos, se deben utilizar con moderación ya que pueden hacer que el código sea más difícil de entender y depurar.</li>
+<li>Hacer pruebas unitarias: Las pruebas unitarias son esenciales para garantizar que el código funcione correctamente. En Luminus, se pueden utilizar herramientas como Midje o clojure.test para escribir pruebas unitarias.</li>
+<li>Mantener un código limpio y legible: Es importante seguir buenas prácticas de codificación, como utilizar nombres descriptivos de variables y funciones, y mantener una estructura coherente en el código.</li>
+</ul>
+<h3 id="patrones-de-diseno">Patrones de diseño<a class="headerlink" href="#patrones-de-diseno" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Modelo-Vista-Controlador (MVC): Luminus sigue el patrón de diseño MVC, donde el modelo es la lógica de negocio, la vista es la presentación de datos y el controlador maneja las solicitudes del usuario y las comunica con el modelo y la vista.</li>
+<li>Inyección de dependencias: Este patrón se utiliza para gestionar las dependencias entre diferentes componentes de una aplicación. En Luminus, se puede utilizar la biblioteca integrada integrant para implementar la inyección de dependencias.</li>
+<li>Middleware: El uso de middleware es un patrón común en Luminus para agregar funcionalidades a una aplicación sin modificar el código existente. El middleware se ejecuta antes o después de una solicitud, lo que permite agregar funcionalidades de manera modular.</li>
+<li>Arquitectura de microservicios: En lugar de construir una aplicación monolítica, Luminus permite implementar una arquitectura de microservicios, donde cada servicio es una aplicación independiente y se comunica con otros servicios a través de API.</li>
+</ul>
+<h2 id="2-palabras-clave-y-su-definicion">2. Palabras clave y su definición<a class="headerlink" href="#2-palabras-clave-y-su-definicion" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Funciones puras: Funciones que no tienen efectos secundarios y siempre producen el mismo resultado para los mismos argumentos.</li>
+<li>Estructuras de datos inmutables: Estructuras de datos que no pueden ser modificadas después de su creación.</li>
+<li>Macros: Estructuras de código que se expanden en el código fuente durante la compilación.</li>
+<li>Pruebas unitarias: Pruebas que se enfocan en probar una unidad de código aislada, como una función o un módulo.</li>
+<li>MVC: Patrón de diseño que separa la lógica de negocio, la presentación y la gestión de solicitudes en tres componentes diferentes.</li>
+<li>Inyección de dependencias: Patrón que permite gestionar las dependencias entre diferentes componentes de una aplicación.</li>
+<li>Middleware: Software que se ejecuta antes o después de una solicitud y permite agregar funcionalidades de manera modular.</li>
+<li>Arquitectura de microservicios: Enfoque de diseño de aplicaciones donde cada servicio es una aplicación independiente y se comunica con otros servicios a través de API.</li>
+</ul>
+<h2 id="3-preguntas-de-repaso">3. Preguntas de repaso<a class="headerlink" href="#3-preguntas-de-repaso" title="Permanent link">&para;</a></h2>
+<ol>
+<li>¿Cuáles son las mejores prácticas en Luminus Framework?</li>
+<li>¿Qué es la inyección de dependencias y cómo se puede implementar en Luminus?</li>
+<li>¿Cuáles son los beneficios de utilizar funciones puras en una aplicación Luminus?</li>
+<li>¿Cómo se puede separar la lógica de negocio de la presentación en una aplicación Luminus?</li>
+<li>¿Qué patrón de diseño sigue Luminus y cómo se divide en componentes?</li>
+</ol>
+<h2 id="4-ejemplos-de-codigo-en-luminus-framework">4. Ejemplos de código en Luminus Framework<a class="headerlink" href="#4-ejemplos-de-codigo-en-luminus-framework" title="Permanent link">&para;</a></h2>
+<h3 id="uso-de-funciones-puras">Uso de funciones puras<a class="headerlink" href="#uso-de-funciones-puras" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><code><span class="p">(</span><span class="kd">defn </span><span class="nb">sum</span><span class="w"> </span><span class="p">[</span><span class="nv">x</span><span class="w"> </span><span class="nv">y</span><span class="p">]</span>
+<span class="w">  </span><span class="p">(</span><span class="nf">+</span><span class="w"> </span><span class="nv">x</span><span class="w"> </span><span class="nv">y</span><span class="p">))</span>
+</code></pre></div>
+
+<h3 id="implementacion-de-inyeccion-de-dependencias-con-integrant">Implementación de inyección de dependencias con integrant<a class="headerlink" href="#implementacion-de-inyeccion-de-dependencias-con-integrant" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><code>(require &#39;[integrant.core :as ig])
+
+(def system
+  (ig/init
+    {:db (ig/component (create-db))
+     :service (ig/component (create-service))}))
+</code></pre></div>
+
+<h3 id="creacion-de-una-vista">Creación de una vista<a class="headerlink" href="#creacion-de-una-vista" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><code><span class="p">(</span><span class="kd">defn </span><span class="nv">index</span><span class="w"> </span><span class="p">[]</span>
+<span class="w">  </span><span class="p">[</span><span class="ss">:div</span>
+<span class="w">    </span><span class="p">[</span><span class="ss">:h1</span><span class="w"> </span><span class="s">&quot;Bienvenido a mi aplicación&quot;</span><span class="p">]</span>
+<span class="w">    </span><span class="p">[</span><span class="ss">:p</span><span class="w"> </span><span class="s">&quot;Esta es una vista creada con Luminus&quot;</span><span class="p">]])</span>
+</code></pre></div>
+
+<h3 id="implementacion-de-middleware">Implementación de middleware<a class="headerlink" href="#implementacion-de-middleware" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><code><span class="p">(</span><span class="kd">defn </span><span class="nv">wrap-time</span><span class="w"> </span><span class="p">[</span><span class="nv">handler</span><span class="p">]</span>
+<span class="w">  </span><span class="p">(</span><span class="kd">fn </span><span class="p">[</span><span class="nv">request</span><span class="p">]</span>
+<span class="w">    </span><span class="p">(</span><span class="k">let </span><span class="p">[</span><span class="nv">start</span><span class="w"> </span><span class="p">(</span><span class="nf">System/currentTimeMillis</span><span class="p">)</span>
+<span class="w">          </span><span class="nv">response</span><span class="w"> </span><span class="p">(</span><span class="nf">handler</span><span class="w"> </span><span class="nv">request</span><span class="p">)</span>
+<span class="w">          </span><span class="nv">end</span><span class="w"> </span><span class="p">(</span><span class="nf">System/currentTimeMillis</span><span class="p">)]</span>
+<span class="w">      </span><span class="p">(</span><span class="nf">println</span><span class="w"> </span><span class="p">(</span><span class="nb">str</span><span class="w"> </span><span class="s">&quot;Tiempo de respuesta: &quot;</span><span class="w"> </span><span class="p">(</span><span class="nf">-</span><span class="w"> </span><span class="nv">end</span><span class="w"> </span><span class="nv">start</span><span class="p">)))</span>
+<span class="w">      </span><span class="nv">response</span><span class="p">)))</span>
+
+<span class="p">(</span><span class="kd">defn </span><span class="nv">index</span><span class="w"> </span><span class="p">[]</span>
+<span class="w">  </span><span class="p">[</span><span class="ss">:h1</span><span class="w"> </span><span class="s">&quot;Esta es mi página principal&quot;</span><span class="p">])</span>
+
+<span class="p">(</span><span class="kd">def </span><span class="nv">app</span>
+<span class="w">  </span><span class="p">(</span><span class="k">-&gt; </span><span class="p">(</span><span class="nf">handler/site</span><span class="w"> </span><span class="nv">app-routes</span><span class="p">)</span>
+<span class="w">      </span><span class="p">(</span><span class="nf">wrap-time</span><span class="p">)))</span>
+</code></pre></div>
+
+<h2 id="5-ejercicios-practicos-con-instrucciones-claras">5. Ejercicios prácticos con instrucciones claras<a class="headerlink" href="#5-ejercicios-practicos-con-instrucciones-claras" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Crea una función que reciba un número y devuelva el resultado de su cuadrado.</li>
+<li>Implementa la inyección de dependencias en una aplicación Luminus utilizando la biblioteca integrant.</li>
+<li>Crea una vista en tu aplicación Luminus que muestre una lista de usuarios y sus respectivos correos electrónicos.</li>
+<li>Agrega un middleware a tu aplicación Luminus que registre el tiempo de respuesta de cada solicitud.</li>
+<li>Implementa una arquitectura de microservicios en una aplicación Luminus, donde cada servicio sea responsable de una funcionalidad específica.</li>
+</ol>
+<h2 id="6-consejos-o-mejores-practicas">6. Consejos o mejores prácticas<a class="headerlink" href="#6-consejos-o-mejores-practicas" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Sigue las convenciones de nombres de Luminus: Utilizar nombres descriptivos para las funciones, utilizar la convención de nombres de clojure para las variables (snake_case) y utilizar el idioma inglés.</li>
+<li>Utiliza módulos y namespaces: Organiza tu código en módulos y namespaces para mantener una estructura clara y evitar conflictos entre nombres.</li>
+<li>Usa bibliotecas de terceros: Luminus tiene una amplia comunidad con muchas bibliotecas útiles que pueden ayudar a mejorar tu aplicación.</li>
+<li>Realiza pruebas unitarias: No subestimes la importancia de las pruebas unitarias, ya que te ayudarán a detectar errores y asegurar que el código funcione como se espera.</li>
+</ul></p>
+    </article>
+</section>
+            <!-- endblock -->
+
+            <!-- block footer -->
+                <footer>
+    <div class="d-flex flex-sm-row justify-content-between py-2 border-top drac-text-black drac-bg-cyan-green">
+        <a href="https://github.com/dracula/mkdocs" target="_blank" style="padding-left: 1%;"
+            class="footer-text drac-anchor drac-text-black drac-text-purple--hover">
+            Made with Dracula Theme for MkDocs
+        </a>
+    </div>
+</footer>
+            <!-- endblock -->
+        </div>
+
+    </main>
+
+        <script>var base_url = '../../..';</script>
+        <script src="../../../assets/js/jquery-3.3.1.slim.min.js"></script>
+        <script src="../../../assets/js/bootstrap.bundle.min.js"></script>
+        <script src="../../../assets/js/mkdocs.js"></script>
+			<script src="../../../search/main.js" defer></script>
+
+</body>
+
+</html>

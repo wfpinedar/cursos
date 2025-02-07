@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+        <title>Concurrencia en Elixir - Mis cursos</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="../../../assets/css/darcula-highlight.min.css">
+
+        <link rel="stylesheet" href="../../../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../../assets/css/dracula-ui.min.css">
+        <link rel="stylesheet" href="../../../assets/css/mkdocs.min.css">
+
+        
+            <link  rel="icon" type="image/x-icon" href="../../../assets/img/favicon.ico">
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+                <script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+
+<body class="drac-bg-black-secondary drac-text-grey-ternary drac-text drac-scrollbar-purple">
+
+    <main class="d-flex">
+
+        <!-- block sidebar -->
+            <nav id="sidebar" class="sidebar drac-bg-black">
+    <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="btn btn-primary">
+            <i class="fa fa-bars"></i>
+            <span class="sr-only">Menu</span>
+        </button>
+    </div>
+
+    <div class="p-4">
+        
+
+        <div class="drac-text-center">
+            
+                <span class="drac-text drac-line-height drac-text-white">Mis cursos</span>
+            
+        </div>
+
+        <div class="drac-box flex-column">
+            <ul class="dot-ul">
+                <li><div class="dot-li drac-bg-cyan"></div></li>
+                <li><div class="dot-li drac-bg-green"></div></li>
+                <li><div class="dot-li drac-bg-orange"></div></li>
+                <li><div class="dot-li drac-bg-pink"></div></li>
+                <li><div class="dot-li drac-bg-purple"></div></li>
+                <li><div class="dot-li drac-bg-red"></div></li>
+                <li><div class="dot-li drac-bg-yellow"></div></li>
+            </ul>
+        </div>
+
+        <hr class="drac-divider" />
+
+        <!-- block menu -->
+        <ul class="mb-5 drac-list drac-list-none">
+            
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Introducción
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#clojure-collapse" aria-expanded="false">
+                    Clojure
+                </a>
+                <div class="collapse" id="clojure-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Introducción
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/Junior/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Junior
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/mid/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Middle
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/senior/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Senior
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <!-- endblock -->
+    </div>
+</nav>
+        <!-- endblock -->
+
+        <nav class="divider drac-bg-purple-cyan"></nav>
+
+        <div class="content">
+            <!-- block header -->
+                <header>
+    <nav class="navbar navbar-expand-xl drac-bg-purple">
+        <div class="container-fluid">
+            
+            <button class="navbar-toggler w-100 text-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsMenu"
+                aria-controls="navbarsMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse flex-column ml-auto" id="navbarsMenu">
+                <ul class="navbar-nav text-md-center">
+
+                    <!-- block preview -->
+                    <li class="nav-item">
+                            
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block search -->
+                    <li class="nav-item"><div role="search" class="search-box">
+	<form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+		<input type="text" name="q" class="drac-input drac-input-search drac-input-white drac-text-white drac-bg-black-secondary"
+		placeholder="Search docs" title="Type search term here" />
+	</form>
+</div>
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block source -->
+                    <li class="nav-item">
+                        
+                            
+                        
+                    </li>
+                    <!--  endblock -->
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+            <!-- endblock -->
+
+            <!-- block content -->
+                <section class="p-md-5 section-content">
+    <article>
+        <p><h1 id="concurrencia-en-elixir">Concurrencia en Elixir<a class="headerlink" href="#concurrencia-en-elixir" title="Permanent link">&para;</a></h1>
+<p>La concurrencia en Elixir se refiere a la capacidad de manejar múltiples procesos de forma eficiente. Esto significa que varios procesos pueden ejecutarse simultáneamente y compartir recursos de manera segura y controlada. Esto es posible gracias al modelo de concurrencia basado en el actor que utiliza Elixir, donde cada proceso se comporta como un actor independiente que se comunica con otros procesos a través de mensajes.</p>
+<h2 id="explicacion-teorica">Explicación teórica<a class="headerlink" href="#explicacion-teorica" title="Permanent link">&para;</a></h2>
+<p>La concurrencia en Elixir se basa en el concepto de procesos livianos, también conocidos como procesos de Erlang (el lenguaje en el que se basa Elixir). Estos procesos son diferentes a los procesos del sistema operativo, ya que son creados y administrados por la máquina virtual de Elixir y pueden tener un tamaño de memoria mucho más pequeño. Esto permite a Elixir crear y manejar miles de procesos en una sola máquina virtual, lo que lo hace ideal para aplicaciones que requieren una alta concurrencia.</p>
+<p>Los procesos en Elixir se comunican entre sí enviando mensajes, que son en realidad datos inmutables. Esto significa que no se pueden modificar, por lo que no hay problemas de concurrencia al compartir datos entre procesos. Además, Elixir utiliza un mecanismo de paso de mensajes asíncrono, lo que significa que un proceso puede enviar un mensaje a otro proceso y seguir ejecutando su propio código sin tener que esperar una respuesta. Esto permite una comunicación eficiente entre procesos sin bloquear la ejecución.</p>
+<p>Otra característica importante de la concurrencia en Elixir es la capacidad de manejar errores de forma controlada. Cada proceso tiene su propio manejo de errores, lo que significa que un proceso puede fallar sin afectar a otros procesos en ejecución. Además, Elixir proporciona mecanismos para supervisar y reiniciar procesos en caso de errores, lo que aumenta la tolerancia a fallos de las aplicaciones.</p>
+<h2 id="palabras-clave-y-su-definicion">Palabras clave y su definición<a class="headerlink" href="#palabras-clave-y-su-definicion" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Concurrency: El manejo de múltiples procesos que se ejecutan simultáneamente y comparten recursos de forma controlada.</li>
+<li>Process: Un proceso en Elixir es una unidad de ejecución liviana que se comunica con otros procesos a través de mensajes.</li>
+<li>Actor model: Un modelo de concurrencia donde cada proceso se comporta como un actor independiente que se comunica a través de mensajes.</li>
+<li>Message passing: El mecanismo utilizado por Elixir para que los procesos se comuniquen entre sí enviando mensajes.</li>
+<li>Immutable data: Datos que no pueden ser modificados después de su creación, lo que garantiza una comunicación segura entre procesos.</li>
+<li>Asynchronous: Un tipo de comunicación en la que un proceso puede enviar un mensaje y continuar ejecutando su propio código sin tener que esperar una respuesta.</li>
+<li>Error handling: El manejo de errores en los procesos, que se hace de forma individual para cada proceso en Elixir.</li>
+<li>Supervision: Un mecanismo en Elixir para monitorear y reiniciar procesos en caso de errores.</li>
+</ul>
+<h2 id="preguntas-de-repaso">Preguntas de repaso<a class="headerlink" href="#preguntas-de-repaso" title="Permanent link">&para;</a></h2>
+<ol>
+<li>¿Qué es la concurrencia en Elixir?</li>
+<li>¿En qué se diferencia un proceso en Elixir de un proceso del sistema operativo?</li>
+<li>¿Cómo se comunican los procesos en Elixir?</li>
+<li>¿Qué es el modelo de actores?</li>
+<li>¿Qué es el mecanismo de paso de mensajes asíncrono?</li>
+<li>¿Cómo maneja Elixir los errores en los procesos?</li>
+<li>¿Qué es la supervisión en Elixir?</li>
+<li>¿Por qué es importante que los datos sean inmutables en un entorno de concurrencia?</li>
+</ol>
+<h2 id="ejemplos-de-codigo-en-elixir">Ejemplos de código en Elixir<a class="headerlink" href="#ejemplos-de-codigo-en-elixir" title="Permanent link">&para;</a></h2>
+<h3 id="crear-un-proceso-en-elixir">Crear un proceso en Elixir<a class="headerlink" href="#crear-un-proceso-en-elixir" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><code><span class="n">pid</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">spawn</span><span class="p">(</span><span class="n">fn</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="s">&quot;Hola, soy un proceso!&quot;</span><span class="w"> </span><span class="kd">end)</span>
+</code></pre></div>
+
+<p>Este código creará un nuevo proceso que imprimirá "Hola, soy un proceso!" cuando se le envíe un mensaje.</p>
+<h3 id="enviar-y-recibir-mensajes-entre-procesos">Enviar y recibir mensajes entre procesos<a class="headerlink" href="#enviar-y-recibir-mensajes-entre-procesos" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><code><span class="n">pid</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">spawn</span><span class="p">(</span><span class="n">fn</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">receive</span><span class="w"> </span><span class="n">do</span>
+<span class="w">  </span><span class="n">mensaje</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">IO</span><span class="p">.</span><span class="n">puts</span><span class="p">(</span><span class="s">&quot;He recibido un mensaje: #{mensaje}&quot;</span><span class="p">)</span>
+<span class="kd">end end)</span>
+
+<span class="n">send</span><span class="p">(</span><span class="n">pid</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;Hola desde el proceso padre!&quot;</span><span class="p">)</span>
+</code></pre></div>
+
+<p>Este código creará un proceso que espera recibir un mensaje y luego imprimirá ese mensaje. Luego, el proceso padre enviará un mensaje al proceso recién creado.</p>
+<h2 id="ejercicios-practicos-con-instrucciones-claras">Ejercicios prácticos con instrucciones claras<a class="headerlink" href="#ejercicios-practicos-con-instrucciones-claras" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Crea una función en Elixir que genere un número aleatorio y lo envíe como mensaje a otro proceso. El otro proceso debe imprimir el número recibido.</li>
+<li>Crea dos procesos en Elixir y haz que se comuniquen entre sí enviando mensajes. El primer proceso debe imprimir "Hola" y el segundo proceso debe responder con "Hola de vuelta".</li>
+<li>Crea una función en Elixir que calcule el factorial de un número y lo envíe como mensaje a otro proceso. El otro proceso debe imprimir el resultado recibido.</li>
+</ol>
+<h2 id="consejos-o-mejores-practicas">Consejos o mejores prácticas<a class="headerlink" href="#consejos-o-mejores-practicas" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Utiliza procesos en lugar de hilos para lograr una concurrencia más eficiente y segura en Elixir.</li>
+<li>Utiliza el modelo de actores para manejar los procesos de forma independiente y asegurar una comunicación segura entre ellos.</li>
+<li>Utiliza el mecanismo de supervisión para manejar errores en los procesos y aumentar la tolerancia a fallos de las aplicaciones.</li>
+<li>Utiliza datos inmutables en la comunicación entre procesos para evitar problemas de concurrencia.</li>
+<li>Evita bloquear la ejecución de procesos con llamadas síncronas, utiliza el paso de mensajes asíncrono siempre que sea posible.</li>
+</ul></p>
+    </article>
+</section>
+            <!-- endblock -->
+
+            <!-- block footer -->
+                <footer>
+    <div class="d-flex flex-sm-row justify-content-between py-2 border-top drac-text-black drac-bg-cyan-green">
+        <a href="https://github.com/dracula/mkdocs" target="_blank" style="padding-left: 1%;"
+            class="footer-text drac-anchor drac-text-black drac-text-purple--hover">
+            Made with Dracula Theme for MkDocs
+        </a>
+    </div>
+</footer>
+            <!-- endblock -->
+        </div>
+
+    </main>
+
+        <script>var base_url = '../../..';</script>
+        <script src="../../../assets/js/jquery-3.3.1.slim.min.js"></script>
+        <script src="../../../assets/js/bootstrap.bundle.min.js"></script>
+        <script src="../../../assets/js/mkdocs.js"></script>
+			<script src="../../../search/main.js" defer></script>
+
+</body>
+
+</html>

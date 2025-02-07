@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+        <title>Desarrollo de aplicaciones concurrentes - Mis cursos</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="../../../assets/css/darcula-highlight.min.css">
+
+        <link rel="stylesheet" href="../../../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../../assets/css/dracula-ui.min.css">
+        <link rel="stylesheet" href="../../../assets/css/mkdocs.min.css">
+
+        
+            <link  rel="icon" type="image/x-icon" href="../../../assets/img/favicon.ico">
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+                <script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+
+<body class="drac-bg-black-secondary drac-text-grey-ternary drac-text drac-scrollbar-purple">
+
+    <main class="d-flex">
+
+        <!-- block sidebar -->
+            <nav id="sidebar" class="sidebar drac-bg-black">
+    <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="btn btn-primary">
+            <i class="fa fa-bars"></i>
+            <span class="sr-only">Menu</span>
+        </button>
+    </div>
+
+    <div class="p-4">
+        
+
+        <div class="drac-text-center">
+            
+                <span class="drac-text drac-line-height drac-text-white">Mis cursos</span>
+            
+        </div>
+
+        <div class="drac-box flex-column">
+            <ul class="dot-ul">
+                <li><div class="dot-li drac-bg-cyan"></div></li>
+                <li><div class="dot-li drac-bg-green"></div></li>
+                <li><div class="dot-li drac-bg-orange"></div></li>
+                <li><div class="dot-li drac-bg-pink"></div></li>
+                <li><div class="dot-li drac-bg-purple"></div></li>
+                <li><div class="dot-li drac-bg-red"></div></li>
+                <li><div class="dot-li drac-bg-yellow"></div></li>
+            </ul>
+        </div>
+
+        <hr class="drac-divider" />
+
+        <!-- block menu -->
+        <ul class="mb-5 drac-list drac-list-none">
+            
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Introducción
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#clojure-collapse" aria-expanded="false">
+                    Clojure
+                </a>
+                <div class="collapse" id="clojure-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Introducción
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/Junior/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Junior
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/mid/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Middle
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/senior/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Senior
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <!-- endblock -->
+    </div>
+</nav>
+        <!-- endblock -->
+
+        <nav class="divider drac-bg-purple-cyan"></nav>
+
+        <div class="content">
+            <!-- block header -->
+                <header>
+    <nav class="navbar navbar-expand-xl drac-bg-purple">
+        <div class="container-fluid">
+            
+            <button class="navbar-toggler w-100 text-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsMenu"
+                aria-controls="navbarsMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse flex-column ml-auto" id="navbarsMenu">
+                <ul class="navbar-nav text-md-center">
+
+                    <!-- block preview -->
+                    <li class="nav-item">
+                            
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block search -->
+                    <li class="nav-item"><div role="search" class="search-box">
+	<form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+		<input type="text" name="q" class="drac-input drac-input-search drac-input-white drac-text-white drac-bg-black-secondary"
+		placeholder="Search docs" title="Type search term here" />
+	</form>
+</div>
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block source -->
+                    <li class="nav-item">
+                        
+                            
+                        
+                    </li>
+                    <!--  endblock -->
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+            <!-- endblock -->
+
+            <!-- block content -->
+                <section class="p-md-5 section-content">
+    <article>
+        <p><h1 id="desarrollo-de-aplicaciones-concurrentes">Desarrollo de aplicaciones concurrentes<a class="headerlink" href="#desarrollo-de-aplicaciones-concurrentes" title="Permanent link">&para;</a></h1>
+<h2 id="explicacion-teorica">Explicación teórica<a class="headerlink" href="#explicacion-teorica" title="Permanent link">&para;</a></h2>
+<p>En Elixir, la concurrencia se refiere a la capacidad de ejecutar múltiples procesos al mismo tiempo. Esto es posible gracias al modelo de concurrencia de Elixir, basado en el modelo de actores. En este modelo, los procesos se comunican entre sí enviando y recibiendo mensajes, lo que permite una comunicación eficiente y segura entre procesos.</p>
+<p>La concurrencia es esencial en el desarrollo de aplicaciones escalables y distribuidas, ya que permite aprovechar al máximo los recursos del sistema y mejorar el rendimiento de la aplicación. Además, en Elixir la concurrencia se logra de forma natural, ya que los procesos son ligeros y se crean y destruyen de manera eficiente.</p>
+<p>Para desarrollar aplicaciones concurrentes en Elixir, es importante entender los diferentes patrones y técnicas que ofrece el lenguaje. Algunos de los más comunes son:</p>
+<ul>
+<li>Supervisor: se encarga de iniciar, supervisar y reiniciar procesos en caso de que falle.</li>
+<li>GenServer: se utiliza para crear procesos que mantienen un estado y pueden recibir y enviar mensajes.</li>
+<li>Task: permite ejecutar tareas en segundo plano de forma asíncrona.</li>
+<li>Agent: se utiliza para gestionar el estado de una sola entidad de forma concurrente.</li>
+</ul>
+<h2 id="palabras-clave-y-su-definicion">Palabras clave y su definición<a class="headerlink" href="#palabras-clave-y-su-definicion" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Concurrencia: capacidad de ejecutar múltiples procesos al mismo tiempo.</li>
+<li>Modelo de actores: modelo de concurrencia basado en el envío y recepción de mensajes entre procesos.</li>
+<li>Proceso: unidad de ejecución en Elixir.</li>
+<li>Mensaje: forma de comunicación entre procesos en el modelo de actores.</li>
+<li>Escalabilidad: capacidad de una aplicación de crecer y adaptarse a un aumento en la demanda de recursos.</li>
+<li>Distribución: capacidad de una aplicación de ejecutarse en múltiples nodos o máquinas.</li>
+</ul>
+<h2 id="preguntas-de-repaso">Preguntas de repaso<a class="headerlink" href="#preguntas-de-repaso" title="Permanent link">&para;</a></h2>
+<ol>
+<li>¿Qué es la concurrencia y por qué es importante en el desarrollo de aplicaciones?</li>
+<li>¿Cómo se logra la concurrencia en Elixir?</li>
+<li>¿Cuáles son algunos de los patrones y técnicas que se utilizan en Elixir para desarrollar aplicaciones concurrentes?</li>
+<li>¿Qué es el modelo de actores y cómo se relaciona con la concurrencia en Elixir?</li>
+<li>¿Cuál es la diferencia entre escalabilidad y distribución en el contexto de aplicaciones concurrentes?</li>
+</ol>
+<h2 id="ejemplos-de-codigo-en-elixir">Ejemplos de código en Elixir<a class="headerlink" href="#ejemplos-de-codigo-en-elixir" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Ejemplo de creación de un proceso con Supervisor:</li>
+</ol>
+<div class="codehilite"><pre><span></span><code><span class="kd">defmodule</span><span class="w"> </span><span class="nc">MiProceso</span><span class="w"> </span><span class="k">do</span>
+<span class="w">  </span><span class="kn">use</span><span class="w"> </span><span class="nc">GenServer</span>
+
+<span class="w">  </span><span class="c1"># funciones de GenServer</span>
+<span class="k">end</span>
+
+<span class="kd">defmodule</span><span class="w"> </span><span class="nc">MiSupervisor</span><span class="w"> </span><span class="k">do</span>
+<span class="w">  </span><span class="kn">use</span><span class="w"> </span><span class="nc">Supervisor</span>
+
+<span class="w">  </span><span class="kd">def</span><span class="w"> </span><span class="n">start_link</span><span class="w"> </span><span class="k">do</span>
+<span class="w">    </span><span class="nc">Supervisor</span><span class="o">.</span><span class="n">start_link</span><span class="p">(</span><span class="bp">__MODULE__</span><span class="p">,</span><span class="w"> </span><span class="p">[])</span>
+<span class="w">  </span><span class="k">end</span>
+
+<span class="w">  </span><span class="kd">def</span><span class="w"> </span><span class="n">init</span><span class="p">(</span><span class="bp">_</span><span class="p">)</span><span class="w"> </span><span class="k">do</span>
+<span class="w">    </span><span class="n">children</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[</span>
+<span class="w">      </span><span class="n">worker</span><span class="p">(</span><span class="nc">MiProceso</span><span class="p">,</span><span class="w"> </span><span class="p">[])</span>
+<span class="w">    </span><span class="p">]</span>
+<span class="w">    </span><span class="n">supervise</span><span class="p">(</span><span class="n">children</span><span class="p">,</span><span class="w"> </span><span class="ss">strategy</span><span class="p">:</span><span class="w"> </span><span class="ss">:one_for_one</span><span class="p">)</span>
+<span class="w">  </span><span class="k">end</span>
+<span class="k">end</span>
+</code></pre></div>
+
+<ol>
+<li>Ejemplo de uso de GenServer para crear un proceso que mantiene un contador:</li>
+</ol>
+<div class="codehilite"><pre><span></span><code><span class="kd">defmodule</span><span class="w"> </span><span class="nc">Contador</span><span class="w"> </span><span class="k">do</span>
+<span class="w">  </span><span class="kn">use</span><span class="w"> </span><span class="nc">GenServer</span>
+
+<span class="w">  </span><span class="kd">def</span><span class="w"> </span><span class="n">start_link</span><span class="w"> </span><span class="k">do</span>
+<span class="w">    </span><span class="nc">GenServer</span><span class="o">.</span><span class="n">start_link</span><span class="p">(</span><span class="bp">__MODULE__</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span>
+<span class="w">  </span><span class="k">end</span>
+
+<span class="w">  </span><span class="kd">def</span><span class="w"> </span><span class="n">inc</span><span class="w"> </span><span class="k">do</span>
+<span class="w">    </span><span class="nc">GenServer</span><span class="o">.</span><span class="n">cast</span><span class="p">(</span><span class="bp">__MODULE__</span><span class="p">,</span><span class="w"> </span><span class="ss">:inc</span><span class="p">)</span>
+<span class="w">  </span><span class="k">end</span>
+
+<span class="w">  </span><span class="kd">def</span><span class="w"> </span><span class="n">handle_cast</span><span class="p">(</span><span class="ss">:inc</span><span class="p">,</span><span class="w"> </span><span class="n">count</span><span class="p">)</span><span class="w"> </span><span class="k">do</span>
+<span class="w">    </span><span class="p">{</span><span class="ss">:noreply</span><span class="p">,</span><span class="w"> </span><span class="n">count</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">}</span>
+<span class="w">  </span><span class="k">end</span>
+<span class="k">end</span>
+</code></pre></div>
+
+<h2 id="ejercicios-practicos-con-instrucciones-claras">Ejercicios prácticos con instrucciones claras<a class="headerlink" href="#ejercicios-practicos-con-instrucciones-claras" title="Permanent link">&para;</a></h2>
+<ol>
+<li>
+<p>Crea un supervisor que supervise un proceso que mantenga una lista de nombres. El proceso debe tener las funciones <code>add/1</code> para agregar un nombre a la lista, <code>remove/1</code> para eliminar un nombre de la lista y <code>get_all/0</code> para obtener la lista completa.</p>
+</li>
+<li>
+<p>Crea un GenServer que mantenga un contador y tenga las funciones <code>increment/0</code> para aumentar el contador en 1 y <code>get_count/0</code> para obtener el valor actual del contador.</p>
+</li>
+<li>
+<p>Utiliza el módulo Task para ejecutar una función en segundo plano y obtener su resultado.</p>
+</li>
+</ol>
+<h2 id="consejos-o-mejores-practicas">Consejos o mejores prácticas<a class="headerlink" href="#consejos-o-mejores-practicas" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Utiliza el modelo de actores de forma adecuada, enviando mensajes y evitando el uso de variables compartidas.</li>
+<li>Utiliza supervisores para gestionar la creación y reinicio de procesos en caso de fallos.</li>
+<li>Utiliza patrones como GenServer y Agent para gestionar el estado de forma concurrente.</li>
+<li>Evita bloquear procesos con operaciones costosas, como llamadas a la base de datos, y utiliza tareas en segundo plano si es necesario.</li>
+</ul></p>
+    </article>
+</section>
+            <!-- endblock -->
+
+            <!-- block footer -->
+                <footer>
+    <div class="d-flex flex-sm-row justify-content-between py-2 border-top drac-text-black drac-bg-cyan-green">
+        <a href="https://github.com/dracula/mkdocs" target="_blank" style="padding-left: 1%;"
+            class="footer-text drac-anchor drac-text-black drac-text-purple--hover">
+            Made with Dracula Theme for MkDocs
+        </a>
+    </div>
+</footer>
+            <!-- endblock -->
+        </div>
+
+    </main>
+
+        <script>var base_url = '../../..';</script>
+        <script src="../../../assets/js/jquery-3.3.1.slim.min.js"></script>
+        <script src="../../../assets/js/bootstrap.bundle.min.js"></script>
+        <script src="../../../assets/js/mkdocs.js"></script>
+			<script src="../../../search/main.js" defer></script>
+
+</body>
+
+</html>

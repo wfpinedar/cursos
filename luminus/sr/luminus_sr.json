@@ -1,0 +1,21 @@
+{
+  "nivel": "De Senior a Experto",
+  "temas": [
+    {"module_title": "Profundización en Luminus Framework", 
+    "module_description": "En este módulo se profundizará en el funcionamiento interno de Luminus Framework y se abordarán temas más avanzados, como la creación de plugins y la extensión del framework."},
+    {"module_title": "Desarrollo de aplicaciones en grandes proyectos", 
+    "module_description": "En este módulo se explicará cómo trabajar con Luminus en grandes proyectos, cómo estructurar y organizar el código y cómo utilizar herramientas de colaboración y seguimiento de cambios."},
+    {"module_title": "Integración con tecnologías emergentes", 
+    "module_description": "En este módulo se enseñará cómo integrar Luminus con tecnologías emergentes, como inteligencia artificial, internet de las cosas o blockchain. Se verá cómo utilizar APIs y cómo desarrollar aplicaciones que utilicen estas tecnologías."},
+    {"module_title": "Mejores prácticas y patrones de diseño", 
+    "module_description": "En este módulo se explicará cómo aplicar las mejores prácticas y patrones de diseño en una aplicación en Luminus. Se verá cómo optimizar el código, cómo manejar errores y cómo implementar arquitecturas escalables y mantenibles."},
+    {"module_title": "Desarrollo de aplicaciones móviles", 
+    "module_description": "En este módulo se enseñará cómo desarrollar aplicaciones móviles utilizando Luminus y frameworks como React Native. Se verá cómo utilizar herramientas de desarrollo multiplataforma y cómo integrar una aplicación en Luminus con una aplicación móvil."},
+    {"module_title": "Gestión de proyectos y equipos", 
+    "module_description": "En este módulo se explicará cómo gestionar proyectos y equipos en el contexto de una aplicación en Luminus. Se verá cómo liderar un equipo de desarrollo, cómo manejar los recursos y cómo establecer objetivos y plazos."},
+    {"module_title": "Proceso de despliegue continuo", 
+    "module_description": "En este módulo se enseñará cómo implementar un proceso de despliegue continuo en una aplicación en Luminus utilizando herramientas como Jenkins o Travis CI. Se verá cómo automatizar las pruebas y el despliegue en diferentes entornos."},
+    {"module_title": "Proyecto final", 
+    "module_description": "En este módulo se realizará un proyecto final en el que se aplicarán todos los comceptos aprendidos"}
+  ]
+}

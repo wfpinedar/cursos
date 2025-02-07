@@ -1,0 +1,33 @@
+{
+  "nivel": "De Junior a Senior",
+  "temas": [
+    {
+      "module_title": "Middlewares y Plug",
+      "module_description": "Entender cómo funcionan los middlewares en Phoenix y cómo utilizar el módulo Plug para crear tus propios middlewares."
+    },
+    {
+      "module_title": "Endpoints y canales",
+      "module_description": "Aprende a trabajar con endpoints y canales en Phoenix para construir aplicaciones en tiempo real."
+    },
+    {
+      "module_title": "APIs en Phoenix",
+      "module_description": "Cómo crear y documentar una API en Phoenix utilizando herramientas como Swagger y ExDoc."
+    },
+    {
+      "module_title": "Pruebas en Phoenix",
+      "module_description": "Uso de herramientas como ExUnit y Hound para escribir pruebas automatizadas en Phoenix."
+    },
+    {
+      "module_title": "Integración con otras tecnologías",
+      "module_description": "Cómo integrar Phoenix con otras tecnologías como React, GraphQL y Elasticsearch para crear aplicaciones más robustas."
+    },
+    {
+      "module_title": "Optimización de rendimiento",
+      "module_description": "Consejos y técnicas para optimizar el rendimiento de una aplicación Phoenix y mejorar su escalabilidad."
+    },
+    {
+      "module_title": "Seguridad en Phoenix",
+      "module_description": "Cómo asegurar tu aplicación Phoenix contra vulnerabilidades comunes como ataques de XSS y CSRF."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "nivel": "De Junior a Senior",
+  "temas": [
+    {"module_title": "Programación funcional avanzada", 
+      "module_description": "Profundizar en los conceptos de la programación funcional en Elixir, incluyendo funciones de orden superior, funciones anónimas y módulos de funciones."},
+    {"module_title": "Estructuras de datos avanzadas", 
+      "module_description": "Explorar estructuras de datos avanzadas en Elixir, como mapas, diccionarios y estructuras de árbol."},
+    {"module_title": "Composición de procesos", 
+      "module_description": "Aprender a componer procesos en Elixir para crear sistemas escalables y distribuidos."},
+    {"module_title": "Supervisión avanzada de procesos", 
+      "module_description": "Profundizar en el sistema de supervisión de procesos en Elixir y cómo manejar errores en un sistema distribuido de forma eficiente."},
+    {"module_title": "Desarrollo de aplicaciones concurrentes", 
+      "module_description": "Aprender a desarrollar aplicaciones concurrentes y distribuidas utilizando diferentes patrones y técnicas en Elixir."},
+    {"module_title": "Optimización de rendimiento", 
+      "module_description": "Conocer técnicas para optimizar el rendimiento de aplicaciones Elixir, incluyendo el uso de procesos en paralelo y la gestión de memoria."},
+    {"module_title": "Desarrollo de aplicaciones de tiempo real", 
+      "module_description": "Explorar el desarrollo de aplicaciones de tiempo real utilizando Elixir y frameworks como Phoenix y GenStage."},
+    {"module_title": "Seguridad en aplicaciones Elixir", 
+      "module_description": "Aprender a aplicar buenas prácticas de seguridad en el desarrollo de aplicaciones Elixir, incluyendo la gestión de autenticación y autorización."},
+    {"module_title": "Integración con bases de datos", 
+      "module_description": "Conocer diferentes opciones de integración con bases de datos en aplicaciones Elixir, incluyendo el uso de Ecto y bases de datos NoSQL."},
+    {"module_title": "Diseño de APIs en Elixir", 
+      "module_description": "Aprender a diseñar y construir APIs RESTful utilizando Elixir y Phoenix."},
+    {"module_title": "Desarrollo de sistemas distribuidos", 
+      "module_description": "Explorar el desarrollo de sistemas distribuidos utilizando Elixir, incluyendo el uso de herramientas como Erlang Distribution y RabbitMQ."},
+    {"module_title": "Implementación de tolerancia a fallos", 
+      "module_description": "Conocer técnicas para implementar tolerancia a fallos en aplicaciones Elixir, incluyendo el uso de bibliotecas como Circuit Breaker y Supervisor."},
+    {"module_title": "Desarrollo de aplicaciones en tiempo real", 
+      "module_description": "Aprender a desarrollar aplicaciones en tiempo real utilizando Elixir y frameworks como Phoenix y WebSockets."}
+  ]
+}

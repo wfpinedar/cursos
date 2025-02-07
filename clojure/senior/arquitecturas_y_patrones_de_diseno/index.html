@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+        <title>Arquitecturas y patrones de diseño en Clojure - Mis cursos</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="../../../assets/css/darcula-highlight.min.css">
+
+        <link rel="stylesheet" href="../../../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../../assets/css/dracula-ui.min.css">
+        <link rel="stylesheet" href="../../../assets/css/mkdocs.min.css">
+
+        
+            <link  rel="icon" type="image/x-icon" href="../../../assets/img/favicon.ico">
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+                <script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+
+<body class="drac-bg-black-secondary drac-text-grey-ternary drac-text drac-scrollbar-purple">
+
+    <main class="d-flex">
+
+        <!-- block sidebar -->
+            <nav id="sidebar" class="sidebar drac-bg-black">
+    <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="btn btn-primary">
+            <i class="fa fa-bars"></i>
+            <span class="sr-only">Menu</span>
+        </button>
+    </div>
+
+    <div class="p-4">
+        
+
+        <div class="drac-text-center">
+            
+                <span class="drac-text drac-line-height drac-text-white">Mis cursos</span>
+            
+        </div>
+
+        <div class="drac-box flex-column">
+            <ul class="dot-ul">
+                <li><div class="dot-li drac-bg-cyan"></div></li>
+                <li><div class="dot-li drac-bg-green"></div></li>
+                <li><div class="dot-li drac-bg-orange"></div></li>
+                <li><div class="dot-li drac-bg-pink"></div></li>
+                <li><div class="dot-li drac-bg-purple"></div></li>
+                <li><div class="dot-li drac-bg-red"></div></li>
+                <li><div class="dot-li drac-bg-yellow"></div></li>
+            </ul>
+        </div>
+
+        <hr class="drac-divider" />
+
+        <!-- block menu -->
+        <ul class="mb-5 drac-list drac-list-none">
+            
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Introducción
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#clojure-collapse" aria-expanded="false">
+                    Clojure
+                </a>
+                <div class="collapse" id="clojure-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Introducción
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../Junior/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Junior
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../mid/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Middle
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Senior
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <!-- endblock -->
+    </div>
+</nav>
+        <!-- endblock -->
+
+        <nav class="divider drac-bg-purple-cyan"></nav>
+
+        <div class="content">
+            <!-- block header -->
+                <header>
+    <nav class="navbar navbar-expand-xl drac-bg-purple">
+        <div class="container-fluid">
+            
+            <button class="navbar-toggler w-100 text-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsMenu"
+                aria-controls="navbarsMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse flex-column ml-auto" id="navbarsMenu">
+                <ul class="navbar-nav text-md-center">
+
+                    <!-- block preview -->
+                    <li class="nav-item">
+                            
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block search -->
+                    <li class="nav-item"><div role="search" class="search-box">
+	<form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+		<input type="text" name="q" class="drac-input drac-input-search drac-input-white drac-text-white drac-bg-black-secondary"
+		placeholder="Search docs" title="Type search term here" />
+	</form>
+</div>
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block source -->
+                    <li class="nav-item">
+                        
+                            
+                        
+                    </li>
+                    <!--  endblock -->
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+            <!-- endblock -->
+
+            <!-- block content -->
+                <section class="p-md-5 section-content">
+    <article>
+        <p><h1 id="arquitecturas-y-patrones-de-diseno-en-clojure">Arquitecturas y patrones de diseño en Clojure<a class="headerlink" href="#arquitecturas-y-patrones-de-diseno-en-clojure" title="Permanent link">&para;</a></h1>
+<h2 id="explicacion-teorica">Explicación teórica<a class="headerlink" href="#explicacion-teorica" title="Permanent link">&para;</a></h2>
+<p>Clojure es un lenguaje de programación funcional que se basa en la filosofía de "programación orientada a datos". Esto significa que todas las operaciones se realizan sobre estructuras de datos inmutables, lo que lo hace ideal para construir aplicaciones altamente escalables y mantenibles.</p>
+<p>Sin embargo, para construir aplicaciones complejas, es importante tener una comprensión clara de la arquitectura y los patrones de diseño en Clojure. Estos proporcionan una estructura y un enfoque para desarrollar aplicaciones que sean fáciles de entender, extender y mantener.</p>
+<p>En Clojure, hay dos arquitecturas principales que se utilizan comúnmente: Datomic y Component.</p>
+<h3 id="datomic">Datomic<a class="headerlink" href="#datomic" title="Permanent link">&para;</a></h3>
+<p>Datomic es una base de datos distribuida y orientada a tiempo que se integra perfectamente con Clojure. Utiliza un modelo de datos inmutable y transaccional, lo que lo hace ideal para aplicaciones que requieren una alta consistencia y escalabilidad.</p>
+<p>Una de las principales ventajas de Datomic es que permite realizar consultas en el tiempo, lo que significa que se pueden realizar consultas sobre cómo eran los datos en un momento específico en el pasado. Esto es especialmente útil en aplicaciones que manejan datos sensibles o críticos en el tiempo.</p>
+<h3 id="component">Component<a class="headerlink" href="#component" title="Permanent link">&para;</a></h3>
+<p>Component es un patrón de diseño que se utiliza para construir aplicaciones modulares y altamente extensibles en Clojure. Se basa en el principio de separar la lógica de la aplicación en componentes independientes y conectados.</p>
+<p>Cada componente es una entidad inmutable que encapsula un estado y una lógica de negocio específicos. Estos componentes se conectan entre sí mediante un sistema de dependencias, lo que permite una fácil reutilización y extensión de la funcionalidad de la aplicación.</p>
+<h2 id="palabras-clave-y-su-definicion">Palabras clave y su definición<a class="headerlink" href="#palabras-clave-y-su-definicion" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Inmutabilidad: significa que los datos no pueden modificarse una vez que se han creado. En Clojure, todos los datos son inmutables por defecto, lo que garantiza una mayor consistencia y evita errores comunes en el manejo de datos.</li>
+<li>Transaccional: se refiere a una operación que se realiza de forma completa o no se realiza en absoluto. En Datomic, todas las transacciones se realizan de manera atómica, lo que significa que se ejecutan completamente o no se ejecutan en absoluto.</li>
+<li>Modularidad: es un enfoque de programación que consiste en dividir una aplicación en componentes independientes y conectados. Esta técnica facilita la reutilización y extensión de la funcionalidad de la aplicación.</li>
+<li>Dependencias: se refiere a la relación entre diferentes componentes en una aplicación. En Component, los componentes están conectados entre sí a través de un sistema de dependencias, lo que permite una fácil gestión y extensión de la aplicación.</li>
+</ul>
+<h2 id="preguntas-de-repaso">Preguntas de repaso<a class="headerlink" href="#preguntas-de-repaso" title="Permanent link">&para;</a></h2>
+<ol>
+<li>¿Qué es Datomic y qué ventajas ofrece en el desarrollo de aplicaciones en Clojure?</li>
+<li>¿En qué se basa el patrón de diseño Component y qué beneficios ofrece en el desarrollo de aplicaciones en Clojure?</li>
+<li>¿Qué significa que los datos sean inmutables en Clojure?</li>
+<li>¿Cuál es la diferencia entre una operación transaccional y una no transaccional?</li>
+<li>¿Por qué es importante tener una arquitectura clara y bien definida en una aplicación en Clojure?</li>
+</ol>
+<h2 id="ejemplos-de-codigo-en-clojure">Ejemplos de código en Clojure<a class="headerlink" href="#ejemplos-de-codigo-en-clojure" title="Permanent link">&para;</a></h2>
+<h3 id="datomic_1">Datomic<a class="headerlink" href="#datomic_1" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><code><span class="p">(</span><span class="nf">require</span><span class="w"> </span><span class="o">&#39;</span><span class="p">[</span><span class="nv">datomic.api</span><span class="w"> </span><span class="ss">:as</span><span class="w"> </span><span class="nv">d</span><span class="p">])</span>
+
+<span class="p">(</span><span class="k">def </span><span class="nv">db-uri</span><span class="w"> </span><span class="s">&quot;datomic:mem://my-db&quot;</span><span class="p">)</span>
+
+<span class="p">(</span><span class="k">def </span><span class="nv">schema</span><span class="w"> </span><span class="p">[{</span><span class="ss">:db/ident</span><span class="w"> </span><span class="ss">:person/name</span>
+<span class="w">              </span><span class="ss">:db/valueType</span><span class="w"> </span><span class="ss">:db.type/string</span>
+<span class="w">              </span><span class="ss">:db/cardinality</span><span class="w"> </span><span class="ss">:db.cardinality/one</span>
+<span class="w">              </span><span class="ss">:db/unique</span><span class="w"> </span><span class="ss">:db.unique/identity</span><span class="p">}</span>
+<span class="w">             </span><span class="p">{</span><span class="ss">:db/ident</span><span class="w"> </span><span class="ss">:person/age</span>
+<span class="w">              </span><span class="ss">:db/valueType</span><span class="w"> </span><span class="ss">:db.type/long</span>
+<span class="w">              </span><span class="ss">:db/cardinality</span><span class="w"> </span><span class="ss">:db.cardinality/one</span><span class="p">}</span>
+<span class="w">             </span><span class="p">{</span><span class="ss">:db/ident</span><span class="w"> </span><span class="ss">:person/gender</span>
+<span class="w">              </span><span class="ss">:db/valueType</span><span class="w"> </span><span class="ss">:db.type/string</span>
+<span class="w">              </span><span class="ss">:db/cardinality</span><span class="w"> </span><span class="ss">:db.cardinality/one</span><span class="p">}</span>
+<span class="w">             </span><span class="p">{</span><span class="ss">:db/ident</span><span class="w"> </span><span class="ss">:person/country</span>
+<span class="w">              </span><span class="ss">:db/valueType</span><span class="w"> </span><span class="ss">:db.type/string</span>
+<span class="w">              </span><span class="ss">:db/cardinality</span><span class="w"> </span><span class="ss">:db.cardinality/one</span><span class="p">}])</span>
+
+<span class="p">(</span><span class="nf">d/create-database</span><span class="w"> </span><span class="nv">db-uri</span><span class="p">)</span>
+
+<span class="p">(</span><span class="k">def </span><span class="nv">conn</span><span class="w"> </span><span class="p">(</span><span class="nf">d/connect</span><span class="w"> </span><span class="nv">db-uri</span><span class="p">))</span>
+
+<span class="p">(</span><span class="nf">d/transact</span><span class="w"> </span><span class="nv">conn</span><span class="w"> </span><span class="nv">schema</span><span class="p">)</span>
+
+<span class="p">(</span><span class="k">def </span><span class="nv">person1</span><span class="w"> </span><span class="p">{</span><span class="ss">:db/id</span><span class="w"> </span><span class="o">#</span><span class="nv">db/id</span><span class="p">[</span><span class="ss">:db.part/user</span><span class="p">]</span>
+<span class="w">              </span><span class="ss">:person/name</span><span class="w"> </span><span class="s">&quot;John&quot;</span>
+<span class="w">              </span><span class="ss">:person/age</span><span class="w"> </span><span class="mi">30</span>
+<span class="w">              </span><span class="ss">:person/gender</span><span class="w"> </span><span class="s">&quot;Male&quot;</span>
+<span class="w">              </span><span class="ss">:person/country</span><span class="w"> </span><span class="s">&quot;USA&quot;</span><span class="p">})</span>
+
+<span class="p">(</span><span class="k">def </span><span class="nv">person2</span><span class="w"> </span><span class="p">{</span><span class="ss">:db/id</span><span class="w"> </span><span class="o">#</span><span class="nv">db/id</span><span class="p">[</span><span class="ss">:db.part/user</span><span class="p">]</span>
+<span class="w">              </span><span class="ss">:person/name</span><span class="w"> </span><span class="s">&quot;Jane&quot;</span>
+<span class="w">              </span><span class="ss">:person/age</span><span class="w"> </span><span class="mi">25</span>
+<span class="w">              </span><span class="ss">:person/gender</span><span class="w"> </span><span class="s">&quot;Female&quot;</span>
+<span class="w">              </span><span class="ss">:person/country</span><span class="w"> </span><span class="s">&quot;Canada&quot;</span><span class="p">})</span>
+
+<span class="p">(</span><span class="k">def </span><span class="nv">tx</span><span class="w"> </span><span class="p">(</span><span class="nf">d/transact</span><span class="w"> </span><span class="nv">conn</span><span class="w"> </span><span class="p">[</span><span class="nv">person1</span><span class="w"> </span><span class="nv">person2</span><span class="p">]))</span>
+
+<span class="p">(</span><span class="k">def </span><span class="nv">all-persons</span><span class="w"> </span><span class="p">(</span><span class="nf">d/q</span><span class="w"> </span><span class="o">&#39;</span><span class="p">[</span><span class="ss">:find</span><span class="w"> </span><span class="nv">?name</span><span class="w"> </span><span class="nv">?age</span><span class="w"> </span><span class="nv">?gender</span><span class="w"> </span><span class="nv">?country</span>
+<span class="w">                        </span><span class="ss">:where</span><span class="w"> </span><span class="p">[</span><span class="nv">?person</span><span class="w"> </span><span class="ss">:person/name</span><span class="w"> </span><span class="nv">?name</span><span class="p">]</span>
+<span class="w">                               </span><span class="p">[</span><span class="nv">?person</span><span class="w"> </span><span class="ss">:person/age</span><span class="w"> </span><span class="nv">?age</span><span class="p">]</span>
+<span class="w">                               </span><span class="p">[</span><span class="nv">?person</span><span class="w"> </span><span class="ss">:person/gender</span><span class="w"> </span><span class="nv">?gender</span><span class="p">]</span>
+<span class="w">                               </span><span class="p">[</span><span class="nv">?person</span><span class="w"> </span><span class="ss">:person/country</span><span class="w"> </span><span class="nv">?country</span><span class="p">]]</span>
+<span class="w">                     </span><span class="p">(</span><span class="nf">d/db</span><span class="w"> </span><span class="nv">conn</span><span class="p">)))</span>
+
+<span class="p">(</span><span class="nb">println </span><span class="nv">all-persons</span><span class="p">)</span>
+<span class="c1">; Output: [[&quot;John&quot; 30 &quot;Male&quot; &quot;USA&quot;] [&quot;Jane&quot; 25 &quot;Female&quot; &quot;Canada&quot;]]</span>
+</code></pre></div>
+
+<h3 id="component_1">Component<a class="headerlink" href="#component_1" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><code><span class="p">(</span><span class="kd">defrecord </span><span class="nv">DatabaseComponent</span><span class="w"> </span><span class="p">[</span><span class="nv">host</span><span class="w"> </span><span class="nv">port</span><span class="p">]</span>
+<span class="w">  </span><span class="nv">component/Lifecycle</span>
+<span class="w">  </span><span class="p">(</span><span class="nf">start</span><span class="w"> </span><span class="p">[</span><span class="nv">component</span><span class="p">]</span>
+<span class="w">    </span><span class="p">(</span><span class="nb">println </span><span class="p">(</span><span class="nb">str </span><span class="s">&quot;Starting database on &quot;</span><span class="w"> </span><span class="nv">host</span><span class="w"> </span><span class="s">&quot;:&quot;</span><span class="w"> </span><span class="nv">port</span><span class="p">))</span>
+<span class="w">    </span><span class="p">(</span><span class="nb">assoc </span><span class="nv">component</span><span class="w"> </span><span class="ss">:status</span><span class="w"> </span><span class="ss">:started</span><span class="p">))</span>
+<span class="w">  </span><span class="p">(</span><span class="nf">stop</span><span class="w"> </span><span class="p">[</span><span class="nv">component</span><span class="p">]</span>
+<span class="w">    </span><span class="p">(</span><span class="nb">println </span><span class="s">&quot;Stopping database&quot;</span><span class="p">)</span>
+<span class="w">    </span><span class="p">(</span><span class="nb">assoc </span><span class="nv">component</span><span class="w"> </span><span class="ss">:status</span><span class="w"> </span><span class="ss">:stopped</span><span class="p">)))</span>
+
+<span class="p">(</span><span class="kd">defrecord </span><span class="nv">WebServerComponent</span><span class="w"> </span><span class="p">[</span><span class="nv">port</span><span class="p">]</span>
+<span class="w">  </span><span class="nv">component/Lifecycle</span>
+<span class="w">  </span><span class="p">(</span><span class="nf">start</span><span class="w"> </span><span class="p">[</span><span class="nv">component</span><span class="p">]</span>
+<span class="w">    </span><span class="p">(</span><span class="nb">println </span><span class="p">(</span><span class="nb">str </span><span class="s">&quot;Starting web server on port &quot;</span><span class="w"> </span><span class="nv">port</span><span class="p">))</span>
+<span class="w">    </span><span class="p">(</span><span class="nb">assoc </span><span class="nv">component</span><span class="w"> </span><span class="ss">:status</span><span class="w"> </span><span class="ss">:started</span><span class="p">))</span>
+<span class="w">  </span><span class="p">(</span><span class="nf">stop</span><span class="w"> </span><span class="p">[</span><span class="nv">component</span><span class="p">]</span>
+<span class="w">    </span><span class="p">(</span><span class="nb">println </span><span class="s">&quot;Stopping web server&quot;</span><span class="p">)</span>
+<span class="w">    </span><span class="p">(</span><span class="nb">assoc </span><span class="nv">component</span><span class="w"> </span><span class="ss">:status</span><span class="w"> </span><span class="ss">:stopped</span><span class="p">)))</span>
+
+<span class="p">(</span><span class="kd">defrecord </span><span class="nv">ApplicationComponent</span><span class="w"> </span><span class="p">[</span><span class="nv">database</span><span class="w"> </span><span class="nv">web-server</span><span class="p">]</span>
+<span class="w">  </span><span class="nv">component/Lifecycle</span>
+<span class="w">  </span><span class="p">(</span><span class="nf">start</span><span class="w"> </span><span class="p">[</span><span class="nv">component</span><span class="p">]</span>
+<span class="w">    </span><span class="p">(</span><span class="k">let </span><span class="p">[</span><span class="nv">db</span><span class="w"> </span><span class="p">(</span><span class="nf">component/start</span><span class="w"> </span><span class="nv">database</span><span class="p">)</span>
+<span class="w">          </span><span class="nv">web-server</span><span class="w"> </span><span class="p">(</span><span class="nf">component/start</span><span class="w"> </span><span class="nv">web-server</span><span class="p">)]</span>
+<span class="w">      </span><span class="p">(</span><span class="nb">println </span><span class="s">&quot;Starting application&quot;</span><span class="p">)</span>
+<span class="w">      </span><span class="p">(</span><span class="nb">assoc </span><span class="nv">component</span><span class="w"> </span><span class="ss">:status</span><span class="w"> </span><span class="ss">:started</span><span class="p">)))</span>
+<span class="w">  </span><span class="p">(</span><span class="nf">stop</span><span class="w"> </span><span class="p">[</span><span class="nv">component</span><span class="p">]</span>
+<span class="w">    </span><span class="p">(</span><span class="nb">println </span><span class="s">&quot;Stopping application&quot;</span><span class="p">)</span>
+<span class="w">    </span><span class="p">(</span><span class="nb">assoc </span><span class="nv">component</span><span class="w"> </span><span class="ss">:status</span><span class="w"> </span><span class="ss">:stopped</span><span class="p">)))</span>
+
+<span class="p">(</span><span class="k">def </span><span class="nv">database</span><span class="w"> </span><span class="p">(</span><span class="nf">map-&gt;DatabaseComponent</span><span class="w"> </span><span class="p">{</span><span class="ss">:host</span><span class="w"> </span><span class="s">&quot;localhost&quot;</span><span class="w"> </span><span class="ss">:port</span><span class="w"> </span><span class="mi">3306</span><span class="p">}))</span>
+<span class="p">(</span><span class="k">def </span><span class="nv">web-server</span><span class="w"> </span><span class="p">(</span><span class="nf">map-&gt;WebServerComponent</span><span class="w"> </span><span class="p">{</span><span class="ss">:port</span><span class="w"> </span><span class="mi">8080</span><span class="p">}))</span>
+<span class="p">(</span><span class="k">def </span><span class="nv">application</span><span class="w"> </span><span class="p">(</span><span class="nf">map-&gt;ApplicationComponent</span><span class="w"> </span><span class="p">{</span><span class="ss">:database</span><span class="w"> </span><span class="nv">database</span><span class="w"> </span><span class="ss">:web-server</span><span class="w"> </span><span class="nv">web-server</span><span class="p">}))</span>
+
+<span class="p">(</span><span class="nf">component/start</span><span class="w"> </span><span class="nv">application</span><span class="p">)</span>
+<span class="c1">; Output: Starting web server on port 8080</span>
+<span class="c1">;         Starting database on localhost:3306</span>
+<span class="c1">;         Starting application</span>
+
+<span class="p">(</span><span class="nf">component/stop</span><span class="w"> </span><span class="nv">application</span><span class="p">)</span>
+<span class="c1">; Output: Stopping application</span>
+<span class="c1">;         Stopping web server</span>
+<span class="c1">;         Stopping database</span>
+</code></pre></div>
+
+<h2 id="ejercicios-practicos-con-instrucciones-claras">Ejercicios prácticos con instrucciones claras<a class="headerlink" href="#ejercicios-practicos-con-instrucciones-claras" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Crea un nuevo proyecto de Clojure y agrega las dependencias de Datomic y Component.</li>
+<li>Define un schema para una base de datos de Datomic que tenga los atributos :book/title, :book/author y :book/price.</li>
+<li>Crea una función que permita agregar un nuevo libro a la base de datos. La función debe recibir los parámetros title, author y price y transaccionarlos en la base de datos.</li>
+<li>Crea una función que permita consultar todos los libros de la base de datos y devolverlos en una lista.</li>
+<li>Define los componentes para una aplicación que utilice la base de datos de Datomic y el servidor web Jetty.</li>
+<li>Implementa la lógica para iniciar y detener la aplicación de acuerdo con el patrón de diseño Component.</li>
+<li>Agrega un nuevo endpoint en el servidor web que permita agregar un libro utilizando la función creada en el paso 3.</li>
+<li>Ejecuta y prueba tu aplicación para asegurarte de que todo funcione correctamente.</li>
+</ol>
+<h2 id="consejos-o-mejores-practicas">Consejos o mejores prácticas<a class="headerlink" href="#consejos-o-mejores-practicas" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Al utilizar Datomic, es importante tener una comprensión clara de la estructura de datos y cómo se relacionan entre sí. Esto facilitará la escritura de consultas efectivas y eficientes.</li>
+<li>Al utilizar Component, es importante definir componentes lo más pequeños y específicos posible. Esto facilitará la reutilización y extensión de la funcionalidad de la aplicación.</li>
+<li>Es importante seguir prácticas de programación funcional al trabajar con Clojure. Esto incluye evitar el uso de variables mutables y utilizar funciones puras siempre que sea posible.</li>
+</ul>
+<p><strong>&lt;- Lección anterior</strong>: <a href="../programacion_logica/">Programación lógica</a></p>
+<p><strong>Siguiente lección -&gt;</strong>: <a href="../integracion_con_otros_lenguajes_y_plataformas/">Integración con otros lenguajes y plataformas</a></p></p>
+    </article>
+</section>
+            <!-- endblock -->
+
+            <!-- block footer -->
+                <footer>
+    <div class="d-flex flex-sm-row justify-content-between py-2 border-top drac-text-black drac-bg-cyan-green">
+        <a href="https://github.com/dracula/mkdocs" target="_blank" style="padding-left: 1%;"
+            class="footer-text drac-anchor drac-text-black drac-text-purple--hover">
+            Made with Dracula Theme for MkDocs
+        </a>
+    </div>
+</footer>
+            <!-- endblock -->
+        </div>
+
+    </main>
+
+        <script>var base_url = '../../..';</script>
+        <script src="../../../assets/js/jquery-3.3.1.slim.min.js"></script>
+        <script src="../../../assets/js/bootstrap.bundle.min.js"></script>
+        <script src="../../../assets/js/mkdocs.js"></script>
+			<script src="../../../search/main.js" defer></script>
+
+</body>
+
+</html>

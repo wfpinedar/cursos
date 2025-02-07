@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+        <title>Macros y metaprogramación - Mis cursos</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="../../../assets/css/darcula-highlight.min.css">
+
+        <link rel="stylesheet" href="../../../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../../assets/css/dracula-ui.min.css">
+        <link rel="stylesheet" href="../../../assets/css/mkdocs.min.css">
+
+        
+            <link  rel="icon" type="image/x-icon" href="../../../assets/img/favicon.ico">
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+                <script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+
+<body class="drac-bg-black-secondary drac-text-grey-ternary drac-text drac-scrollbar-purple">
+
+    <main class="d-flex">
+
+        <!-- block sidebar -->
+            <nav id="sidebar" class="sidebar drac-bg-black">
+    <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="btn btn-primary">
+            <i class="fa fa-bars"></i>
+            <span class="sr-only">Menu</span>
+        </button>
+    </div>
+
+    <div class="p-4">
+        
+
+        <div class="drac-text-center">
+            
+                <span class="drac-text drac-line-height drac-text-white">Mis cursos</span>
+            
+        </div>
+
+        <div class="drac-box flex-column">
+            <ul class="dot-ul">
+                <li><div class="dot-li drac-bg-cyan"></div></li>
+                <li><div class="dot-li drac-bg-green"></div></li>
+                <li><div class="dot-li drac-bg-orange"></div></li>
+                <li><div class="dot-li drac-bg-pink"></div></li>
+                <li><div class="dot-li drac-bg-purple"></div></li>
+                <li><div class="dot-li drac-bg-red"></div></li>
+                <li><div class="dot-li drac-bg-yellow"></div></li>
+            </ul>
+        </div>
+
+        <hr class="drac-divider" />
+
+        <!-- block menu -->
+        <ul class="mb-5 drac-list drac-list-none">
+            
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Introducción
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#clojure-collapse" aria-expanded="false">
+                    Clojure
+                </a>
+                <div class="collapse" id="clojure-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Introducción
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../Junior/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Junior
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../mid/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Middle
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Senior
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <!-- endblock -->
+    </div>
+</nav>
+        <!-- endblock -->
+
+        <nav class="divider drac-bg-purple-cyan"></nav>
+
+        <div class="content">
+            <!-- block header -->
+                <header>
+    <nav class="navbar navbar-expand-xl drac-bg-purple">
+        <div class="container-fluid">
+            
+            <button class="navbar-toggler w-100 text-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsMenu"
+                aria-controls="navbarsMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse flex-column ml-auto" id="navbarsMenu">
+                <ul class="navbar-nav text-md-center">
+
+                    <!-- block preview -->
+                    <li class="nav-item">
+                            
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block search -->
+                    <li class="nav-item"><div role="search" class="search-box">
+	<form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+		<input type="text" name="q" class="drac-input drac-input-search drac-input-white drac-text-white drac-bg-black-secondary"
+		placeholder="Search docs" title="Type search term here" />
+	</form>
+</div>
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block source -->
+                    <li class="nav-item">
+                        
+                            
+                        
+                    </li>
+                    <!--  endblock -->
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+            <!-- endblock -->
+
+            <!-- block content -->
+                <section class="p-md-5 section-content">
+    <article>
+        <p><h1 id="macros-y-metaprogramacion">Macros y metaprogramación<a class="headerlink" href="#macros-y-metaprogramacion" title="Permanent link">&para;</a></h1>
+<p>En Clojure, una macro es una función especial que toma código como entrada y devuelve código como salida. A diferencia de una función regular, una macro se ejecuta en tiempo de compilación en lugar de tiempo de ejecución, lo que permite generar código personalizado y optimizado para una determinada situación.</p>
+<p>Las macros son una herramienta poderosa en Clojure que permite a los desarrolladores crear abstracciones y automatizar tareas repetitivas. Además, la metaprogramación, que es el proceso de escribir código que genera código, se vuelve posible gracias a las macros.</p>
+<h2 id="palabras-clave">Palabras clave<a class="headerlink" href="#palabras-clave" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Macros: Funciones especiales que se ejecutan en tiempo de compilación y devuelven código como salida.</li>
+<li>Metaprogramación: Proceso de escribir código que genera código.</li>
+<li>Abstracción: Técnica de programación que permite ocultar detalles complejos detrás de una interfaz simple y fácil de usar.</li>
+<li>Expansión: Proceso en el que una macro se ejecuta y devuelve código que reemplaza la llamada a la macro en tiempo de compilación.</li>
+</ul>
+<h2 id="preguntas-de-repaso">Preguntas de repaso<a class="headerlink" href="#preguntas-de-repaso" title="Permanent link">&para;</a></h2>
+<ol>
+<li>¿Qué es una macro y cómo se diferencia de una función regular?</li>
+<li>¿Qué es la metaprogramación y cómo se relaciona con las macros?</li>
+<li>¿Cuál es la diferencia entre una macro y una abstracción?</li>
+<li>¿En qué momento se ejecuta una macro?</li>
+<li>¿Qué es la expansión de una macro y cuándo ocurre?</li>
+</ol>
+<h2 id="ejemplos-de-codigo-en-clojure">Ejemplos de código en Clojure<a class="headerlink" href="#ejemplos-de-codigo-en-clojure" title="Permanent link">&para;</a></h2>
+<p>Una macro en Clojure se define utilizando la palabra clave <code>defmacro</code> seguida del nombre de la macro y los parámetros que toma como entrada. Por ejemplo:</p>
+<div class="codehilite"><pre><span></span><code><span class="p">(</span><span class="kd">defmacro </span><span class="nv">suma</span><span class="w"> </span><span class="p">[</span><span class="nv">a</span><span class="w"> </span><span class="nv">b</span><span class="p">]</span>
+<span class="w">  </span><span class="o">`</span><span class="p">(</span><span class="nb">+ </span><span class="o">~</span><span class="nv">a</span><span class="w"> </span><span class="o">~</span><span class="nv">b</span><span class="p">))</span>
+</code></pre></div>
+
+<p>En este ejemplo, la macro <code>suma</code> toma dos parámetros <code>a</code> y <code>b</code> y devuelve una expresión que suma los dos valores. La expresión <code>(+ ~a ~b)</code> se llama una lista literal y se utiliza para construir una expresión que se evaluará en tiempo de compilación.</p>
+<p>Para utilizar la macro, se llama a <code>suma</code> de la misma manera que una función regular, pero en este caso, el código devuelto por la macro se expandirá en tiempo de compilación. Por ejemplo:</p>
+<div class="codehilite"><pre><span></span><code><span class="p">(</span><span class="nf">suma</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="mi">3</span><span class="p">)</span><span class="w"> </span><span class="c1">; devuelve 5</span>
+</code></pre></div>
+
+<h2 id="ejercicios-practicos">Ejercicios prácticos<a class="headerlink" href="#ejercicios-practicos" title="Permanent link">&para;</a></h2>
+<h3 id="ejercicio-1-crear-una-macro-para-definir-constantes">Ejercicio 1: Crear una macro para definir constantes<a class="headerlink" href="#ejercicio-1-crear-una-macro-para-definir-constantes" title="Permanent link">&para;</a></h3>
+<p>En este ejercicio, se te pedirá que crees una macro llamada <code>defconst</code> que tome dos parámetros: el nombre de la constante y su valor. La macro deberá definir una constante con el nombre y valor proporcionados. Por ejemplo:</p>
+<div class="codehilite"><pre><span></span><code><span class="p">(</span><span class="nf">defconst</span><span class="w"> </span><span class="nv">PI</span><span class="w"> </span><span class="mf">3.14159</span><span class="p">)</span>
+</code></pre></div>
+
+<p>Pasos a seguir:</p>
+<ol>
+<li>Crea una macro llamada <code>defconst</code> que tome dos parámetros: <code>nombre</code> y <code>valor</code>.</li>
+<li>Utiliza la lista literal para construir una expresión que defina la constante utilizando el nombre y valor proporcionados.</li>
+<li>Expande la macro utilizando la función <code>def</code> para definir la constante.</li>
+<li>Prueba tu macro utilizando diferentes valores y asegúrate de que se defina correctamente la constante.</li>
+</ol>
+<h3 id="ejercicio-2-crear-una-macro-para-generar-funciones">Ejercicio 2: Crear una macro para generar funciones<a class="headerlink" href="#ejercicio-2-crear-una-macro-para-generar-funciones" title="Permanent link">&para;</a></h3>
+<p>En este ejercicio, se te pedirá que crees una macro llamada <code>defn-super</code> que genere una función que siempre devuelve el número 10. Esta función se utilizará en situaciones en las que se requiere una función de prueba rápida o un valor de relleno. Por ejemplo:</p>
+<div class="codehilite"><pre><span></span><code><span class="p">(</span><span class="nf">defn-super</span><span class="w"> </span><span class="nv">sumar</span><span class="w"> </span><span class="p">[</span><span class="nv">a</span><span class="w"> </span><span class="nv">b</span><span class="p">]</span><span class="w"> </span><span class="p">(</span><span class="nb">+ </span><span class="nv">a</span><span class="w"> </span><span class="nv">b</span><span class="p">))</span><span class="w"> </span><span class="c1">; devuelve siempre 10</span>
+</code></pre></div>
+
+<p>Pasos a seguir:</p>
+<ol>
+<li>Crea una macro llamada <code>defn-super</code> que tome como parámetros el nombre de la función y los parámetros de entrada.</li>
+<li>Utiliza la lista literal para construir una expresión que defina la función y siempre devuelva el número 10.</li>
+<li>Expande la macro utilizando la función <code>defn</code> para definir la función.</li>
+<li>Prueba tu macro utilizando diferentes nombres de función y asegúrate de que siempre devuelva 10.</li>
+</ol>
+<h2 id="consejos-y-mejores-practicas">Consejos y mejores prácticas<a class="headerlink" href="#consejos-y-mejores-practicas" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Utiliza macros con moderación. Aunque son una herramienta poderosa, su uso excesivo puede dificultar la comprensión y el mantenimiento del código.</li>
+<li>Es importante documentar adecuadamente las macros para que otros desarrolladores puedan entender su funcionamiento y propósito.</li>
+<li>Al utilizar la metaprogramación, asegúrate de que el código generado sea válido y seguro para su ejecución.</li>
+</ul>
+<p><strong>&lt;- Lección anterior</strong>: <a href="estructuras_de_datos_avanzadas.md">Estructuras de datos avanzadas</a></p>
+<p><strong>Siguiente lección -&gt;</strong>: <a href="../transducers_y_reducers/">Transducers y reducers</a></p></p>
+    </article>
+</section>
+            <!-- endblock -->
+
+            <!-- block footer -->
+                <footer>
+    <div class="d-flex flex-sm-row justify-content-between py-2 border-top drac-text-black drac-bg-cyan-green">
+        <a href="https://github.com/dracula/mkdocs" target="_blank" style="padding-left: 1%;"
+            class="footer-text drac-anchor drac-text-black drac-text-purple--hover">
+            Made with Dracula Theme for MkDocs
+        </a>
+    </div>
+</footer>
+            <!-- endblock -->
+        </div>
+
+    </main>
+
+        <script>var base_url = '../../..';</script>
+        <script src="../../../assets/js/jquery-3.3.1.slim.min.js"></script>
+        <script src="../../../assets/js/bootstrap.bundle.min.js"></script>
+        <script src="../../../assets/js/mkdocs.js"></script>
+			<script src="../../../search/main.js" defer></script>
+
+</body>
+
+</html>

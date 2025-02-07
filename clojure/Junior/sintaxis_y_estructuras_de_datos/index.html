@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+        <title>Sintaxis y estructuras de datos en Clojure - Mis cursos</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="../../../assets/css/darcula-highlight.min.css">
+
+        <link rel="stylesheet" href="../../../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../../assets/css/dracula-ui.min.css">
+        <link rel="stylesheet" href="../../../assets/css/mkdocs.min.css">
+
+        
+            <link  rel="icon" type="image/x-icon" href="../../../assets/img/favicon.ico">
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+                <script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+
+<body class="drac-bg-black-secondary drac-text-grey-ternary drac-text drac-scrollbar-purple">
+
+    <main class="d-flex">
+
+        <!-- block sidebar -->
+            <nav id="sidebar" class="sidebar drac-bg-black">
+    <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="btn btn-primary">
+            <i class="fa fa-bars"></i>
+            <span class="sr-only">Menu</span>
+        </button>
+    </div>
+
+    <div class="p-4">
+        
+
+        <div class="drac-text-center">
+            
+                <span class="drac-text drac-line-height drac-text-white">Mis cursos</span>
+            
+        </div>
+
+        <div class="drac-box flex-column">
+            <ul class="dot-ul">
+                <li><div class="dot-li drac-bg-cyan"></div></li>
+                <li><div class="dot-li drac-bg-green"></div></li>
+                <li><div class="dot-li drac-bg-orange"></div></li>
+                <li><div class="dot-li drac-bg-pink"></div></li>
+                <li><div class="dot-li drac-bg-purple"></div></li>
+                <li><div class="dot-li drac-bg-red"></div></li>
+                <li><div class="dot-li drac-bg-yellow"></div></li>
+            </ul>
+        </div>
+
+        <hr class="drac-divider" />
+
+        <!-- block menu -->
+        <ul class="mb-5 drac-list drac-list-none">
+            
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Introducción
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#clojure-collapse" aria-expanded="false">
+                    Clojure
+                </a>
+                <div class="collapse" id="clojure-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Introducción
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Junior
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../mid/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Middle
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../senior/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Senior
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <!-- endblock -->
+    </div>
+</nav>
+        <!-- endblock -->
+
+        <nav class="divider drac-bg-purple-cyan"></nav>
+
+        <div class="content">
+            <!-- block header -->
+                <header>
+    <nav class="navbar navbar-expand-xl drac-bg-purple">
+        <div class="container-fluid">
+            
+            <button class="navbar-toggler w-100 text-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsMenu"
+                aria-controls="navbarsMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse flex-column ml-auto" id="navbarsMenu">
+                <ul class="navbar-nav text-md-center">
+
+                    <!-- block preview -->
+                    <li class="nav-item">
+                            
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block search -->
+                    <li class="nav-item"><div role="search" class="search-box">
+	<form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+		<input type="text" name="q" class="drac-input drac-input-search drac-input-white drac-text-white drac-bg-black-secondary"
+		placeholder="Search docs" title="Type search term here" />
+	</form>
+</div>
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block source -->
+                    <li class="nav-item">
+                        
+                            
+                        
+                    </li>
+                    <!--  endblock -->
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+            <!-- endblock -->
+
+            <!-- block content -->
+                <section class="p-md-5 section-content">
+    <article>
+        <p><h1 id="sintaxis-y-estructuras-de-datos-en-clojure">Sintaxis y estructuras de datos en Clojure<a class="headerlink" href="#sintaxis-y-estructuras-de-datos-en-clojure" title="Permanent link">&para;</a></h1>
+<h2 id="explicacion-teorica">Explicación teórica<a class="headerlink" href="#explicacion-teorica" title="Permanent link">&para;</a></h2>
+<p>Clojure es un lenguaje de programación funcional que se basa en la sintaxis de Lisp. Esto significa que su sintaxis es simple y consiste en listas de datos que se pueden manipular y evaluar utilizando funciones. En Clojure, todo es una lista, incluso las estructuras de datos más complejas, como los mapas y vectores. Esto permite una gran flexibilidad y expresividad en la escritura de código.</p>
+<p>Las estructuras de datos en Clojure son inmutables, lo que significa que no se pueden cambiar una vez que se han creado. En lugar de eso, se crean nuevas versiones de la estructura de datos al aplicar funciones a ellas. Esto ayuda a prevenir errores y hace que el código sea más seguro y fácil de entender.</p>
+<h3 id="estructura-de-un-programa-en-clojure">Estructura de un programa en Clojure<a class="headerlink" href="#estructura-de-un-programa-en-clojure" title="Permanent link">&para;</a></h3>
+<p>Un programa en Clojure está compuesto por una serie de expresiones, que pueden ser datos, operaciones o estructuras de control. Estas expresiones están organizadas en una lista, que se llama "forma". La forma se evalúa y devuelve un resultado.</p>
+<p>Para definir una forma en Clojure, utilizamos paréntesis y separamos cada elemento con un espacio. Por ejemplo: <code>(def x 10)</code> define una forma llamada "x" con el valor de 10.</p>
+<h2 id="palabras-clave-y-su-definicion">Palabras clave y su definición<a class="headerlink" href="#palabras-clave-y-su-definicion" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Lista: una estructura de datos en Clojure que contiene una secuencia de elementos ordenados.</li>
+<li>Vector: similar a una lista, pero se accede a los elementos mediante índices numéricos.</li>
+<li>Mapa: una estructura de datos que contiene pares clave-valor, similar a un diccionario en otros lenguajes de programación.</li>
+<li>Sintaxis: conjunto de reglas para escribir código en un lenguaje de programación.</li>
+<li>Forma: lista de expresiones que se evalúan y devuelven un resultado.</li>
+<li>Inmutable: una propiedad de las estructuras de datos en Clojure que significa que no se pueden cambiar una vez creadas.</li>
+<li>Función: una secuencia de instrucciones que realizan una tarea específica y pueden ser aplicadas a estructuras de datos.</li>
+</ul>
+<h2 id="preguntas-de-repaso">Preguntas de repaso<a class="headerlink" href="#preguntas-de-repaso" title="Permanent link">&para;</a></h2>
+<ol>
+<li>¿Qué es la sintaxis en Clojure?</li>
+<li>¿Qué significa que las estructuras de datos en Clojure sean inmutables?</li>
+<li>¿Qué son las funciones en Clojure?</li>
+<li>¿Cómo se accede a los elementos en un vector?</li>
+<li>¿Cómo se accede a los valores en un mapa?</li>
+<li>¿Qué es una forma en Clojure?</li>
+</ol>
+<h3 id="tipos-de-datos">Tipos de datos<a class="headerlink" href="#tipos-de-datos" title="Permanent link">&para;</a></h3>
+<p>Clojure cuenta con varios tipos de datos, entre ellos:
+- Números: enteros, decimales y fracciones.
+- Strings: cadenas de texto.
+- Booleanos: verdadero o falso.
+- Listas: colección ordenada de elementos.
+- Vectores: colección ordenada de elementos, pero de acceso más rápido que las listas.
+- Mapas: colección de pares clave-valor.
+- Sets: colección de elementos únicos.</p>
+<h3 id="operadores">Operadores<a class="headerlink" href="#operadores" title="Permanent link">&para;</a></h3>
+<p>En Clojure, podemos utilizar operadores para realizar operaciones matemáticas, comparaciones y otras tareas. Algunos de los operadores más comunes son:
+- Aritméticos: <code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>
+- Comparación: <code>=</code>, <code>&lt;</code>, <code>&gt;</code>, <code>&lt;=</code>, <code>&gt;=</code>
+- Lógicos: <code>and</code>, <code>or</code>, <code>not</code></p>
+<h3 id="estructuras-de-control">Estructuras de control<a class="headerlink" href="#estructuras-de-control" title="Permanent link">&para;</a></h3>
+<p>Las estructuras de control nos permiten controlar el flujo de nuestro código. Algunas de las más utilizadas en Clojure son:
+- <code>if</code>: evalúa una expresión y, si es verdadera, ejecuta un bloque de código. Si es falsa, ejecuta otro bloque de código.
+- <code>when</code>: similar a <code>if</code>, pero solo ejecuta un bloque de código si la expresión es verdadera.
+- <code>cond</code>: evalúa una serie de expresiones y ejecuta el bloque de código de la primera que sea verdadera.
+- <code>loop</code>: ejecuta un bloque de código varias veces hasta que se cumpla una condición.
+- <code>recur</code>: permite que una función se llame a sí misma de forma recursiva.</p>
+<h2 id="ejemplos-de-codigo-en-clojure">Ejemplos de código en Clojure<a class="headerlink" href="#ejemplos-de-codigo-en-clojure" title="Permanent link">&para;</a></h2>
+<h3 id="crear-una-lista">Crear una lista<a class="headerlink" href="#crear-una-lista" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><code><span class="p">(</span><span class="k">def </span><span class="nv">lista-numeros</span><span class="w"> </span><span class="p">[</span><span class="mi">1</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="mi">3</span><span class="w"> </span><span class="mi">4</span><span class="w"> </span><span class="mi">5</span><span class="p">])</span>
+</code></pre></div>
+
+<h3 id="crear-un-vector">Crear un vector<a class="headerlink" href="#crear-un-vector" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><code><span class="p">(</span><span class="k">def </span><span class="nv">vector-nombres</span><span class="w"> </span><span class="p">[</span><span class="s">&quot;Ana&quot;</span><span class="w"> </span><span class="s">&quot;Juan&quot;</span><span class="w"> </span><span class="s">&quot;María&quot;</span><span class="p">])</span>
+</code></pre></div>
+
+<h3 id="crear-un-mapa">Crear un mapa<a class="headerlink" href="#crear-un-mapa" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><code><span class="p">(</span><span class="k">def </span><span class="nv">mapa-edades</span><span class="w"> </span><span class="p">{</span><span class="ss">:Ana</span><span class="w"> </span><span class="mi">26</span><span class="w"> </span><span class="ss">:Juan</span><span class="w"> </span><span class="mi">30</span><span class="w"> </span><span class="ss">:María</span><span class="w"> </span><span class="mi">28</span><span class="p">})</span>
+</code></pre></div>
+
+<h3 id="acceder-a-elementos-en-un-vector">Acceder a elementos en un vector<a class="headerlink" href="#acceder-a-elementos-en-un-vector" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><code><span class="p">(</span><span class="nb">nth </span><span class="nv">vector-nombres</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="c1">; devuelve &quot;Juan&quot;</span>
+</code></pre></div>
+
+<h3 id="acceder-a-valores-en-un-mapa">Acceder a valores en un mapa<a class="headerlink" href="#acceder-a-valores-en-un-mapa" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><code><span class="p">(</span><span class="nb">get </span><span class="nv">mapa-edades</span><span class="w"> </span><span class="ss">:María</span><span class="p">)</span><span class="w"> </span><span class="c1">; devuelve 28</span>
+</code></pre></div>
+
+<h2 id="ejercicios-practicos">Ejercicios prácticos<a class="headerlink" href="#ejercicios-practicos" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Crea una lista con tus colores favoritos y muestra el primer y último elemento.</li>
+<li>Crea un vector con los nombres de tus amigos y agrega tu nombre al final.</li>
+<li>Crea un mapa con las edades de tus familiares y muestra la edad de tu hermano/a.</li>
+<li>Crea una función que tome una lista de números y devuelva la suma de todos ellos.</li>
+<li>Crea una función que tome un mapa con nombres y edades y devuelva una lista de nombres ordenados alfabéticamente.</li>
+</ol>
+<h2 id="consejos-o-mejores-practicas">Consejos o mejores prácticas<a class="headerlink" href="#consejos-o-mejores-practicas" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Utiliza nombres significativos para tus variables y estructuras de datos. Esto hará que tu código sea más fácil de entender y mantener.</li>
+<li>Aprovecha la inmutabilidad de las estructuras de datos en Clojure y evita modificarlas directamente.</li>
+<li>Utiliza las funciones integradas en Clojure para manipular tus estructuras de datos en lugar de escribir tu propio código.</li>
+<li>Practica la escritura de código funcional en lugar de imperativo, ya que es la forma más común de programar en Clojure.</li>
+<li>Aprende sobre las funciones de orden superior, como <code>map</code> y <code>filter</code>, para escribir código más conciso y elegante.</li>
+</ul>
+<h3 id="navegacion-de-lecciones">Navegación de lecciones<a class="headerlink" href="#navegacion-de-lecciones" title="Permanent link">&para;</a></h3>
+<p><strong>&lt;- Lección anterior</strong>: <a href="../instalacion_y_configuracion/">Instalación y configuración</a></p>
+<p><strong>Siguiente lección -&gt;</strong>: <a href="../funciones_y_recursion/">Funciones y recursión</a></p></p>
+    </article>
+</section>
+            <!-- endblock -->
+
+            <!-- block footer -->
+                <footer>
+    <div class="d-flex flex-sm-row justify-content-between py-2 border-top drac-text-black drac-bg-cyan-green">
+        <a href="https://github.com/dracula/mkdocs" target="_blank" style="padding-left: 1%;"
+            class="footer-text drac-anchor drac-text-black drac-text-purple--hover">
+            Made with Dracula Theme for MkDocs
+        </a>
+    </div>
+</footer>
+            <!-- endblock -->
+        </div>
+
+    </main>
+
+        <script>var base_url = '../../..';</script>
+        <script src="../../../assets/js/jquery-3.3.1.slim.min.js"></script>
+        <script src="../../../assets/js/bootstrap.bundle.min.js"></script>
+        <script src="../../../assets/js/mkdocs.js"></script>
+			<script src="../../../search/main.js" defer></script>
+
+</body>
+
+</html>
