@@ -1,0 +1,48 @@
+# ---- Python ------------------------------------------------------------------
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.egg-info
+*.eggs
+*.pyo
+*.pyd
+*.whl
+
+# Virtual Environments
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+venv.bak/
+.virtualenv/
+
+# Si usas Poetry
+poetry.lock
+
+# ---- MkDocs ------------------------------------------------------------------
+
+# Carpeta generada al hacer 'mkdocs build'
+site/
+
+# ---- Sistemas Operativos / Editores ------------------------------------------
+
+# Archivos del sistema (macOS / Windows)
+.DS_Store
+Thumbs.db
+
+# Configuración de editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- Otros -------------------------------------------------------------------
+
+# Logs
+*.log
+
+# Archivos de configuración sensibles (si los hubiera, p. ej. .env)
+.env
