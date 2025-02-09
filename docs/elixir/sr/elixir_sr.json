@@ -1,0 +1,29 @@
+{
+  "nivel": "De Senior a Experto",
+  "temas": [
+    {"module_title": "Profundización en Erlang", 
+      "module_description": "Conocer en profundidad el lenguaje Erlang y su relación con Elixir."},
+    {"module_title": "Arquitectura de sistemas Elixir", 
+      "module_description": "Aprender a diseñar y construir sistemas complejos en Elixir, incluyendo la elección de patrones y arquitecturas adecuadas."},
+    {"module_title": "Implementación de sistemas de mensajería", 
+      "module_description": "Explorar la implementación de sistemas de mensajería utilizando herramientas como RabbitMQ y Kafka en aplicaciones Elixir."},
+    {"module_title": "Desarrollo de aplicaciones de Blockchain en Elixir", 
+      "module_description": "Aprender a desarrollar aplicaciones de Blockchain utilizando Elixir y frameworks como Exthereum y Exonum."},
+    {"module_title": "Desarrollo de aplicaciones de inteligencia artificial en Elixir", 
+      "module_description": "Conocer cómo desarrollar aplicaciones de inteligencia artificial utilizando Elixir y bibliotecas como TensorFlow y OpenCV."},
+    {"module_title": "Desarrollo de aplicaciones de Internet de las cosas en Elixir", 
+      "module_description": "Explorar cómo desarrollar aplicaciones de Internet de las cosas utilizando Elixir y frameworks como Nerves y NervesHub."},
+    {"module_title": "Desarrollo de aplicaciones de realidad virtual y aumentada en Elixir", 
+      "module_description": "Aprender a desarrollar aplicaciones de realidad virtual y aumentada utilizando Elixir y frameworks como Luminus y PhoenixLiveView."},
+    {"module_title": "Desarrollo de aplicaciones de juegos en Elixir", 
+      "module_description": "Conocer cómo desarrollar aplicaciones de juegos utilizando Elixir y bibliotecas como EctoGame y Drab."},
+    {"module_title": "Desarrollo de aplicaciones móviles en Elixir", 
+      "module_description": "Explorar el desarrollo de aplicaciones móviles utilizando Elixir y frameworks como Phoenix y Flutter."},
+    {"module_title": "Desarrollo de aplicaciones de escritorio en Elixir", 
+      "module_description": "Aprender a desarrollar aplicaciones de escritorio utilizando Elixir y bibliotecas como Scenic y Nerves."},
+    {"module_title": "Optimización de aplicaciones de alto rendimiento", 
+      "module_description": "Conocer técnicas avanzadas para optimizar el rendimiento de aplicaciones Elixir en entornos de alto tráfico y grandes cargas de datos."},
+    {"module_title": "Seguridad avanzada en aplicaciones Elixir", 
+      "module_description": "Aprender a aplicar medidas de seguridad avanzadas en el desarrollo de aplicaciones Elixir, incluyendo el uso de cifrado y autenticación de dos factores."}
+  ]
+}

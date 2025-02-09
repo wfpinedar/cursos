@@ -10,11 +10,11 @@ nav:
       - "Nivel Middle": clojure/mid/index.md
       - "Nivel Senior": clojure/senior/index.md
 
-#   - "Elixir": 
-#       - "Introducción": elixir/index.md
-#       - "Nivel Junior": elixir/jr/index.md
-#       - "Nivel Middle": elixir/mid/index.md
-#       - "Nivel Senior": elixir/sr/index.md
+  - "Elixir": 
+      - "Introducción": elixir/index.md
+      - "Nivel Junior": elixir/jr/index.md
+      - "Nivel Middle": elixir/mid/index.md
+      - "Nivel Senior": elixir/sr/index.md
 
 #   - "Go": 
 #       - "Introducción": go/index.md

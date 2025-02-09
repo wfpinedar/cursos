@@ -75,6 +75,5 @@ Pasos a seguir:
 - Es importante documentar adecuadamente las macros para que otros desarrolladores puedan entender su funcionamiento y propósito.
 - Al utilizar la metaprogramación, asegúrate de que el código generado sea válido y seguro para su ejecución.
 
-**<- Lección anterior**: [Estructuras de datos avanzadas](estructuras_de_datos_avanzadas.md)
 
 **Siguiente lección ->**: [Transducers y reducers](transducers_y_reducers.md)
