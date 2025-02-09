@@ -1,0 +1,33 @@
+{
+  "nivel": "De Senior a Experto",
+  "temas": [
+    {
+      "module_title": "Optimización de Código",
+      "module_description": "Aprenderás técnicas avanzadas para optimizar el rendimiento de tu código en Haskell."
+    },
+    {
+      "module_title": "Programación Funcional Avanzada",
+      "module_description": "Conocerás técnicas avanzadas de programación funcional en Haskell, como programación con continuaciones y currying."
+    },
+    {
+      "module_title": "Programación Segura",
+      "module_description": "Aprenderás a utilizar técnicas de programación segura en Haskell para evitar errores y mejorar la robustez de tus programas."
+    },
+    {
+      "module_title": "Expresiones Lambda",
+      "module_description": "Conocerás cómo utilizar expresiones lambda en Haskell para escribir código más conciso y elegante."
+    },
+    {
+      "module_title": "Tipos de Datos Abstractos",
+      "module_description": "Aprenderás sobre tipos de datos abstractos en Haskell y cómo utilizarlos para encapsular datos y funciones."
+    },
+    {
+      "module_title": "Programación con Monads Avanzada",
+      "module_description": "Conocerás técnicas avanzadas de programación con monads en Haskell, como monads anidados y transformers."
+    },
+    {
+      "module_title": "Desarrollo de Aplicaciones Web",
+      "module_description": "Aprenderás cómo utilizar Haskell para desarrollar aplicaciones web utilizando frameworks como Yesod o Snap."
+    }
+  ]
+}

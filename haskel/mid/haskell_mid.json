@@ -1,0 +1,33 @@
+{
+  "nivel": "De Junior a Senior",
+  "temas": [
+    {
+      "module_title": "Monads",
+      "module_description": "Conocerás el concepto de monads en Haskell y cómo utilizarlos para trabajar con efectos secundarios."
+    },
+    {
+      "module_title": "Manipulación de Archivos",
+      "module_description": "Aprenderás a manipular archivos en Haskell y cómo manejar excepciones en el proceso."
+    },
+    {
+      "module_title": "Programación Concurrente",
+      "module_description": "Conocerás cómo trabajar con programación concurrente en Haskell y cómo utilizar la biblioteca de concurrencia."
+    },
+    {
+      "module_title": "Tipos de Datos Parametrizados",
+      "module_description": "Aprenderás sobre los tipos de datos parametrizados en Haskell y cómo utilizarlos para crear estructuras de datos más flexibles."
+    },
+    {
+      "module_title": "Programación Orientada a Objetos",
+      "module_description": "Conocerás los conceptos de programación orientada a objetos y cómo aplicarlos en Haskell utilizando la extensión de tipos de datos."
+    },
+    {
+      "module_title": "Patrones de Diseño en Haskell",
+      "module_description": "Aprenderás sobre los patrones de diseño más utilizados en Haskell y cómo aplicarlos en tus programas."
+    },
+    {
+      "module_title": "Testing y Debugging",
+      "module_description": "Conocerás las diferentes técnicas de testing y debugging en Haskell para asegurar la calidad de tu código."
+    }
+  ]
+}

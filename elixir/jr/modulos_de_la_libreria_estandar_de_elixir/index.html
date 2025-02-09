@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+        <title>Módulos de la librería estándar de Elixir - Mis cursos</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="../../../assets/css/darcula-highlight.min.css">
+
+        <link rel="stylesheet" href="../../../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../../assets/css/dracula-ui.min.css">
+        <link rel="stylesheet" href="../../../assets/css/mkdocs.min.css">
+
+        
+            <link  rel="icon" type="image/x-icon" href="../../../assets/img/favicon.ico">
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+                <script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+
+<body class="drac-bg-black-secondary drac-text-grey-ternary drac-text drac-scrollbar-purple">
+
+    <main class="d-flex">
+
+        <!-- block sidebar -->
+            <nav id="sidebar" class="sidebar drac-bg-black">
+    <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="btn btn-primary">
+            <i class="fa fa-bars"></i>
+            <span class="sr-only">Menu</span>
+        </button>
+    </div>
+
+    <div class="p-4">
+        
+
+        <div class="drac-text-center">
+            
+                <span class="drac-text drac-line-height drac-text-white">Mis cursos</span>
+            
+        </div>
+
+        <div class="drac-box flex-column">
+            <ul class="dot-ul">
+                <li><div class="dot-li drac-bg-cyan"></div></li>
+                <li><div class="dot-li drac-bg-green"></div></li>
+                <li><div class="dot-li drac-bg-orange"></div></li>
+                <li><div class="dot-li drac-bg-pink"></div></li>
+                <li><div class="dot-li drac-bg-purple"></div></li>
+                <li><div class="dot-li drac-bg-red"></div></li>
+                <li><div class="dot-li drac-bg-yellow"></div></li>
+            </ul>
+        </div>
+
+        <hr class="drac-divider" />
+
+        <!-- block menu -->
+        <ul class="mb-5 drac-list drac-list-none">
+            
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Introducción
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#clojure-collapse" aria-expanded="false">
+                    Clojure
+                </a>
+                <div class="collapse" id="clojure-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Introducción
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/Junior/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Junior
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/mid/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Middle
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/senior/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Senior
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#elixir-collapse" aria-expanded="false">
+                    Elixir
+                </a>
+                <div class="collapse" id="elixir-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Introducción
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Junior
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../mid/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Middle
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../sr/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Senior
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <!-- endblock -->
+    </div>
+</nav>
+        <!-- endblock -->
+
+        <nav class="divider drac-bg-purple-cyan"></nav>
+
+        <div class="content">
+            <!-- block header -->
+                <header>
+    <nav class="navbar navbar-expand-xl drac-bg-purple">
+        <div class="container-fluid">
+            
+            <button class="navbar-toggler w-100 text-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsMenu"
+                aria-controls="navbarsMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse flex-column ml-auto" id="navbarsMenu">
+                <ul class="navbar-nav text-md-center">
+
+                    <!-- block preview -->
+                    <li class="nav-item">
+                            
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block search -->
+                    <li class="nav-item"><div role="search" class="search-box">
+	<form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+		<input type="text" name="q" class="drac-input drac-input-search drac-input-white drac-text-white drac-bg-black-secondary"
+		placeholder="Search docs" title="Type search term here" />
+	</form>
+</div>
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block source -->
+                    <li class="nav-item">
+                        
+                            
+                        
+                    </li>
+                    <!--  endblock -->
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+            <!-- endblock -->
+
+            <!-- block content -->
+                <section class="p-md-5 section-content">
+    <article>
+        <p><h1 id="modulos-de-la-libreria-estandar-de-elixir">Módulos de la librería estándar de Elixir<a class="headerlink" href="#modulos-de-la-libreria-estandar-de-elixir" title="Permanent link">&para;</a></h1>
+<p>Los módulos de la librería estándar de Elixir son un conjunto de funciones y estructuras de datos predefinidas que nos permiten realizar tareas comunes de manera eficiente y sencilla. Estos módulos forman parte del núcleo de Elixir y se encuentran disponibles sin necesidad de instalar ningún paquete adicional. </p>
+<h2 id="palabras-clave-y-definiciones">Palabras clave y definiciones<a class="headerlink" href="#palabras-clave-y-definiciones" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>String</strong>: tipo de dato que representa una secuencia de caracteres. Los módulos de la librería estándar de Elixir permiten la manipulación y transformación de cadenas de manera eficiente.</li>
+<li><strong>Date</strong>: tipo de dato que representa una fecha, incluyendo información sobre el año, mes y día. Los módulos de la librería estándar de Elixir ofrecen funciones para manipular y comparar fechas.</li>
+<li><strong>File</strong>: tipo de dato que representa un archivo en el sistema. Los módulos de la librería estándar de Elixir proporcionan funciones para crear, leer, escribir y manipular archivos.</li>
+</ul>
+<h2 id="preguntas-de-repaso">Preguntas de repaso<a class="headerlink" href="#preguntas-de-repaso" title="Permanent link">&para;</a></h2>
+<ol>
+<li>¿Qué son los módulos de la librería estándar de Elixir?</li>
+<li>¿Qué tipo de datos se pueden manipular con los módulos de cadenas?</li>
+<li>¿Cómo se representan las fechas en Elixir?</li>
+<li>¿Qué funciones ofrecen los módulos de la librería estándar para manipular archivos?</li>
+<li>¿Es necesario instalar algún paquete adicional para utilizar los módulos de la librería estándar de Elixir?</li>
+</ol>
+<h2 id="ejemplos-de-codigo-en-elixir">Ejemplos de código en Elixir<a class="headerlink" href="#ejemplos-de-codigo-en-elixir" title="Permanent link">&para;</a></h2>
+<h3 id="manipulacion-de-cadenas">Manipulación de cadenas<a class="headerlink" href="#manipulacion-de-cadenas" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><code><span class="c1"># Obtener la longitud de una cadena</span>
+<span class="nc">String</span><span class="o">.</span><span class="n">length</span><span class="p">(</span><span class="s2">&quot;Hola Mundo&quot;</span><span class="p">)</span>
+<span class="c1"># =&gt; 10</span>
+
+<span class="c1"># Convertir una cadena a mayúsculas</span>
+<span class="nc">String</span><span class="o">.</span><span class="n">upcase</span><span class="p">(</span><span class="s2">&quot;hola mundo&quot;</span><span class="p">)</span>
+<span class="c1"># =&gt; &quot;HOLA MUNDO&quot;</span>
+
+<span class="c1"># Reemplazar una subcadena por otra</span>
+<span class="nc">String</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;Elixir es genial&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;genial&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;increíble&quot;</span><span class="p">)</span>
+<span class="c1"># =&gt; &quot;Elixir es increíble&quot;</span>
+</code></pre></div>
+
+<h3 id="manipulacion-de-fechas">Manipulación de fechas<a class="headerlink" href="#manipulacion-de-fechas" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><code><span class="c1"># Obtener la fecha actual</span>
+<span class="nc">Date</span><span class="o">.</span><span class="n">utc_today</span><span class="p">()</span>
+<span class="c1"># =&gt; ~D[2021-12-03]</span>
+
+<span class="c1"># Sumar un día a una fecha</span>
+<span class="nc">Date</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="sx">~D[2021-01-01]</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span>
+<span class="c1"># =&gt; ~D[2021-01-02]</span>
+
+<span class="c1"># Comparar dos fechas</span>
+<span class="nc">Date</span><span class="o">.</span><span class="n">compare</span><span class="p">(</span><span class="sx">~D[2021-01-01]</span><span class="p">,</span><span class="w"> </span><span class="sx">~D[2020-12-31]</span><span class="p">)</span>
+<span class="c1"># =&gt; :gt</span>
+</code></pre></div>
+
+<h3 id="manipulacion-de-archivos">Manipulación de archivos<a class="headerlink" href="#manipulacion-de-archivos" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><code><span class="c1"># Crear un nuevo archivo</span>
+<span class="nc">File</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;nuevo.txt&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Este es un nuevo archivo&quot;</span><span class="p">)</span>
+<span class="c1"># =&gt; :ok</span>
+
+<span class="c1"># Leer el contenido de un archivo</span>
+<span class="nc">File</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="s2">&quot;nuevo.txt&quot;</span><span class="p">)</span>
+<span class="c1"># =&gt; {:ok, &quot;Este es un nuevo archivo&quot;}</span>
+
+<span class="c1"># Mover un archivo a otro directorio</span>
+<span class="nc">File</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s2">&quot;nuevo.txt&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;otro/nuevo.txt&quot;</span><span class="p">)</span>
+<span class="c1"># =&gt; :ok</span>
+</code></pre></div>
+
+<h2 id="ejercicios-practicos">Ejercicios prácticos<a class="headerlink" href="#ejercicios-practicos" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Crea una función que reciba una cadena y devuelva la misma cadena en mayúsculas.</li>
+<li>Crea una función que reciba dos fechas y determine cuál de ellas es más reciente.</li>
+<li>Crea una función que reciba una lista de nombres y los escriba en un archivo de texto, cada uno en una línea diferente.</li>
+</ol>
+<h2 id="consejos-y-mejores-practicas">Consejos y mejores prácticas<a class="headerlink" href="#consejos-y-mejores-practicas" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Antes de utilizar cualquier módulo de la librería estándar, es importante leer la documentación oficial para entender cómo funciona y qué parámetros recibe cada función.</li>
+<li>Al manipular cadenas, es recomendable utilizar el módulo String para aprovechar sus funciones optimizadas en lugar de realizar operaciones directamente sobre la cadena.</li>
+<li>Al trabajar con fechas, es importante tener en cuenta la zona horaria para evitar resultados inesperados.</li>
+<li>Antes de manipular archivos, es necesario asegurarse de tener los permisos adecuados para realizar las operaciones deseadas.</li>
+</ul>
+<h3 id="navegacion-de-lecciones">Navegación de lecciones<a class="headerlink" href="#navegacion-de-lecciones" title="Permanent link">&para;</a></h3>
+<p><strong>&lt;- Lección anterior</strong>: <a href="../modulos/">Módulos</a></p>
+<p><strong>Siguiente lección -&gt;</strong>: <a href="../desarrollo_de_aplicaciones_web_con_elixir/">Desarrollo de aplicaciones web con Elixir</a></p></p>
+    </article>
+</section>
+            <!-- endblock -->
+
+            <!-- block footer -->
+                <footer>
+    <div class="d-flex flex-sm-row justify-content-between py-2 border-top drac-text-black drac-bg-cyan-green">
+        <a href="https://github.com/dracula/mkdocs" target="_blank" style="padding-left: 1%;"
+            class="footer-text drac-anchor drac-text-black drac-text-purple--hover">
+            Made with Dracula Theme for MkDocs
+        </a>
+    </div>
+</footer>
+            <!-- endblock -->
+        </div>
+
+    </main>
+
+        <script>var base_url = '../../..';</script>
+        <script src="../../../assets/js/jquery-3.3.1.slim.min.js"></script>
+        <script src="../../../assets/js/bootstrap.bundle.min.js"></script>
+        <script src="../../../assets/js/mkdocs.js"></script>
+			<script src="../../../search/main.js" defer></script>
+
+</body>
+
+</html>

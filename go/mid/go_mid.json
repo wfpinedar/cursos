@@ -1,0 +1,41 @@
+{
+  "nivel": "De Junior a Senior",
+  "temas": [
+    {
+      "module_title": "Programación funcional",
+      "module_description": "Conceptos de programación funcional en Go, como funciones de orden superior y closures."
+    },
+    {
+      "module_title": "Manipulación de datos",
+      "module_description": "Uso de estructuras de datos avanzadas en Go, como slices multidimensionales y tipos de datos personalizados."
+    },
+    {
+      "module_title": "Uso de bibliotecas y frameworks",
+      "module_description": "Uso de bibliotecas y frameworks populares en Go, como Gin y Beego."
+    },
+    {
+      "module_title": "Conexión a bases de datos",
+      "module_description": "Uso de bases de datos relacionales y no relacionales en aplicaciones en Go."
+    },
+    {
+      "module_title": "Web services y APIs",
+      "module_description": "Creación y consumo de servicios web y APIs en Go, utilizando herramientas como REST y gRPC."
+    },
+    {
+      "module_title": "Diseño de aplicaciones escalables",
+      "module_description": "Estrategias para diseñar aplicaciones escalables y de alta disponibilidad en Go."
+    },
+    {
+      "module_title": "Seguridad y autenticación",
+      "module_description": "Implementación de medidas de seguridad y autenticación en aplicaciones en Go."
+    },
+    {
+      "module_title": "Optimización de rendimiento",
+      "module_description": "Técnicas para mejorar el rendimiento de aplicaciones en Go, como el uso de concurrencia y la optimización de recursos."
+    },
+    {
+      "module_title": "Mantenimiento y actualizaciones",
+      "module_description": "Estrategias y herramientas para el mantenimiento y actualización de aplicaciones en Go."
+    }
+  ]
+}

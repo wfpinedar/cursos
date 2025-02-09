@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+        <title>Migración de aplicaciones existentes a Go - Mis cursos</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="../../../assets/css/darcula-highlight.min.css">
+
+        <link rel="stylesheet" href="../../../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../../assets/css/dracula-ui.min.css">
+        <link rel="stylesheet" href="../../../assets/css/mkdocs.min.css">
+
+        
+            <link  rel="icon" type="image/x-icon" href="../../../assets/img/favicon.ico">
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+                <script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+
+<body class="drac-bg-black-secondary drac-text-grey-ternary drac-text drac-scrollbar-purple">
+
+    <main class="d-flex">
+
+        <!-- block sidebar -->
+            <nav id="sidebar" class="sidebar drac-bg-black">
+    <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="btn btn-primary">
+            <i class="fa fa-bars"></i>
+            <span class="sr-only">Menu</span>
+        </button>
+    </div>
+
+    <div class="p-4">
+        
+
+        <div class="drac-text-center">
+            
+                <span class="drac-text drac-line-height drac-text-white">Mis cursos</span>
+            
+        </div>
+
+        <div class="drac-box flex-column">
+            <ul class="dot-ul">
+                <li><div class="dot-li drac-bg-cyan"></div></li>
+                <li><div class="dot-li drac-bg-green"></div></li>
+                <li><div class="dot-li drac-bg-orange"></div></li>
+                <li><div class="dot-li drac-bg-pink"></div></li>
+                <li><div class="dot-li drac-bg-purple"></div></li>
+                <li><div class="dot-li drac-bg-red"></div></li>
+                <li><div class="dot-li drac-bg-yellow"></div></li>
+            </ul>
+        </div>
+
+        <hr class="drac-divider" />
+
+        <!-- block menu -->
+        <ul class="mb-5 drac-list drac-list-none">
+            
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Introducción
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#clojure-collapse" aria-expanded="false">
+                    Clojure
+                </a>
+                <div class="collapse" id="clojure-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Introducción
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/Junior/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Junior
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/mid/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Middle
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/senior/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Senior
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#elixir-collapse" aria-expanded="false">
+                    Elixir
+                </a>
+                <div class="collapse" id="elixir-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../elixir/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Introducción
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../elixir/jr/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Junior
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../elixir/mid/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Middle
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../elixir/sr/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Senior
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <!-- endblock -->
+    </div>
+</nav>
+        <!-- endblock -->
+
+        <nav class="divider drac-bg-purple-cyan"></nav>
+
+        <div class="content">
+            <!-- block header -->
+                <header>
+    <nav class="navbar navbar-expand-xl drac-bg-purple">
+        <div class="container-fluid">
+            
+            <button class="navbar-toggler w-100 text-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsMenu"
+                aria-controls="navbarsMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse flex-column ml-auto" id="navbarsMenu">
+                <ul class="navbar-nav text-md-center">
+
+                    <!-- block preview -->
+                    <li class="nav-item">
+                            
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block search -->
+                    <li class="nav-item"><div role="search" class="search-box">
+	<form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+		<input type="text" name="q" class="drac-input drac-input-search drac-input-white drac-text-white drac-bg-black-secondary"
+		placeholder="Search docs" title="Type search term here" />
+	</form>
+</div>
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block source -->
+                    <li class="nav-item">
+                        
+                            
+                        
+                    </li>
+                    <!--  endblock -->
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+            <!-- endblock -->
+
+            <!-- block content -->
+                <section class="p-md-5 section-content">
+    <article>
+        <p><h1 id="migracion-de-aplicaciones-existentes-a-go">Migración de aplicaciones existentes a Go<a class="headerlink" href="#migracion-de-aplicaciones-existentes-a-go" title="Permanent link">&para;</a></h1>
+<h2 id="introduccion">Introducción<a class="headerlink" href="#introduccion" title="Permanent link">&para;</a></h2>
+<p>Go es un lenguaje de programación de código abierto, creado por Google en 2009, que se ha vuelto cada vez más popular en la comunidad de desarrolladores debido a su eficiencia, simplicidad y facilidad de uso. A medida que las aplicaciones existentes crecen y evolucionan, puede ser necesario migrarlas a un lenguaje más moderno y eficiente como Go. En este módulo, aprenderás los pasos y consideraciones para migrar aplicaciones existentes a Go.</p>
+<h2 id="palabras-clave">Palabras clave<a class="headerlink" href="#palabras-clave" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Migración: proceso de trasladar una aplicación existente de un lenguaje de programación a otro.</li>
+<li>Eficiencia: capacidad de realizar tareas de manera rápida y con la menor cantidad de recursos posibles.</li>
+<li>Simplicidad: cualidad de ser fácil de entender y utilizar.</li>
+<li>Facilidad de uso: capacidad de utilizar un lenguaje de programación de manera intuitiva y sin complicaciones.</li>
+<li>Modernización: proceso de actualizar una aplicación existente a un lenguaje o tecnología más reciente.</li>
+</ul>
+<h2 id="preguntas-de-repaso">Preguntas de repaso<a class="headerlink" href="#preguntas-de-repaso" title="Permanent link">&para;</a></h2>
+<ol>
+<li>¿Qué es la migración de aplicaciones?</li>
+<li>¿Por qué se puede considerar la migración a Go?</li>
+<li>¿Cuáles son las principales características de Go?</li>
+<li>¿Qué es la modernización de una aplicación?</li>
+<li>¿Cuáles son los beneficios de migrar una aplicación a Go?</li>
+</ol>
+<h2 id="pasos-para-migrar-aplicaciones-existentes-a-go">Pasos para migrar aplicaciones existentes a Go<a class="headerlink" href="#pasos-para-migrar-aplicaciones-existentes-a-go" title="Permanent link">&para;</a></h2>
+<h3 id="1-evaluar-la-viabilidad-de-la-migracion">1. Evaluar la viabilidad de la migración<a class="headerlink" href="#1-evaluar-la-viabilidad-de-la-migracion" title="Permanent link">&para;</a></h3>
+<p>Antes de comenzar el proceso de migración, es importante evaluar si realmente es necesario migrar la aplicación existente a Go. Algunos factores a considerar son:</p>
+<ul>
+<li>La complejidad de la aplicación: si la aplicación es muy compleja, puede ser más difícil y costoso migrarla a un lenguaje diferente.</li>
+<li>El tiempo y recursos disponibles: la migración puede ser un proceso largo y requerir una inversión de tiempo y recursos significativa.</li>
+<li>La compatibilidad de las aplicaciones: algunas aplicaciones pueden tener dependencias o integraciones con otras tecnologías que pueden no ser compatibles con Go.</li>
+</ul>
+<h3 id="2-familiarizarse-con-go">2. Familiarizarse con Go<a class="headerlink" href="#2-familiarizarse-con-go" title="Permanent link">&para;</a></h3>
+<p>Antes de comenzar a migrar, es importante tener un conocimiento básico de Go y sus características principales. Algunos conceptos importantes a conocer son:</p>
+<ul>
+<li>Tipos de datos y estructuras de control: Go tiene tipos de datos fuertes y estructuras de control similares a otros lenguajes de programación.</li>
+<li>Funciones y métodos: en Go, las funciones y métodos son fundamentales y se utilizan para realizar tareas específicas.</li>
+<li>Paquetes y módulos: Go utiliza un sistema de paquetes y módulos para organizar y compartir código.</li>
+</ul>
+<h3 id="3-analizar-el-codigo-existente">3. Analizar el código existente<a class="headerlink" href="#3-analizar-el-codigo-existente" title="Permanent link">&para;</a></h3>
+<p>Antes de comenzar a escribir código en Go, es importante analizar el código existente y determinar qué partes pueden ser reutilizadas y cuáles deben ser reescritas. También es importante identificar las dependencias y librerías utilizadas en la aplicación actual y buscar alternativas en Go.</p>
+<h3 id="4-convertir-el-codigo-a-go">4. Convertir el código a Go<a class="headerlink" href="#4-convertir-el-codigo-a-go" title="Permanent link">&para;</a></h3>
+<p>Una vez que se ha analizado el código existente, se puede comenzar a convertirlo a Go. Esto puede requerir la reescritura de algunas partes del código, pero también se pueden reutilizar algunas secciones. Es importante seguir las mejores prácticas de Go al escribir nuevo código y asegurarse de que el código sea eficiente y fácil de entender.</p>
+<h3 id="5-realizar-pruebas-exhaustivas">5. Realizar pruebas exhaustivas<a class="headerlink" href="#5-realizar-pruebas-exhaustivas" title="Permanent link">&para;</a></h3>
+<p>Después de convertir el código a Go, es esencial realizar pruebas exhaustivas para asegurarse de que la aplicación funcione correctamente y no haya errores o problemas de rendimiento. Se pueden utilizar herramientas de prueba como pruebas unitarias, pruebas de integración y pruebas de rendimiento.</p>
+<h3 id="6-implementar-la-aplicacion-en-produccion">6. Implementar la aplicación en producción<a class="headerlink" href="#6-implementar-la-aplicacion-en-produccion" title="Permanent link">&para;</a></h3>
+<p>Una vez que se han realizado las pruebas y se ha asegurado que la aplicación funciona correctamente, se puede implementar en producción. Es importante monitorear la aplicación y realizar ajustes si es necesario.</p>
+<h2 id="ejemplos-de-codigo-en-go">Ejemplos de código en Go<a class="headerlink" href="#ejemplos-de-codigo-en-go" title="Permanent link">&para;</a></h2>
+<p>A continuación, se muestra un ejemplo de una función en Go que suma dos números enteros y devuelve el resultado:</p>
+<div class="codehilite"><pre><span></span><code><span class="kd">func</span><span class="w"> </span><span class="nx">suma</span><span class="p">(</span><span class="nx">a</span><span class="p">,</span><span class="w"> </span><span class="nx">b</span><span class="w"> </span><span class="kt">int</span><span class="p">)</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="nx">a</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">b</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<h2 id="ejercicios-practicos">Ejercicios prácticos<a class="headerlink" href="#ejercicios-practicos" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Escribe una función en Go que tome un número entero como parámetro y devuelva su doble.</li>
+<li>Convierte el siguiente código de Python a Go:</li>
+</ol>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">es_par</span><span class="p">(</span><span class="n">num</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">num</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">True</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">False</span>
+</code></pre></div>
+
+<h2 id="consejos-y-mejores-practicas">Consejos y mejores prácticas<a class="headerlink" href="#consejos-y-mejores-practicas" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Comienza con pequeñas partes de la aplicación y ve migrándolas gradualmente a Go.</li>
+<li>Utiliza herramientas de conversión de código si es posible, pero asegúrate de revisar y ajustar el código manualmente.</li>
+<li>Aprovecha las características únicas de Go, como las rutinas y canales, para mejorar la eficiencia y el rendimiento de la aplicación.</li>
+<li>Realiza pruebas y ajustes constantes para asegurarte de que la aplicación funcione correctamente y sea eficiente.</li>
+</ul>
+<h2 id="conclusion">Conclusión<a class="headerlink" href="#conclusion" title="Permanent link">&para;</a></h2>
+<p>La migración de aplicaciones existentes a Go puede ser un proceso desafiante, pero también puede traer muchos beneficios en términos de eficiencia y rendimiento. Al seguir los pasos y consideraciones mencionados en este módulo, podrás realizar una migración exitosa y aprovechar al máximo las características de Go. Recuerda siempre evaluar la viabilidad de la migración y familiarizarte con Go antes de comenzar a escribir código. ¡Buena suerte!</p></p>
+    </article>
+</section>
+            <!-- endblock -->
+
+            <!-- block footer -->
+                <footer>
+    <div class="d-flex flex-sm-row justify-content-between py-2 border-top drac-text-black drac-bg-cyan-green">
+        <a href="https://github.com/dracula/mkdocs" target="_blank" style="padding-left: 1%;"
+            class="footer-text drac-anchor drac-text-black drac-text-purple--hover">
+            Made with Dracula Theme for MkDocs
+        </a>
+    </div>
+</footer>
+            <!-- endblock -->
+        </div>
+
+    </main>
+
+        <script>var base_url = '../../..';</script>
+        <script src="../../../assets/js/jquery-3.3.1.slim.min.js"></script>
+        <script src="../../../assets/js/bootstrap.bundle.min.js"></script>
+        <script src="../../../assets/js/mkdocs.js"></script>
+			<script src="../../../search/main.js" defer></script>
+
+</body>
+
+</html>

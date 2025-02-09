@@ -1,0 +1,45 @@
+{
+  "nivel": "De cero a Junior",
+  "temas": [
+    {
+      "module_title": "Introducción a Go",
+      "module_description": "Breve historia de Go, características del lenguaje y su uso en la actualidad."
+    },
+    {
+      "module_title": "Instalación de Go",
+      "module_description": "Pasos para instalar Go en diferentes sistemas operativos y configuración del entorno de desarrollo."
+    },
+    {
+      "module_title": "Estructuras de datos y variables",
+      "module_description": "Tipos de datos, variables y constantes en Go. Uso de estructuras de datos básicas como arrays, slices y maps."
+    },
+    {
+      "module_title": "Control de flujo",
+      "module_description": "Uso de condicionales, bucles y otras estructuras de control de flujo en Go."
+    },
+    {
+      "module_title": "Funciones y paquetes",
+      "module_description": "Creación y uso de funciones en Go, así como la importación y uso de paquetes externos."
+    },
+    {
+      "module_title": "Manejo de errores",
+      "module_description": "Uso de estructuras de errores y manejo de excepciones en Go."
+    },
+    {
+      "module_title": "Programación orientada a objetos",
+      "module_description": "Conceptos de programación orientada a objetos en Go, como métodos, interfaces y structs."
+    },
+    {
+      "module_title": "Concurrencia",
+      "module_description": "Uso de goroutines y canales para implementar concurrencia en Go."
+    },
+    {
+      "module_title": "Pruebas y debugging",
+      "module_description": "Herramientas y técnicas para realizar pruebas y debugging en aplicaciones en Go."
+    },
+    {
+      "module_title": "Despliegue e integración",
+      "module_description": "Cómo desplegar aplicaciones en Go y su integración con otras tecnologías y servicios."
+    }
+  ]
+}

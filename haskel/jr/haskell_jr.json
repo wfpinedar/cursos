@@ -1,0 +1,33 @@
+{
+  "nivel": "De cero a Junior",
+  "temas": [
+    {
+      "module_title": "Introducción a Haskell",
+      "module_description": "Aprenderás los conceptos básicos de Haskell y cómo funciona su sistema de tipado estático."
+    },
+    {
+      "module_title": "Funciones y Expresiones",
+      "module_description": "Conocerás las funciones y expresiones en Haskell y cómo utilizarlas para resolver problemas."
+    },
+    {
+      "module_title": "Listas y Tuplas",
+      "module_description": "Aprenderás sobre las estructuras de datos más utilizadas en Haskell: listas y tuplas."
+    },
+    {
+      "module_title": "Recursión",
+      "module_description": "Conocerás la técnica de recursión y cómo aplicarla en Haskell para solucionar problemas más complejos."
+    },
+    {
+      "module_title": "Tipos de Datos Algebraicos",
+      "module_description": "Aprenderás sobre los tipos de datos algebraicos en Haskell y cómo utilizarlos para crear estructuras de datos personalizadas."
+    },
+    {
+      "module_title": "Módulos y Funciones de Orden Superior",
+      "module_description": "Conocerás cómo agrupar funciones en módulos y cómo utilizar funciones de orden superior en Haskell."
+    },
+    {
+      "module_title": "Programación Funcional",
+      "module_description": "Aprenderás los principios de la programación funcional y cómo aplicarlos en Haskell."
+    }
+  ]
+}

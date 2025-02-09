@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+        <title>Lección: Mejores prácticas y patrones de diseño en Go lang - Mis cursos</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="../../../assets/css/darcula-highlight.min.css">
+
+        <link rel="stylesheet" href="../../../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../../assets/css/dracula-ui.min.css">
+        <link rel="stylesheet" href="../../../assets/css/mkdocs.min.css">
+
+        
+            <link  rel="icon" type="image/x-icon" href="../../../assets/img/favicon.ico">
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+                <script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+
+<body class="drac-bg-black-secondary drac-text-grey-ternary drac-text drac-scrollbar-purple">
+
+    <main class="d-flex">
+
+        <!-- block sidebar -->
+            <nav id="sidebar" class="sidebar drac-bg-black">
+    <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="btn btn-primary">
+            <i class="fa fa-bars"></i>
+            <span class="sr-only">Menu</span>
+        </button>
+    </div>
+
+    <div class="p-4">
+        
+
+        <div class="drac-text-center">
+            
+                <span class="drac-text drac-line-height drac-text-white">Mis cursos</span>
+            
+        </div>
+
+        <div class="drac-box flex-column">
+            <ul class="dot-ul">
+                <li><div class="dot-li drac-bg-cyan"></div></li>
+                <li><div class="dot-li drac-bg-green"></div></li>
+                <li><div class="dot-li drac-bg-orange"></div></li>
+                <li><div class="dot-li drac-bg-pink"></div></li>
+                <li><div class="dot-li drac-bg-purple"></div></li>
+                <li><div class="dot-li drac-bg-red"></div></li>
+                <li><div class="dot-li drac-bg-yellow"></div></li>
+            </ul>
+        </div>
+
+        <hr class="drac-divider" />
+
+        <!-- block menu -->
+        <ul class="mb-5 drac-list drac-list-none">
+            
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Introducción
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#clojure-collapse" aria-expanded="false">
+                    Clojure
+                </a>
+                <div class="collapse" id="clojure-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Introducción
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/Junior/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Junior
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/mid/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Middle
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/senior/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Senior
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#elixir-collapse" aria-expanded="false">
+                    Elixir
+                </a>
+                <div class="collapse" id="elixir-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../elixir/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Introducción
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../elixir/jr/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Junior
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../elixir/mid/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Middle
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../elixir/sr/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Senior
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <!-- endblock -->
+    </div>
+</nav>
+        <!-- endblock -->
+
+        <nav class="divider drac-bg-purple-cyan"></nav>
+
+        <div class="content">
+            <!-- block header -->
+                <header>
+    <nav class="navbar navbar-expand-xl drac-bg-purple">
+        <div class="container-fluid">
+            
+            <button class="navbar-toggler w-100 text-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsMenu"
+                aria-controls="navbarsMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse flex-column ml-auto" id="navbarsMenu">
+                <ul class="navbar-nav text-md-center">
+
+                    <!-- block preview -->
+                    <li class="nav-item">
+                            
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block search -->
+                    <li class="nav-item"><div role="search" class="search-box">
+	<form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+		<input type="text" name="q" class="drac-input drac-input-search drac-input-white drac-text-white drac-bg-black-secondary"
+		placeholder="Search docs" title="Type search term here" />
+	</form>
+</div>
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block source -->
+                    <li class="nav-item">
+                        
+                            
+                        
+                    </li>
+                    <!--  endblock -->
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+            <!-- endblock -->
+
+            <!-- block content -->
+                <section class="p-md-5 section-content">
+    <article>
+        <p><h1 id="leccion-mejores-practicas-y-patrones-de-diseno-en-go-lang">Lección: Mejores prácticas y patrones de diseño en Go lang<a class="headerlink" href="#leccion-mejores-practicas-y-patrones-de-diseno-en-go-lang" title="Permanent link">&para;</a></h1>
+<p>En esta lección, aprenderás sobre las mejores prácticas y patrones de diseño que se pueden utilizar en aplicaciones en Go para mejorar su calidad y mantenibilidad.</p>
+<h2 id="1-explicacion-teorica">1. Explicación teórica<a class="headerlink" href="#1-explicacion-teorica" title="Permanent link">&para;</a></h2>
+<p>Las mejores prácticas y patrones de diseño son técnicas y principios que se utilizan para desarrollar aplicaciones de alta calidad, fáciles de mantener y escalables. En Go lang, estas prácticas y patrones se enfocan en promover la simplicidad, la eficiencia y la legibilidad del código.</p>
+<p>Algunas de las mejores prácticas en Go lang incluyen:</p>
+<ul>
+<li>Utilizar nombres de variables y funciones descriptivos y concisos.</li>
+<li>Mantener el código limpio y fácil de entender.</li>
+<li>Evitar el uso de variables globales.</li>
+<li>Utilizar interfaces en lugar de tipos concretos.</li>
+<li>Manejar errores de manera adecuada utilizando la sintaxis <code>if err != nil</code>.</li>
+<li>Utilizar pruebas unitarias para garantizar la funcionalidad del código.</li>
+</ul>
+<p>Por otro lado, los patrones de diseño son soluciones probadas y comúnmente utilizadas para problemas de diseño recurrentes en el desarrollo de software. En Go lang, algunos de los patrones de diseño más utilizados son:</p>
+<ul>
+<li>Patrón de diseño Singleton: garantiza que solo haya una instancia de una estructura en todo el programa.</li>
+<li>Patrón de diseño Factory: permite la creación de objetos sin especificar la clase exacta del objeto que se creará.</li>
+<li>Patrón de diseño Observer: establece una relación de uno a muchos entre objetos, de modo que cuando un objeto cambia, se notifica a todos los objetos que dependen de él.</li>
+<li>Patrón de diseño Strategy: permite cambiar el comportamiento de un objeto en tiempo de ejecución.</li>
+</ul>
+<h2 id="2-palabras-clave-y-su-definicion">2. Palabras clave y su definición<a class="headerlink" href="#2-palabras-clave-y-su-definicion" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Mejores prácticas: técnicas y principios utilizados para desarrollar aplicaciones de alta calidad y mantenibles.</li>
+<li>Patrones de diseño: soluciones probadas y comúnmente utilizadas para problemas de diseño recurrentes en el desarrollo de software.</li>
+<li>Simplicidad: principio de diseño que promueve la claridad y la simplicidad en el código.</li>
+<li>Eficiencia: principio de diseño que se enfoca en la optimización del rendimiento y el uso adecuado de recursos.</li>
+<li>Legibilidad: principio de diseño que se refiere a la facilidad de entender el código por otros desarrolladores.</li>
+<li>Variables globales: variables que pueden ser accedidas y modificadas desde cualquier parte del programa.</li>
+<li>Interfaces: tipos abstractos que definen un conjunto de métodos que deben ser implementados por una estructura para cumplir con la interfaz.</li>
+<li>Pruebas unitarias: pruebas que se encargan de verificar la funcionalidad de una unidad de código, como una función o un método.</li>
+<li>Singleton: patrón de diseño que garantiza la existencia de una única instancia de una estructura en todo el programa.</li>
+<li>Factory: patrón de diseño que permite la creación de objetos sin especificar la clase exacta del objeto que se creará.</li>
+<li>Observer: patrón de diseño que establece una relación de uno a muchos entre objetos, de modo que cuando un objeto cambia, se notifica a todos los objetos que dependen de él.</li>
+<li>Strategy: patrón de diseño que permite cambiar el comportamiento de un objeto en tiempo de ejecución.</li>
+</ul>
+<h2 id="3-preguntas-de-repaso">3. Preguntas de repaso<a class="headerlink" href="#3-preguntas-de-repaso" title="Permanent link">&para;</a></h2>
+<ol>
+<li>¿Qué son las mejores prácticas y por qué son importantes en el desarrollo de aplicaciones en Go lang?</li>
+<li>Menciona dos patrones de diseño comúnmente utilizados en Go lang.</li>
+<li>¿Qué es una interfaz y cómo se utiliza en Go lang?</li>
+<li>¿Por qué es importante manejar adecuadamente los errores en Go lang?</li>
+<li>¿Qué son las pruebas unitarias y por qué son importantes en el desarrollo de aplicaciones en Go lang?</li>
+</ol>
+<h2 id="4-ejemplos-de-codigo-en-go-lang">4. Ejemplos de código en Go lang<a class="headerlink" href="#4-ejemplos-de-codigo-en-go-lang" title="Permanent link">&para;</a></h2>
+<h3 id="mejores-practicas">Mejores prácticas<a class="headerlink" href="#mejores-practicas" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><code><span class="c1">// Utilizar nombres descriptivos para variables y funciones</span>
+<span class="kd">func</span><span class="w"> </span><span class="nx">calcularArea</span><span class="p">(</span><span class="nx">base</span><span class="p">,</span><span class="w"> </span><span class="nx">altura</span><span class="w"> </span><span class="kt">float64</span><span class="p">)</span><span class="w"> </span><span class="kt">float64</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="nx">base</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="nx">altura</span>
+<span class="p">}</span>
+
+<span class="c1">// Utilizar interfaces en lugar de tipos concretos</span>
+<span class="kd">type</span><span class="w"> </span><span class="nx">Animal</span><span class="w"> </span><span class="kd">interface</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nx">Sonido</span><span class="p">()</span><span class="w"> </span><span class="kt">string</span>
+<span class="p">}</span>
+
+<span class="kd">func</span><span class="w"> </span><span class="nx">HacerSonido</span><span class="p">(</span><span class="nx">animal</span><span class="w"> </span><span class="nx">Animal</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nx">fmt</span><span class="p">.</span><span class="nx">Println</span><span class="p">(</span><span class="nx">animal</span><span class="p">.</span><span class="nx">Sonido</span><span class="p">())</span>
+<span class="p">}</span>
+
+<span class="c1">// Manejar errores utilizando if err != nil</span>
+<span class="nx">archivo</span><span class="p">,</span><span class="w"> </span><span class="nx">err</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">os</span><span class="p">.</span><span class="nx">Open</span><span class="p">(</span><span class="s">&quot;archivo.txt&quot;</span><span class="p">)</span>
+<span class="k">if</span><span class="w"> </span><span class="nx">err</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="kc">nil</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nx">log</span><span class="p">.</span><span class="nx">Fatal</span><span class="p">(</span><span class="nx">err</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<h3 id="patron-de-diseno-singleton">Patrón de diseño Singleton<a class="headerlink" href="#patron-de-diseno-singleton" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><code><span class="c1">// Implementación del patrón de diseño Singleton en Go lang</span>
+<span class="kd">type</span><span class="w"> </span><span class="nx">Database</span><span class="w"> </span><span class="kd">struct</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nx">connection</span><span class="w"> </span><span class="kt">string</span>
+<span class="p">}</span>
+
+<span class="kd">var</span><span class="w"> </span><span class="nx">instance</span><span class="w"> </span><span class="o">*</span><span class="nx">Database</span>
+
+<span class="kd">func</span><span class="w"> </span><span class="nx">GetInstance</span><span class="p">()</span><span class="w"> </span><span class="o">*</span><span class="nx">Database</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="nx">instance</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="kc">nil</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nx">instance</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="o">&amp;</span><span class="nx">Database</span><span class="p">{</span><span class="nx">connection</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;localhost&quot;</span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="nx">instance</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<h3 id="patron-de-diseno-factory">Patrón de diseño Factory<a class="headerlink" href="#patron-de-diseno-factory" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><code><span class="c1">// Implementación del patrón de diseño Factory en Go lang</span>
+<span class="kd">type</span><span class="w"> </span><span class="nx">Shape</span><span class="w"> </span><span class="kd">interface</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nx">Area</span><span class="p">()</span><span class="w"> </span><span class="kt">float64</span>
+<span class="p">}</span>
+
+<span class="kd">type</span><span class="w"> </span><span class="nx">Rectangle</span><span class="w"> </span><span class="kd">struct</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nx">base</span><span class="p">,</span><span class="w"> </span><span class="nx">altura</span><span class="w"> </span><span class="kt">float64</span>
+<span class="p">}</span>
+
+<span class="kd">func</span><span class="w"> </span><span class="p">(</span><span class="nx">r</span><span class="w"> </span><span class="nx">Rectangle</span><span class="p">)</span><span class="w"> </span><span class="nx">Area</span><span class="p">()</span><span class="w"> </span><span class="kt">float64</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="nx">r</span><span class="p">.</span><span class="nx">base</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="nx">r</span><span class="p">.</span><span class="nx">altura</span>
+<span class="p">}</span>
+
+<span class="kd">type</span><span class="w"> </span><span class="nx">Circle</span><span class="w"> </span><span class="kd">struct</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nx">radio</span><span class="w"> </span><span class="kt">float64</span>
+<span class="p">}</span>
+
+<span class="kd">func</span><span class="w"> </span><span class="p">(</span><span class="nx">c</span><span class="w"> </span><span class="nx">Circle</span><span class="p">)</span><span class="w"> </span><span class="nx">Area</span><span class="p">()</span><span class="w"> </span><span class="kt">float64</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="nx">math</span><span class="p">.</span><span class="nx">Pi</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="nx">c</span><span class="p">.</span><span class="nx">radio</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="nx">c</span><span class="p">.</span><span class="nx">radio</span>
+<span class="p">}</span>
+
+<span class="kd">func</span><span class="w"> </span><span class="nx">CrearShape</span><span class="p">(</span><span class="nx">tipo</span><span class="w"> </span><span class="kt">string</span><span class="p">)</span><span class="w"> </span><span class="nx">Shape</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="nx">tipo</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s">&quot;rectangulo&quot;</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="nx">Rectangle</span><span class="p">{</span><span class="nx">base</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w"> </span><span class="nx">altura</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="nx">tipo</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s">&quot;circulo&quot;</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="nx">Circle</span><span class="p">{</span><span class="nx">radio</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="kc">nil</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<h2 id="5-ejercicios-practicos-con-instrucciones-claras">5. Ejercicios prácticos con instrucciones claras<a class="headerlink" href="#5-ejercicios-practicos-con-instrucciones-claras" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Crea una función en Go lang que tome como parámetros dos números enteros y devuelva el resultado de la multiplicación de ambos. Utiliza nombres descriptivos para la función y los parámetros.</li>
+<li>Implementa una interfaz en Go lang que contenga un método para calcular el perímetro de una figura geométrica. Crea dos estructuras que implementen esta interfaz, una para un triángulo y otra para un cuadrado.</li>
+<li>Crea una función en Go lang que lea un archivo de texto y devuelva su contenido. Maneja adecuadamente los errores utilizando la sintaxis <code>if err != nil</code>.</li>
+<li>Implementa el patrón de diseño Singleton en un programa en Go lang que simule la conexión a una base de datos.</li>
+<li>Utiliza el patrón de diseño Factory para crear un programa en Go lang que permita al usuario elegir entre dos figuras geométricas (triángulo o cuadrado) y calcular su área.</li>
+</ol>
+<h2 id="6-consejos-o-mejores-practicas">6. Consejos o mejores prácticas<a class="headerlink" href="#6-consejos-o-mejores-practicas" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Utiliza nombres descriptivos para variables y funciones para que el código sea más fácil de entender.</li>
+<li>Mantén el código limpio y bien estructurado para facilitar su mantenimiento.</li>
+<li>Evita el uso de variables globales, ya que pueden causar problemas de concurrencia.</li>
+<li>Utiliza interfaces en lugar de tipos concretos para lograr un código más flexible y fácil de extender.</li>
+<li>Maneja adecuadamente los errores utilizando la sintaxis <code>if err != nil</code> para evitar problemas en tiempo de ejecución.</li>
+<li>Realiza pruebas unitarias para garantizar la funcionalidad del código.</li>
+<li>Utiliza patrones de diseño cuando sea necesario para resolver problemas de diseño recurrentes.</li>
+<li>Documenta tu código para que otros desarrolladores puedan entenderlo fácilmente.</li>
+</ul></p>
+    </article>
+</section>
+            <!-- endblock -->
+
+            <!-- block footer -->
+                <footer>
+    <div class="d-flex flex-sm-row justify-content-between py-2 border-top drac-text-black drac-bg-cyan-green">
+        <a href="https://github.com/dracula/mkdocs" target="_blank" style="padding-left: 1%;"
+            class="footer-text drac-anchor drac-text-black drac-text-purple--hover">
+            Made with Dracula Theme for MkDocs
+        </a>
+    </div>
+</footer>
+            <!-- endblock -->
+        </div>
+
+    </main>
+
+        <script>var base_url = '../../..';</script>
+        <script src="../../../assets/js/jquery-3.3.1.slim.min.js"></script>
+        <script src="../../../assets/js/bootstrap.bundle.min.js"></script>
+        <script src="../../../assets/js/mkdocs.js"></script>
+			<script src="../../../search/main.js" defer></script>
+
+</body>
+
+</html>

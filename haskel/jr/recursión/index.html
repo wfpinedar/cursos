@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+        <title>Recursión en Haskell - Mis cursos</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="../../../assets/css/darcula-highlight.min.css">
+
+        <link rel="stylesheet" href="../../../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../../assets/css/dracula-ui.min.css">
+        <link rel="stylesheet" href="../../../assets/css/mkdocs.min.css">
+
+        
+            <link  rel="icon" type="image/x-icon" href="../../../assets/img/favicon.ico">
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+                <script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+
+<body class="drac-bg-black-secondary drac-text-grey-ternary drac-text drac-scrollbar-purple">
+
+    <main class="d-flex">
+
+        <!-- block sidebar -->
+            <nav id="sidebar" class="sidebar drac-bg-black">
+    <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="btn btn-primary">
+            <i class="fa fa-bars"></i>
+            <span class="sr-only">Menu</span>
+        </button>
+    </div>
+
+    <div class="p-4">
+        
+
+        <div class="drac-text-center">
+            
+                <span class="drac-text drac-line-height drac-text-white">Mis cursos</span>
+            
+        </div>
+
+        <div class="drac-box flex-column">
+            <ul class="dot-ul">
+                <li><div class="dot-li drac-bg-cyan"></div></li>
+                <li><div class="dot-li drac-bg-green"></div></li>
+                <li><div class="dot-li drac-bg-orange"></div></li>
+                <li><div class="dot-li drac-bg-pink"></div></li>
+                <li><div class="dot-li drac-bg-purple"></div></li>
+                <li><div class="dot-li drac-bg-red"></div></li>
+                <li><div class="dot-li drac-bg-yellow"></div></li>
+            </ul>
+        </div>
+
+        <hr class="drac-divider" />
+
+        <!-- block menu -->
+        <ul class="mb-5 drac-list drac-list-none">
+            
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Introducción
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#clojure-collapse" aria-expanded="false">
+                    Clojure
+                </a>
+                <div class="collapse" id="clojure-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Introducción
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/Junior/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Junior
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/mid/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Middle
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/senior/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Senior
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#elixir-collapse" aria-expanded="false">
+                    Elixir
+                </a>
+                <div class="collapse" id="elixir-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../elixir/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Introducción
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../elixir/jr/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Junior
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../elixir/mid/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Middle
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../elixir/sr/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Senior
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <!-- endblock -->
+    </div>
+</nav>
+        <!-- endblock -->
+
+        <nav class="divider drac-bg-purple-cyan"></nav>
+
+        <div class="content">
+            <!-- block header -->
+                <header>
+    <nav class="navbar navbar-expand-xl drac-bg-purple">
+        <div class="container-fluid">
+            
+            <button class="navbar-toggler w-100 text-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsMenu"
+                aria-controls="navbarsMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse flex-column ml-auto" id="navbarsMenu">
+                <ul class="navbar-nav text-md-center">
+
+                    <!-- block preview -->
+                    <li class="nav-item">
+                            
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block search -->
+                    <li class="nav-item"><div role="search" class="search-box">
+	<form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+		<input type="text" name="q" class="drac-input drac-input-search drac-input-white drac-text-white drac-bg-black-secondary"
+		placeholder="Search docs" title="Type search term here" />
+	</form>
+</div>
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block source -->
+                    <li class="nav-item">
+                        
+                            
+                        
+                    </li>
+                    <!--  endblock -->
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+            <!-- endblock -->
+
+            <!-- block content -->
+                <section class="p-md-5 section-content">
+    <article>
+        <p><h1 id="recursion-en-haskell">Recursión en Haskell<a class="headerlink" href="#recursion-en-haskell" title="Permanent link">&para;</a></h1>
+<p>La recursión es una técnica utilizada en programación que consiste en la llamada a una función desde su propia definición. En Haskell, al ser un lenguaje funcional, la recursión es una herramienta fundamental para resolver problemas más complejos. En esta lección, aprenderemos cómo aplicar la recursión en Haskell y cómo puede ayudarnos a escribir código más eficiente y elegante.</p>
+<h2 id="palabras-clave-y-definiciones">Palabras clave y definiciones<a class="headerlink" href="#palabras-clave-y-definiciones" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Recursión</strong>: técnica utilizada en programación en la que una función se llama a sí misma desde su propia definición.</li>
+<li><strong>Función recursiva</strong>: función que se llama a sí misma dentro de su propio cuerpo.</li>
+<li><strong>Caso base</strong>: condición que detiene la recursión y evita que la función se llame infinitamente.</li>
+<li><strong>Pila de llamadas</strong>: estructura de datos que almacena las llamadas a funciones en orden de ejecución.</li>
+<li><strong>Funciones de orden superior</strong>: funciones que toman otras funciones como argumentos o devuelven funciones como resultado.</li>
+</ul>
+<h2 id="preguntas-de-repaso">Preguntas de repaso<a class="headerlink" href="#preguntas-de-repaso" title="Permanent link">&para;</a></h2>
+<ol>
+<li>¿Qué es la recursión y en qué consiste?</li>
+<li>¿Cuál es la diferencia entre una función recursiva y una función iterativa?</li>
+<li>¿Qué es un caso base y por qué es importante en la recursión?</li>
+<li>¿Cómo se evita un bucle infinito en una función recursiva?</li>
+<li>¿Qué es una pila de llamadas y cómo se relaciona con la recursión?</li>
+<li>¿Pueden las funciones recursivas ser optimizadas para mejorar su rendimiento?</li>
+<li>¿Qué son las funciones de orden superior y cómo pueden ser útiles en la recursión?</li>
+</ol>
+<h2 id="ejemplos-de-codigo">Ejemplos de código<a class="headerlink" href="#ejemplos-de-codigo" title="Permanent link">&para;</a></h2>
+<h3 id="factorial">Factorial<a class="headerlink" href="#factorial" title="Permanent link">&para;</a></h3>
+<p>El factorial de un número es la multiplicación de todos los números enteros positivos desde 1 hasta el número en sí. Por ejemplo, el factorial de 5 es 5 * 4 * 3 * 2 * 1 = 120.</p>
+<p>En Haskell, podemos escribir una función recursiva para calcular el factorial de un número de la siguiente manera:</p>
+<div class="codehilite"><pre><span></span><code><span class="nf">factorial</span><span class="w"> </span><span class="ow">::</span><span class="w"> </span><span class="kt">Int</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="kt">Int</span>
+<span class="nf">factorial</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="c1">-- caso base</span>
+<span class="nf">factorial</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">factorial</span><span class="w"> </span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="c1">-- llamada recursiva</span>
+</code></pre></div>
+
+<p>La función toma un número entero como argumento y devuelve su factorial. El caso base es cuando el número es 0, ya que el factorial de 0 es 1. La llamada recursiva se realiza restando 1 al número y multiplicando el resultado con la llamada recursiva de ese número.</p>
+<h3 id="fibonacci">Fibonacci<a class="headerlink" href="#fibonacci" title="Permanent link">&para;</a></h3>
+<p>La secuencia de Fibonacci es una serie numérica en la que cada número es igual a la suma de los dos números anteriores. Por ejemplo, la secuencia comienza con 0, 1, 1, 2, 3, 5, 8, 13, ...</p>
+<p>En Haskell, podemos escribir una función recursiva para generar la secuencia de Fibonacci de la siguiente manera:</p>
+<div class="codehilite"><pre><span></span><code><span class="nf">fibonacci</span><span class="w"> </span><span class="ow">::</span><span class="w"> </span><span class="kt">Int</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="kt">Int</span>
+<span class="nf">fibonacci</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="c1">-- caso base</span>
+<span class="nf">fibonacci</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="c1">-- caso base</span>
+<span class="nf">fibonacci</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="n">fibonacci</span><span class="w"> </span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">fibonacci</span><span class="w"> </span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">2</span><span class="p">)</span><span class="w"> </span><span class="c1">-- llamada recursiva</span>
+</code></pre></div>
+
+<p>El caso base es cuando el número es 0 o 1, ya que en esos casos, el número en la secuencia es igual al mismo número. La llamada recursiva se realiza sumando los dos números anteriores en la secuencia.</p>
+<h2 id="ejercicios-practicos">Ejercicios prácticos<a class="headerlink" href="#ejercicios-practicos" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Escribe una función recursiva para calcular la suma de los primeros n números naturales.</li>
+<li>Escribe una función recursiva para calcular el número de dígitos de un número entero.</li>
+<li>Escribe una función recursiva para encontrar el máximo elemento en una lista de números.</li>
+<li>Escribe una función recursiva para calcular el enésimo término en la secuencia de Fibonacci.</li>
+<li>Escribe una función recursiva que compruebe si una palabra es un palíndromo (se lee igual de izquierda a derecha y de derecha a izquierda).</li>
+</ol>
+<h2 id="consejos-y-mejores-practicas">Consejos y mejores prácticas<a class="headerlink" href="#consejos-y-mejores-practicas" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Siempre asegúrate de tener un caso base en tus funciones recursivas para evitar un bucle infinito.</li>
+<li>Utiliza patrones de coincidencia para manejar diferentes casos en una función recursiva.</li>
+<li>Asegúrate de que la llamada recursiva se acerca al caso base en cada iteración para evitar un stack overflow.</li>
+<li>Utiliza funciones de orden superior para abstraer la recursión y hacer que tu código sea más legible y reusable.</li>
+<li>Practica la recursión resolviendo diferentes problemas y retos para mejorar tus habilidades en esta técnica.</li>
+</ul></p>
+    </article>
+</section>
+            <!-- endblock -->
+
+            <!-- block footer -->
+                <footer>
+    <div class="d-flex flex-sm-row justify-content-between py-2 border-top drac-text-black drac-bg-cyan-green">
+        <a href="https://github.com/dracula/mkdocs" target="_blank" style="padding-left: 1%;"
+            class="footer-text drac-anchor drac-text-black drac-text-purple--hover">
+            Made with Dracula Theme for MkDocs
+        </a>
+    </div>
+</footer>
+            <!-- endblock -->
+        </div>
+
+    </main>
+
+        <script>var base_url = '../../..';</script>
+        <script src="../../../assets/js/jquery-3.3.1.slim.min.js"></script>
+        <script src="../../../assets/js/bootstrap.bundle.min.js"></script>
+        <script src="../../../assets/js/mkdocs.js"></script>
+			<script src="../../../search/main.js" defer></script>
+
+</body>
+
+</html>

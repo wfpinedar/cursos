@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+        <title>Manipulación de datos en Go lang - Mis cursos</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="../../../assets/css/darcula-highlight.min.css">
+
+        <link rel="stylesheet" href="../../../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../../assets/css/dracula-ui.min.css">
+        <link rel="stylesheet" href="../../../assets/css/mkdocs.min.css">
+
+        
+            <link  rel="icon" type="image/x-icon" href="../../../assets/img/favicon.ico">
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+                <script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+
+<body class="drac-bg-black-secondary drac-text-grey-ternary drac-text drac-scrollbar-purple">
+
+    <main class="d-flex">
+
+        <!-- block sidebar -->
+            <nav id="sidebar" class="sidebar drac-bg-black">
+    <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="btn btn-primary">
+            <i class="fa fa-bars"></i>
+            <span class="sr-only">Menu</span>
+        </button>
+    </div>
+
+    <div class="p-4">
+        
+
+        <div class="drac-text-center">
+            
+                <span class="drac-text drac-line-height drac-text-white">Mis cursos</span>
+            
+        </div>
+
+        <div class="drac-box flex-column">
+            <ul class="dot-ul">
+                <li><div class="dot-li drac-bg-cyan"></div></li>
+                <li><div class="dot-li drac-bg-green"></div></li>
+                <li><div class="dot-li drac-bg-orange"></div></li>
+                <li><div class="dot-li drac-bg-pink"></div></li>
+                <li><div class="dot-li drac-bg-purple"></div></li>
+                <li><div class="dot-li drac-bg-red"></div></li>
+                <li><div class="dot-li drac-bg-yellow"></div></li>
+            </ul>
+        </div>
+
+        <hr class="drac-divider" />
+
+        <!-- block menu -->
+        <ul class="mb-5 drac-list drac-list-none">
+            
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Introducción
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#clojure-collapse" aria-expanded="false">
+                    Clojure
+                </a>
+                <div class="collapse" id="clojure-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Introducción
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/Junior/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Junior
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/mid/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Middle
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/senior/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Senior
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#elixir-collapse" aria-expanded="false">
+                    Elixir
+                </a>
+                <div class="collapse" id="elixir-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../elixir/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Introducción
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../elixir/jr/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Junior
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../elixir/mid/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Middle
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../elixir/sr/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Senior
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <!-- endblock -->
+    </div>
+</nav>
+        <!-- endblock -->
+
+        <nav class="divider drac-bg-purple-cyan"></nav>
+
+        <div class="content">
+            <!-- block header -->
+                <header>
+    <nav class="navbar navbar-expand-xl drac-bg-purple">
+        <div class="container-fluid">
+            
+            <button class="navbar-toggler w-100 text-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsMenu"
+                aria-controls="navbarsMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse flex-column ml-auto" id="navbarsMenu">
+                <ul class="navbar-nav text-md-center">
+
+                    <!-- block preview -->
+                    <li class="nav-item">
+                            
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block search -->
+                    <li class="nav-item"><div role="search" class="search-box">
+	<form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+		<input type="text" name="q" class="drac-input drac-input-search drac-input-white drac-text-white drac-bg-black-secondary"
+		placeholder="Search docs" title="Type search term here" />
+	</form>
+</div>
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block source -->
+                    <li class="nav-item">
+                        
+                            
+                        
+                    </li>
+                    <!--  endblock -->
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+            <!-- endblock -->
+
+            <!-- block content -->
+                <section class="p-md-5 section-content">
+    <article>
+        <p><h1 id="manipulacion-de-datos-en-go-lang">Manipulación de datos en Go lang<a class="headerlink" href="#manipulacion-de-datos-en-go-lang" title="Permanent link">&para;</a></h1>
+<h2 id="descripcion-del-modulo">Descripción del módulo<a class="headerlink" href="#descripcion-del-modulo" title="Permanent link">&para;</a></h2>
+<p>En este módulo aprenderemos cómo manipular datos de manera eficiente en Go lang. Utilizaremos estructuras de datos avanzadas como slices multidimensionales y tipos de datos personalizados para realizar operaciones complejas en nuestros programas.</p>
+<h2 id="teoria">Teoría<a class="headerlink" href="#teoria" title="Permanent link">&para;</a></h2>
+<p>Go es un lenguaje de programación compilado y estático que se enfoca en la simplicidad y eficiencia en el manejo de datos. Esto significa que Go nos proporciona herramientas poderosas para manejar datos de manera efectiva, lo que nos permite escribir programas más rápidos y robustos.</p>
+<p>En Go, los datos se almacenan en variables, que son espacios en la memoria reservados para almacenar un valor específico. Estas variables pueden ser de diferentes tipos, como int (entero), float (número decimal), string (cadena de caracteres), entre otros. También podemos crear nuestras propias estructuras de datos personalizadas utilizando la palabra clave "struct".</p>
+<p>Las estructuras de datos más utilizadas en Go son los slices y los maps. Los slices son una colección dinámica de elementos del mismo tipo, mientras que los maps son una estructura de datos que asocia una clave con un valor. Ambos nos permiten almacenar y manipular grandes cantidades de datos de manera eficiente.</p>
+<h2 id="palabras-clave">Palabras clave<a class="headerlink" href="#palabras-clave" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Variables: espacios en la memoria reservados para almacenar valores.</li>
+<li>Tipos de datos: categorías de valores que pueden ser almacenados en variables.</li>
+<li>Slices: estructuras de datos dinámicas que nos permiten almacenar y manipular colecciones de elementos.</li>
+<li>Maps: estructuras de datos que asocian una clave con un valor.</li>
+<li>Struct: palabra clave utilizada para crear estructuras de datos personalizadas.</li>
+</ul>
+<h2 id="preguntas-de-repaso">Preguntas de repaso<a class="headerlink" href="#preguntas-de-repaso" title="Permanent link">&para;</a></h2>
+<ol>
+<li>¿Qué es una variable en Go lang?</li>
+<li>¿Cómo se crean estructuras de datos personalizadas en Go?</li>
+<li>¿Cuáles son las diferencias entre slices y maps?</li>
+<li>¿Qué palabra clave se utiliza para crear una estructura de datos personalizada?</li>
+<li>¿Por qué es importante manipular datos de manera eficiente en Go lang?</li>
+</ol>
+<h2 id="ejemplos-de-codigo">Ejemplos de código<a class="headerlink" href="#ejemplos-de-codigo" title="Permanent link">&para;</a></h2>
+<h3 id="creacion-de-un-slice-multidimensional">Creación de un slice multidimensional<a class="headerlink" href="#creacion-de-un-slice-multidimensional" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><code><span class="o">//</span><span class="w"> </span><span class="n">Creamos</span><span class="w"> </span><span class="n">un</span><span class="w"> </span><span class="n">slice</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="n">dimensiones</span><span class="w"> </span><span class="n">con</span><span class="w"> </span><span class="mi">3</span><span class="w"> </span><span class="n">filas</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="mi">4</span><span class="w"> </span><span class="n">columnas</span>
+<span class="k">var</span><span class="w"> </span><span class="n">matriz</span><span class="w"> </span><span class="p">[][]</span><span class="nb nb-Type">int</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[][]</span><span class="nb nb-Type">int</span><span class="p">{{</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">4</span><span class="p">},</span><span class="w"> </span><span class="p">{</span><span class="mi">5</span><span class="p">,</span><span class="w"> </span><span class="mi">6</span><span class="p">,</span><span class="w"> </span><span class="mi">7</span><span class="p">,</span><span class="w"> </span><span class="mi">8</span><span class="p">},</span><span class="w"> </span><span class="p">{</span><span class="mi">9</span><span class="p">,</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="mi">11</span><span class="p">,</span><span class="w"> </span><span class="mi">12</span><span class="p">}}</span>
+
+<span class="o">//</span><span class="w"> </span><span class="n">Accedemos</span><span class="w"> </span><span class="n">al</span><span class="w"> </span><span class="n">valor</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">la</span><span class="w"> </span><span class="n">segunda</span><span class="w"> </span><span class="n">fila</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="n">tercera</span><span class="w"> </span><span class="n">columna</span>
+<span class="n">valor</span><span class="w"> </span><span class="p">:</span><span class="o">=</span><span class="w"> </span><span class="n">matriz</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">2</span><span class="p">]</span>
+
+<span class="n">fmt</span><span class="o">.</span><span class="n">Println</span><span class="p">(</span><span class="n">valor</span><span class="p">)</span><span class="w"> </span><span class="o">//</span><span class="w"> </span><span class="n">Imprime</span><span class="p">:</span><span class="w"> </span><span class="mi">7</span>
+</code></pre></div>
+
+<h3 id="creacion-de-un-map">Creación de un map<a class="headerlink" href="#creacion-de-un-map" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><code><span class="o">//</span><span class="w"> </span><span class="n">Creamos</span><span class="w"> </span><span class="n">un</span><span class="w"> </span><span class="k">map</span><span class="w"> </span><span class="n">que</span><span class="w"> </span><span class="n">asocia</span><span class="w"> </span><span class="n">nombres</span><span class="w"> </span><span class="n">con</span><span class="w"> </span><span class="n">edades</span>
+<span class="n">edades</span><span class="w"> </span><span class="err">:</span><span class="o">=</span><span class="w"> </span><span class="k">map</span><span class="o">[</span><span class="n">string</span><span class="o">]</span><span class="nc">int</span><span class="err">{</span>
+<span class="w">    </span><span class="ss">&quot;Juan&quot;</span><span class="err">:</span><span class="w"> </span><span class="mi">25</span><span class="p">,</span>
+<span class="w">    </span><span class="ss">&quot;María&quot;</span><span class="err">:</span><span class="w"> </span><span class="mi">30</span><span class="p">,</span>
+<span class="w">    </span><span class="ss">&quot;Pedro&quot;</span><span class="err">:</span><span class="w"> </span><span class="mi">40</span><span class="p">,</span>
+<span class="err">}</span>
+
+<span class="o">//</span><span class="w"> </span><span class="n">Agregamos</span><span class="w"> </span><span class="n">un</span><span class="w"> </span><span class="n">nuevo</span><span class="w"> </span><span class="n">elemento</span><span class="w"> </span><span class="n">al</span><span class="w"> </span><span class="k">map</span>
+<span class="n">edades</span><span class="o">[</span><span class="n">&quot;Ana&quot;</span><span class="o">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">35</span>
+
+<span class="n">fmt</span><span class="p">.</span><span class="n">Println</span><span class="p">(</span><span class="n">edades</span><span class="p">)</span><span class="w"> </span><span class="o">//</span><span class="w"> </span><span class="nl">Imprime</span><span class="p">:</span><span class="w"> </span><span class="k">map</span><span class="o">[</span><span class="n">Juan:25 María:30 Pedro:40 Ana:35</span><span class="o">]</span>
+</code></pre></div>
+
+<h2 id="ejercicios-practicos">Ejercicios prácticos<a class="headerlink" href="#ejercicios-practicos" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Crea un slice de strings con los nombres de tus 5 mejores amigos. Imprime el nombre de tu tercer amigo.</li>
+<li>Crea un map que asocie nombres de países con su población. Agrega 3 países y sus respectivas poblaciones y luego imprime el map completo.</li>
+<li>Crea una estructura de datos personalizada llamada "persona" que contenga los campos "nombre", "edad" y "ciudad". Crea una variable de tipo "persona" con tus datos y luego imprime su nombre.</li>
+</ol>
+<h2 id="consejos">Consejos<a class="headerlink" href="#consejos" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Utiliza slices y maps en lugar de arrays y arrays asociativos para manipular grandes cantidades de datos de manera eficiente.</li>
+<li>Evita crear estructuras de datos demasiado complejas, ya que pueden dificultar la lectura y el mantenimiento del código.</li>
+<li>Aprovecha la capacidad de Go de crear estructuras de datos personalizadas para adaptarlas a tus necesidades específicas.</li>
+</ul></p>
+    </article>
+</section>
+            <!-- endblock -->
+
+            <!-- block footer -->
+                <footer>
+    <div class="d-flex flex-sm-row justify-content-between py-2 border-top drac-text-black drac-bg-cyan-green">
+        <a href="https://github.com/dracula/mkdocs" target="_blank" style="padding-left: 1%;"
+            class="footer-text drac-anchor drac-text-black drac-text-purple--hover">
+            Made with Dracula Theme for MkDocs
+        </a>
+    </div>
+</footer>
+            <!-- endblock -->
+        </div>
+
+    </main>
+
+        <script>var base_url = '../../..';</script>
+        <script src="../../../assets/js/jquery-3.3.1.slim.min.js"></script>
+        <script src="../../../assets/js/bootstrap.bundle.min.js"></script>
+        <script src="../../../assets/js/mkdocs.js"></script>
+			<script src="../../../search/main.js" defer></script>
+
+</body>
+
+</html>

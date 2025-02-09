@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+        <title>Tipos de Datos Algebraicos en Haskell - Mis cursos</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="../../../assets/css/darcula-highlight.min.css">
+
+        <link rel="stylesheet" href="../../../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../../assets/css/dracula-ui.min.css">
+        <link rel="stylesheet" href="../../../assets/css/mkdocs.min.css">
+
+        
+            <link  rel="icon" type="image/x-icon" href="../../../assets/img/favicon.ico">
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+                <script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+
+<body class="drac-bg-black-secondary drac-text-grey-ternary drac-text drac-scrollbar-purple">
+
+    <main class="d-flex">
+
+        <!-- block sidebar -->
+            <nav id="sidebar" class="sidebar drac-bg-black">
+    <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="btn btn-primary">
+            <i class="fa fa-bars"></i>
+            <span class="sr-only">Menu</span>
+        </button>
+    </div>
+
+    <div class="p-4">
+        
+
+        <div class="drac-text-center">
+            
+                <span class="drac-text drac-line-height drac-text-white">Mis cursos</span>
+            
+        </div>
+
+        <div class="drac-box flex-column">
+            <ul class="dot-ul">
+                <li><div class="dot-li drac-bg-cyan"></div></li>
+                <li><div class="dot-li drac-bg-green"></div></li>
+                <li><div class="dot-li drac-bg-orange"></div></li>
+                <li><div class="dot-li drac-bg-pink"></div></li>
+                <li><div class="dot-li drac-bg-purple"></div></li>
+                <li><div class="dot-li drac-bg-red"></div></li>
+                <li><div class="dot-li drac-bg-yellow"></div></li>
+            </ul>
+        </div>
+
+        <hr class="drac-divider" />
+
+        <!-- block menu -->
+        <ul class="mb-5 drac-list drac-list-none">
+            
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Introducción
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#clojure-collapse" aria-expanded="false">
+                    Clojure
+                </a>
+                <div class="collapse" id="clojure-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Introducción
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/Junior/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Junior
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/mid/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Middle
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../clojure/senior/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Senior
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#elixir-collapse" aria-expanded="false">
+                    Elixir
+                </a>
+                <div class="collapse" id="elixir-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../elixir/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Introducción
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../elixir/jr/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Junior
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../elixir/mid/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Middle
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../elixir/sr/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Nivel Senior
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <!-- endblock -->
+    </div>
+</nav>
+        <!-- endblock -->
+
+        <nav class="divider drac-bg-purple-cyan"></nav>
+
+        <div class="content">
+            <!-- block header -->
+                <header>
+    <nav class="navbar navbar-expand-xl drac-bg-purple">
+        <div class="container-fluid">
+            
+            <button class="navbar-toggler w-100 text-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsMenu"
+                aria-controls="navbarsMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse flex-column ml-auto" id="navbarsMenu">
+                <ul class="navbar-nav text-md-center">
+
+                    <!-- block preview -->
+                    <li class="nav-item">
+                            
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block search -->
+                    <li class="nav-item"><div role="search" class="search-box">
+	<form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+		<input type="text" name="q" class="drac-input drac-input-search drac-input-white drac-text-white drac-bg-black-secondary"
+		placeholder="Search docs" title="Type search term here" />
+	</form>
+</div>
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block source -->
+                    <li class="nav-item">
+                        
+                            
+                        
+                    </li>
+                    <!--  endblock -->
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+            <!-- endblock -->
+
+            <!-- block content -->
+                <section class="p-md-5 section-content">
+    <article>
+        <p><h1 id="tipos-de-datos-algebraicos-en-haskell">Tipos de Datos Algebraicos en Haskell<a class="headerlink" href="#tipos-de-datos-algebraicos-en-haskell" title="Permanent link">&para;</a></h1>
+<p>En Haskell, un tipo de datos algebraico es una forma de definir una estructura de datos personalizada, basada en la teoría de tipos algebraicos. Estos tipos de datos son una herramienta poderosa para crear estructuras de datos complejas que se adaptan a las necesidades específicas de un programa. En esta lección, exploraremos los tipos de datos algebraicos en Haskell y cómo se pueden utilizar en la programación funcional.</p>
+<h2 id="teoria-de-tipos-algebraicos">Teoría de tipos algebraicos<a class="headerlink" href="#teoria-de-tipos-algebraicos" title="Permanent link">&para;</a></h2>
+<p>La teoría de tipos algebraicos es una rama de las matemáticas que se centra en la construcción y manipulación de tipos de datos. En Haskell, los tipos de datos algebraicos se basan en la teoría de tipos algebraicos, lo que significa que siguen ciertas reglas y propiedades matemáticas.</p>
+<p>Un tipo de datos algebraico se puede pensar como una estructura de datos que consta de uno o más constructores de datos. Cada constructor de datos define una forma diferente de crear una instancia de ese tipo de datos.</p>
+<p>Por ejemplo, podemos tener un tipo de datos "Persona" con dos constructores de datos: "Hombre" y "Mujer". Cada uno de estos constructores puede tomar diferentes parámetros, como el nombre y la edad, para crear una persona específica.</p>
+<p>Los tipos de datos algebraicos también pueden ser recursivos, lo que significa que pueden contener instancias de sí mismos. Esto permite la creación de estructuras de datos complejas, como árboles o listas enlazadas.</p>
+<h2 id="palabras-clave-y-definiciones">Palabras clave y definiciones<a class="headerlink" href="#palabras-clave-y-definiciones" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Tipo de datos algebraico: una estructura de datos personalizada definida por uno o más constructores de datos.</li>
+<li>Constructor de datos: una función que crea una instancia de un tipo de datos algebraico.</li>
+<li>Recursión: la capacidad de un tipo de datos de contener instancias de sí mismo.</li>
+<li>Suma de tipos: un tipo de datos algebraico que consta de dos o más tipos de datos.</li>
+<li>Producto de tipos: un tipo de datos algebraico que combina dos o más tipos de datos para crear una estructura más compleja.</li>
+</ul>
+<h2 id="preguntas-de-repaso">Preguntas de repaso<a class="headerlink" href="#preguntas-de-repaso" title="Permanent link">&para;</a></h2>
+<ol>
+<li>¿Qué es un tipo de datos algebraico en Haskell?</li>
+<li>¿Qué es un constructor de datos?</li>
+<li>¿Qué significa que un tipo de datos sea recursivo?</li>
+<li>¿Qué es una suma de tipos?</li>
+<li>¿Qué es un producto de tipos?</li>
+</ol>
+<h2 id="ejemplos-de-codigo-en-haskell">Ejemplos de código en Haskell<a class="headerlink" href="#ejemplos-de-codigo-en-haskell" title="Permanent link">&para;</a></h2>
+<h3 id="definicion-de-un-tipo-de-datos-algebraico">Definición de un tipo de datos algebraico<a class="headerlink" href="#definicion-de-un-tipo-de-datos-algebraico" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><code><span class="kr">data</span><span class="w"> </span><span class="kt">Persona</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="kt">Hombre</span><span class="w"> </span><span class="kt">String</span><span class="w"> </span><span class="kt">Int</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="kt">Mujer</span><span class="w"> </span><span class="kt">String</span><span class="w"> </span><span class="kt">Int</span>
+</code></pre></div>
+
+<p>En este ejemplo, hemos definido un tipo de datos "Persona" con dos constructores de datos: "Hombre" y "Mujer". Cada uno de ellos toma dos parámetros: el nombre y la edad de la persona.</p>
+<h3 id="uso-de-un-tipo-de-datos-algebraico">Uso de un tipo de datos algebraico<a class="headerlink" href="#uso-de-un-tipo-de-datos-algebraico" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><code><span class="nf">persona1</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="kt">Hombre</span><span class="w"> </span><span class="s">&quot;Juan&quot;</span><span class="w"> </span><span class="mi">30</span>
+<span class="nf">persona2</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="kt">Mujer</span><span class="w"> </span><span class="s">&quot;María&quot;</span><span class="w"> </span><span class="mi">25</span>
+</code></pre></div>
+
+<p>Aquí, hemos creado dos instancias del tipo de datos "Persona", utilizando los constructores de datos "Hombre" y "Mujer".</p>
+<h3 id="tipo-de-datos-recursivo">Tipo de datos recursivo<a class="headerlink" href="#tipo-de-datos-recursivo" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><code><span class="kr">data</span><span class="w"> </span><span class="kt">Lista</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="kt">Vacio</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="kt">Cons</span><span class="w"> </span><span class="kt">Int</span><span class="w"> </span><span class="kt">Lista</span>
+</code></pre></div>
+
+<p>En este ejemplo, hemos definido un tipo de datos "Lista" que puede ser recursivo. El constructor de datos "Cons" toma un entero y otra instancia de "Lista" como parámetros, lo que nos permite crear una lista enlazada de enteros.</p>
+<h2 id="ejercicios-practicos">Ejercicios prácticos<a class="headerlink" href="#ejercicios-practicos" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Define un tipo de datos algebraico llamado "Animal" con los constructores de datos "Perro", "Gato" y "Pájaro". Cada uno de ellos debe tomar un parámetro para el nombre del animal.</li>
+<li>Crea una instancia del tipo de datos "Animal" utilizando el constructor "Gato" con el nombre "Mittens".</li>
+<li>Define un tipo de datos algebraico recursivo llamado "Arbol" que tenga dos constructores de datos: "Nodo" que tome un valor y dos instancias de "Arbol" como parámetros, y "Hoja" que no tome parámetros.</li>
+<li>Utiliza el tipo de datos "Arbol" para crear un árbol binario con los valores 1, 2 y 3 como nodos.</li>
+</ol>
+<h2 id="consejos-y-mejores-practicas">Consejos y mejores prácticas<a class="headerlink" href="#consejos-y-mejores-practicas" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Utiliza tipos de datos algebraicos para crear estructuras de datos personalizadas que se adapten a las necesidades de tu programa.</li>
+<li>Piensa en cómo las propiedades matemáticas de los tipos de datos algebraicos pueden ayudarte a resolver problemas de programación.</li>
+<li>Utiliza la recursión con cuidado, ya que puede llevar a estructuras de datos complejas y potencialmente ineficientes.</li>
+</ul></p>
+    </article>
+</section>
+            <!-- endblock -->
+
+            <!-- block footer -->
+                <footer>
+    <div class="d-flex flex-sm-row justify-content-between py-2 border-top drac-text-black drac-bg-cyan-green">
+        <a href="https://github.com/dracula/mkdocs" target="_blank" style="padding-left: 1%;"
+            class="footer-text drac-anchor drac-text-black drac-text-purple--hover">
+            Made with Dracula Theme for MkDocs
+        </a>
+    </div>
+</footer>
+            <!-- endblock -->
+        </div>
+
+    </main>
+
+        <script>var base_url = '../../..';</script>
+        <script src="../../../assets/js/jquery-3.3.1.slim.min.js"></script>
+        <script src="../../../assets/js/bootstrap.bundle.min.js"></script>
+        <script src="../../../assets/js/mkdocs.js"></script>
+			<script src="../../../search/main.js" defer></script>
+
+</body>
+
+</html>

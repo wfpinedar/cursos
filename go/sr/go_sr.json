@@ -1,0 +1,37 @@
+{
+  "nivel": "De Senior a Experto",
+  "temas": [
+    {
+      "module_title": "Desarrollo de aplicaciones de alto tráfico",
+      "module_description": "Técnicas y herramientas para desarrollar aplicaciones de alto tráfico y alta disponibilidad en Go."
+    },
+    {
+      "module_title": "Integración con tecnologías emergentes",
+      "module_description": "Integración de aplicaciones en Go con tecnologías emergentes como Blockchain, Internet de las cosas y aprendizaje automático."
+    },
+    {
+      "module_title": "Optimización de recursos y costos",
+      "module_description": "Estrategias para optimizar recursos y costos en el desarrollo y despliegue de aplicaciones en Go."
+    },
+    {
+      "module_title": "Resolución de problemas avanzados",
+      "module_description": "Técnicas para resolver problemas complejos y avanzados en aplicaciones en Go."
+    },
+    {
+      "module_title": "Desarrollo de aplicaciones multiplataforma",
+      "module_description": "Uso de herramientas y técnicas para desarrollar aplicaciones en Go compatibles con diferentes plataformas."
+    },
+    {
+      "module_title": "Mejores prácticas y patrones de diseño",
+      "module_description": "Implementación de mejores prácticas y patrones de diseño en aplicaciones en Go para mejorar su calidad y mantenibilidad."
+    },
+    {
+      "module_title": "Migración de aplicaciones existentes a Go",
+      "module_description": "Pasos y consideraciones para migrar aplicaciones existentes a Go."
+    },
+    {
+      "module_title": "Contribución a la comunidad de Go",
+      "module_description": "Formas de contribuir a la comunidad de Go y estar al día con las últimas novedades y avances del lenguaje."
+    }
+  ]
+}
